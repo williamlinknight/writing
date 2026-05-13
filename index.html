@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William 英文作文精批 | 厦门思明区英语辅导 | 逻辑重塑专家</title>
-    <meta name="description" content="威廉老师（William）人工深度英文作文批改。线下教学点位于厦门一中附近。单次精批100元，重塑英文写作逻辑，提供母语级表达升级。">
+    <title>厦门灯塔 | 英文作文逐句批改服务 | 威廉老师</title>
+    <meta name="description" content="厦门灯塔英文作文逐句批改服务。专业人工深度批改，逐句分析+逻辑重塑+母语级表达升级。线下教学点位于厦门思明区一中附近，单次精批100元。">
     
     <style>
         :root {
-            --primary: #2c3e50;
-            --accent: #34495e;
-            --link: #3498db;
+            --primary: #1e3a8a;
+            --accent: #334155;
+            --link: #3b82f6;
             --bg-subtle: #f8fafc;
             --text-dark: #1e293b;
-            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
         }
 
         * { box-sizing: border-box; transition: all 0.3s ease; }
         
         body {
-            font-family: 'PingFang SC', 'SF Pro Display', sans-serif;
+            font-family: 'PingFang SC', 'SF Pro Display', -apple-system, sans-serif;
             line-height: 1.7;
             color: var(--text-dark);
             margin: 0;
@@ -29,184 +29,179 @@
 
         .container { max-width: 1000px; margin: 0 auto; padding: 0 25px; }
 
-        /* 顶部毛玻璃导航 */
         .location-bar {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
             padding: 12px 0;
             text-align: center;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--primary);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+            border-bottom: 1px solid rgba(0,0,0,0.08);
             position: sticky;
             top: 0;
             z-index: 1000;
         }
 
         header {
-            padding: 100px 0 60px;
+            padding: 110px 0 70px;
             text-align: center;
-            background: radial-gradient(circle at top right, #fdfdfd, #f1f5f9);
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
         }
-        header h1 { font-size: 2.8rem; margin: 0; color: var(--primary); letter-spacing: -1px; }
-        header p { font-size: 1.1rem; color: #64748b; margin-top: 15px; font-weight: 300; }
+        header h1 { 
+            font-size: 2.9rem; 
+            margin: 0 0 12px 0; 
+            color: var(--primary); 
+            letter-spacing: -1.2px;
+        }
+        header .subtitle {
+            font-size: 1.25rem;
+            color: #1e40af;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        header p { font-size: 1.1rem; color: #475569; max-width: 700px; margin: 0 auto; }
 
-        /* 六大核心亮点布局 */
         section { padding: 80px 0; }
-        .section-title { text-align: center; font-size: 2rem; color: var(--primary); margin-bottom: 60px; }
+        .section-title { 
+            text-align: center; 
+            font-size: 2.1rem; 
+            color: var(--primary); 
+            margin-bottom: 50px;
+        }
 
         .highlights {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
+            gap: 28px;
         }
         .h-item {
             background: #fff;
-            padding: 30px;
-            border-radius: 12px;
+            padding: 32px;
+            border-radius: 16px;
             border: 1px solid #f1f5f9;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
         }
-        .h-item:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: var(--link); }
-        .tag { font-size: 0.7rem; font-weight: 700; color: var(--link); letter-spacing: 1px; margin-bottom: 10px; display: block; }
-        .h-item h3 { font-size: 1.15rem; margin: 10px 0; color: var(--primary); }
-        .h-item p { font-size: 0.9rem; color: #64748b; margin: 0; line-height: 1.6; }
+        .h-item:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: var(--link); }
+        .tag { font-size: 0.75rem; font-weight: 700; color: var(--link); letter-spacing: 1px; margin-bottom: 12px; }
+        .h-item h3 { font-size: 1.2rem; margin: 12px 0 10px; color: var(--primary); }
 
-        /* 赛道卡片 */
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 40px; }
-        .card { padding: 30px; background: var(--bg-subtle); border-radius: 12px; text-align: center; }
-        .card h3 { font-size: 1.2rem; margin-bottom: 10px; }
+        .services-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 25px; 
+            margin-top: 40px; 
+        }
+        .card { 
+            padding: 32px; 
+            background: var(--bg-subtle); 
+            border-radius: 16px; 
+            text-align: center; 
+        }
 
-        /* 品牌故事板块 */
         .brand-section { 
-            background: var(--primary); 
+            background: linear-gradient(135deg, var(--primary), #1e40af); 
             color: #fff; 
-            padding: 60px; 
-            border-radius: 20px; 
-            margin: 40px 0;
+            padding: 70px 40px; 
+            border-radius: 24px; 
+            margin: 50px 0;
+            text-align: center;
         }
-        .brand-section h2 { color: #fff; margin-top: 0; }
-        .brand-section p { opacity: 0.9; max-width: 800px; margin: 0 auto 15px; }
 
-        /* FAQ 样式 */
-        .faq-box { max-width: 850px; margin: 0 auto; }
-        .faq-item { border-bottom: 1px solid #eee; padding: 25px 0; }
-        .faq-item h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--primary); }
-        .faq-item h3::before { content: "Q: "; color: var(--link); }
-
-        /* 底部 CTA */
-        .cta-box { text-align: center; padding: 100px 20px; border-top: 1px solid #eee; }
+        .cta-box { 
+            text-align: center; 
+            padding: 100px 20px; 
+            background: #f8fafc;
+        }
         .btn {
             display: inline-block;
             background: var(--primary);
             color: white;
-            padding: 18px 60px;
+            padding: 18px 68px;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 50px;
             font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 20px rgba(30, 58, 138, 0.2);
         }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(30, 58, 138, 0.3); }
 
-        footer { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.85rem; }
+        footer { text-align: center; padding: 50px 20px; color: #64748b; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
     <div class="location-bar">
-        📍 <strong>线下教学点：</strong> 厦门市思明区第一中学附近 · 欢迎预约面谈复盘
+        📍 <strong>厦门灯塔线下教学点：</strong> 思明区第一中学附近 · 欢迎预约面谈复盘
     </div>
 
     <header>
         <div class="container">
-            <h1>William’s Writing Studio</h1>
-            <p>基于逻辑重构与语感复刻的英文作文辅导</p>
+            <h1>厦门灯塔</h1>
+            <div class="subtitle">英文作文逐句批改服务</div>
+            <p>专业人工逐句精批 · 逻辑重塑 · 母语级表达升级<br>帮助厦门及全国学生写出高分英文作文</p>
         </div>
     </header>
 
     <main class="container">
         
         <section>
-            <h2 class="section-title">教学辅导核心体系</h2>
+            <h2 class="section-title">逐句批改核心优势</h2>
             <div class="highlights">
                 <div class="h-item">
-                    <span class="tag">01 Analysis</span>
-                    <h3>精准批改，找准问题</h3>
-                    <p>逐句分析语法、词法细节。针对“Happy”等普通词汇，给出“delighted”等高阶提分建议。</p>
+                    <span class="tag">01 逐句精批</span>
+                    <h3>语法·词法·句式</h3>
+                    <p>一句一句详细批注，指出中式英语问题并给出2-3个地道升级方案。</p>
                 </div>
                 <div class="h-item">
-                    <span class="tag">02 Improvement</span>
-                    <h3>实用建议，教你改进</h3>
-                    <p>不仅指出错误，更给出重构方案。教你如何用连接词建立逻辑，让进步目标清晰明确。</p>
+                    <span class="tag">02 逻辑重构</span>
+                    <h3>结构·衔接·论证</h3>
+                    <p>绘制文章逻辑骨架图，修正论证断层，让文章思路清晰严密。</p>
                 </div>
                 <div class="h-item">
-                    <span class="tag">03 Consistency</span>
-                    <h3>每周一篇，稳步提高</h3>
-                    <p>鼓励建立长效反馈闭环。在反复练习与修正中，让行文逻辑逐渐变得严密、流畅。</p>
+                    <span class="tag">03 语感复刻</span>
+                    <h3>母语思维训练</h3>
+                    <p>对比中英思维差异，教你像native一样自然选词和组织句子。</p>
                 </div>
                 <div class="h-item">
-                    <span class="tag">04 Targeted</span>
-                    <h3>个性化指导，目标明确</h3>
-                    <p>对标雅思、中高考官方评分项。线上精批与线下指导相结合，定制专属提分路径。</p>
-                </div>
-                <div class="h-item">
-                    <span class="tag">05 Mapping</span>
-                    <h3>逻辑链路建模</h3>
-                    <p>为文章绘制逻辑骨架图。纠正论证断层，教你用母语思维串联全文，突破 CC (衔接) 项瓶颈。</p>
-                </div>
-                <div class="h-item">
-                    <span class="tag">06 Rephrasing</span>
-                    <h3>母语级语感复刻</h3>
-                    <p>针对中式表达提供 2-3 组地道方案。带你对比思维差异，复刻母语者的选词直觉与句式灵动感。</p>
+                    <span class="tag">04 稳定提分</span>
+                    <h3>每周练习闭环</h3>
+                    <p>长期跟踪批改，形成写作习惯，稳步提升中高考/雅思写作分数。</p>
                 </div>
             </div>
         </section>
 
-        <section style="border-top: 1px solid #f1f5f9;">
-            <h2 class="section-title">专业赛道详情</h2>
+        <section>
+            <h2 class="section-title">服务对象</h2>
             <div class="services-grid">
-                <div class="card"><h3>初中组</h3><p>打磨语法基础，注入地道词汇，摆脱流水账堆砌。</p></div>
-                <div class="card"><h3>高中组</h3><p>攻克读后续写。重塑思辨逻辑，对标高分议论文架构。</p></div>
-                <div class="card"><h3>雅思组</h3><p>剔除模版痕迹。重构学术论证链条，冲刺写作 7.0+。</p></div>
+                <div class="card"><h3>初中生</h3><p>中考英语作文提分</p></div>
+                <div class="card"><h3>高中生</h3><p>高考读后续写 + 议论文</p></div>
+                <div class="card"><h3>雅思/留学</h3><p>冲刺写作 7.0+</p></div>
             </div>
         </section>
 
         <section class="brand-section">
-            <h2 style="text-align: center;">品牌故事 | Brand Story</h2>
-            <p><strong>William 英文作文实验室</strong>植根于厦门，致力于打破“模板化”写作的桎梏。我发现许多学生并不缺乏词汇量，而是缺乏将想法组织成严密逻辑的能力。</p>
-            <p>在我看来，批改不仅是修正语法，更是与学生进行思维的碰撞。<strong>我是 William，在这里，我们不只修正错误，我们共同打磨思想。</strong></p>
+            <h2 style="color:white; margin-top:0;">厦门灯塔 · William 英文写作实验室</h2>
+            <p style="max-width:720px; margin:0 auto 20px; font-size:1.1rem; opacity:0.95;">
+                立足厦门，专注英文作文深度批改。我们不只是改错，更帮助你重塑写作逻辑与语感。
+            </p>
+            <p style="font-size:1.15rem;"><strong>我是 William，在这里，每一次批改都是一次思维的升级。</strong></p>
         </section>
 
-        <section id="faq">
-            <h2 class="section-title">常见问题答疑</h2>
-            <div class="faq-box">
-                <div class="faq-item">
-                    <h3>是否提供线下辅导？</h3>
-                    <p>是。教学点位于<strong>厦门思明区一中附近</strong>，方便本地学生面对面深度复盘写作技巧。</p>
-                </div>
-                <div class="faq-item">
-                    <h3>费用标准是多少？</h3>
-                    <p>线上作文精批采用<strong>按次计费，单次 RMB 100 元</strong>。包含逐句纠错、逻辑诊断与地道表达建议。</p>
-                </div>
-                <div class="faq-item">
-                    <h3>如何开始第一次批改？</h3>
-                    <p>请先通过微信联系老师。发送原稿后，我将在 24-48 小时内返还详尽的批改意见稿。</p>
-                </div>
-            </div>
+        <section class="cta-box">
+            <h2 style="color: var(--primary); font-size: 2rem; margin-bottom: 20px;">让每篇作文都成为提分利器</h2>
+            <p style="font-size: 1.15rem; color: #334155; margin-bottom: 40px;">
+                单次精批 <strong>RMB 100 元</strong>（含逐句批注 + 逻辑诊断 + 升级范文）<br>
+                厦门思明区线下复盘 · 全国线上服务
+            </p>
+            
+            <p style="font-size: 1.4rem; margin: 20px 0;"><strong>微信联系：linstudio799</strong></p>
+            <a href="#" onclick="alert('请添加微信：linstudio799 进行咨询')" class="btn">立即添加老师微信</a>
         </section>
-
-       <section class="cta-box">
-    <h2 style="color: var(--primary); font-size: 1.8rem;">让每一次写作都成为进阶的阶梯</h2>
-    <p style="color: #64748b; margin-bottom: 40px;">厦门思明区线下指导 · 全球线上精批</p>
-    
-    <p style="font-size: 1rem; color: var(--link); margin-bottom: 20px;">官方入口：www.williamwriting.com</p>
-    
-    <p style="font-size: 1.3rem; letter-spacing: 1px;"><strong>微信联系：linstudio799</strong></p>
-    <br>
-    <a href="#" class="btn">添加 William 老师微信</a>
-</section>
-
     </main>
 
     <footer>
-        <p>&copy; 2026 William English Writing Studio | 厦门市思明区一中附近</p>
+        <p>&copy; 2026 厦门灯塔英文作文逐句批改服务 | 威廉老师 Writing Studio</p>
+        <p>厦门市思明区 · 专业提升你的英文写作能力</p>
     </footer>
 
 </body>
