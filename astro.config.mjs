@@ -1,8 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://williamlinknight.github.io",
-  base: "/writing/",
+  site: "https://williamwriting.com",
   server: {
     host: "127.0.0.1",
     port: 3000,
