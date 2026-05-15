@@ -2,15 +2,27 @@
 // Navbar component
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<nav style="background: var(--primary); padding: 1rem 0; position: sticky; top: 0; z-index: 1000;">
-  <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; padding: 0 25px;">
-    <div>
-      <a href={base || '/'} style="color: white; font-size: 1.5rem; font-weight: bold; text-decoration: none;">厦门灯塔</a>
-    </div>
-    <div>
-      <a href={base || '/'} style="color: white; margin-right: 1.5rem; text-decoration: none;">首页</a>
-      <a href={`${base}/blog`} style="color: white; margin-right: 1.5rem; text-decoration: none;">博客</a>
-      <a href={`${base}/about`} style="color: white; text-decoration: none;">关于</a>
+<nav style="background: var(--brand); padding: 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 12px rgba(230, 126, 96, 0.15);">
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 860px; margin: 0 auto; padding: 0 24px; height: 60px;">
+    <a href={base || '/'} style="color: white; font-size: 1.25rem; font-weight: 700; text-decoration: none; font-family: var(--font-heading); letter-spacing: 1px;">
+      厦门灯塔
+    </a>
+    <div style="display: flex; gap: 8px;">
+      <a href={base || '/'} style="color: rgba(255,255,255,0.85); padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: background 0.2s, color 0.2s;"
+         onmouseover="this.style.background='rgba(255,255,255,0.15)'; this.style.color='white'"
+         onmouseout="this.style.background='transparent'; this.style.color='rgba(255,255,255,0.85)'">
+        首页
+      </a>
+      <a href={`${base}/blog`} style="color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; font-weight: 500; background: rgba(255,255,255,0.15); transition: background 0.2s;"
+         onmouseover="this.style.background='rgba(255,255,255,0.25)'"
+         onmouseout="this.style.background='rgba(255,255,255,0.15)'">
+        博客
+      </a>
+      <a href={`${base}/about`} style="color: rgba(255,255,255,0.85); padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: background 0.2s, color 0.2s;"
+         onmouseover="this.style.background='rgba(255,255,255,0.15)'; this.style.color='white'"
+         onmouseout="this.style.background='transparent'; this.style.color='rgba(255,255,255,0.85)'">
+        关于
+      </a>
     </div>
   </div>
 </nav>

@@ -14,27 +14,114 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const postContent = post.rendered?.html ?? post.body;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteUrl = Astro.url.origin;
+
+// Reading time
+const wordCount = (post.body || '').split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.ceil(wordCount / 200)) + " 分钟";
+
+// Dates
+const pubDate = new Date(post.data.pubDate);
+const pubDateISO = pubDate.toISOString();
+const pubDateDisplay = pubDate.toLocaleDateString('zh-CN', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+
+// Slug for URL
+const postSlug = post.id.replace(/\.(md|mdx)$/, '');
+const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
 ---
 
 <MainLayout
-  title={`${post.data.title} - 厦门灯塔`}
+  title={`${post.data.title} - 厦门灯塔博客`}
   description={post.data.description}
+  type="article"
+  publishedTime={pubDateISO}
+  slug={`blog/${postSlug}`}
 >
   <Navbar />
 
-  <div class="container" style="padding: 120px 0; max-width: 720px;">
-    <article>
-      <div style="color: #64748b; font-size: 0.95rem; margin-bottom: 8px;">
-        {new Date(post.data.pubDate).toLocaleDateString('zh-CN')}
-        {post.data.author && <span> · {post.data.author}</span>}
-      </div>
-      <h1 style="font-size: 2.2rem; color: var(--primary); margin-bottom: 40px;">
+  <article style="padding: 80px 0 100px;">
+    <div class="container" style="max-width: 720px;">
+
+      <!-- Breadcrumb -->
+      <nav style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 32px;">
+        <a href={`${base}/blog`} style="color: var(--brand); text-decoration: none;">博客</a>
+        <span style="margin: 0 8px;">/</span>
+        <span>{post.data.title}</span>
+      </nav>
+
+      <!-- Title -->
+      <h1 style="font-family: var(--font-heading); font-size: 2.2rem; color: var(--text-heading); line-height: 1.35; margin: 0 0 16px;">
         {post.data.title}
       </h1>
-      <div style="font-size: 1.1rem; line-height: 1.8; color: #334155;" set:html={postContent}>
-    </article>
-    <div style="margin-top: 60px; text-align: center;">
-      <a href={`${base}/blog`} style="color: var(--primary); text-decoration: none;">← 返回博客列表</a>
+
+      <!-- Meta bar -->
+      <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-size: 0.9rem; color: var(--text-muted); padding-bottom: 28px; border-bottom: 2px solid var(--brand-light); margin-bottom: 40px;">
+        {post.data.author && (
+          <span style="display: flex; align-items: center; gap: 6px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            {post.data.author}
+          </span>
+        )}
+        <span style="display: flex; align-items: center; gap: 6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          {pubDateDisplay}
+        </span>
+        <span style="display: flex; align-items: center; gap: 6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {readingTime}
+        </span>
+      </div>
+
+      <!-- Post content -->
+      <div class="post-content" set:html={postContent} />
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": post.data.title,
+          "description": post.data.description,
+          "author": {
+            "@type": "Person",
+            "name": post.data.author || "William",
+          },
+          "datePublished": pubDateISO,
+          "dateModified": pubDateISO,
+          "url": postUrl,
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": postUrl,
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "厦门灯塔",
+            "url": siteUrl,
+          },
+          "inLanguage": "zh-CN",
+          "wordCount": wordCount,
+          "timeRequired": readingTime,
+        })}
+      </script>
+
+      {/* Separator */}
+      <div style="height: 1px; background: linear-gradient(to right, transparent, var(--brand-accent), transparent); margin: 56px 0 40px;" />
+
+      {/* Footer navigation */}
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <a href={`${base}/blog`} style="display: inline-flex; align-items: center; gap: 8px; color: var(--brand); font-weight: 500; text-decoration: none; transition: opacity 0.2s;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          返回博客列表
+        </a>
+        <button onclick="if (navigator.share) { navigator.share({title:'{post.data.title}', url: window.location.href}); }" 
+                style="display: inline-flex; align-items: center; gap: 8px; background: var(--brand); color: white; border: none; padding: 10px 24px; border-radius: 50px; font-size: 0.9rem; cursor: pointer; transition: background 0.2s;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          分享
+        </button>
+      </div>
+
     </div>
-  </div>
+  </article>
 </MainLayout>
