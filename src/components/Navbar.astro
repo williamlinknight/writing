@@ -1,0 +1,16 @@
+---
+// Navbar component
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<nav style="background: var(--primary); padding: 1rem 0; position: sticky; top: 0; z-index: 1000;">
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; padding: 0 25px;">
+    <div>
+      <a href={base || '/'} style="color: white; font-size: 1.5rem; font-weight: bold; text-decoration: none;">厦门灯塔</a>
+    </div>
+    <div>
+      <a href={base || '/'} style="color: white; margin-right: 1.5rem; text-decoration: none;">首页</a>
+      <a href={`${base}/blog`} style="color: white; margin-right: 1.5rem; text-decoration: none;">博客</a>
+      <a href={`${base}/about`} style="color: white; text-decoration: none;">关于</a>
+    </div>
+  </div>
+</nav>

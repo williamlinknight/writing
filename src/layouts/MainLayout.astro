@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "厦门灯塔 | 英文作文逐句批改服务" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <style>
+    :root {
+      --primary: #1e3a8a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      margin: 0;
+      line-height: 1.75;
+      color: #1e293b;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 25px;
+    }
+  </style>
+</head>
+<body>
+  <slot />
+</body>
+</html>
+

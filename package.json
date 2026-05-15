@@ -1,0 +1,19 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "厦门灯塔英文作文批改服务 - 写作指导博客",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.5",
+    "astro": "^6.3.2",
+    "github-slugger": "^2.0.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

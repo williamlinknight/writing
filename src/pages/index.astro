@@ -1,0 +1,59 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Navbar from '../components/Navbar.astro';
+---
+
+<MainLayout 
+  title="厦门灯塔 | 英文作文逐句批改服务 | 威廉老师"
+  description="专业人工逐句批改 · 逻辑重塑 · 母语级表达升级 | 厦门本地写作教学"
+>
+  <Navbar />
+
+  <header style="padding: 100px 0 80px; text-align: center; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);">
+    <div class="container">
+      <h1 style="font-size: 3.2rem; color: var(--primary); margin-bottom: 12px;">厦门灯塔</h1>
+      <p style="font-size: 1.45rem; color: #1e40af; margin-bottom: 20px;">英文作文逐句批改服务</p>
+      <p style="font-size: 1.2rem; max-width: 680px; margin: 0 auto; color: #334155;">
+        专业人工深度批改 · 逐句分析 + 逻辑重构 + 母语级表达升级
+      </p>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 60px 0 100px;">
+    <!-- Core Advantages -->
+    <section style="margin-bottom: 80px;">
+      <h2 style="text-align: center; font-size: 2.1rem; color: var(--primary); margin-bottom: 50px;">核心优势</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px;">
+        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
+          <h3 style="color: var(--primary);">逐句精批</h3>
+          <p>详细标注语法、词汇、句式问题，并提供2-3个地道升级版本</p>
+        </div>
+        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
+          <h3 style="color: var(--primary);">逻辑重构</h3>
+          <p>帮助你重塑文章结构，解决中式思维导致的逻辑问题</p>
+        </div>
+        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
+          <h3 style="color: var(--primary);">长期提分</h3>
+          <p>中考 / 高考 / 雅思写作稳定提升</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div style="text-align: center; padding: 80px 20px; background: #f8fafc; border-radius: 20px;">
+      <h2 style="font-size: 2rem; color: var(--primary);">单次精批仅需 ¥100 元</h2>
+      <p style="font-size: 1.2rem; margin: 20px 0 40px;">含逐句批注 + 逻辑诊断 + 升级范文</p>
+      <p style="font-size: 1.4rem; margin: 30px 0;"><strong>微信：linstudio799</strong></p>
+      <button onclick="alert('请添加微信：linstudio799 （备注：作文批改）')" 
+              style="background: var(--primary); color: white; border: none; padding: 18px 60px; border-radius: 50px; font-size: 1.15rem; cursor: pointer;">
+        立即联系威廉老师
+      </button>
+    </div>
+  </main>
+
+  <footer style="text-align: center; padding: 60px 20px; color: #64748b; border-top: 1px solid #eee;">
+    <p>© 2026 厦门灯塔英文作文逐句批改服务 · 威廉老师</p>
+    <p>厦门市思明区 · 专业提升你的英文写作能力</p>
+  </footer>
+</MainLayout>
+

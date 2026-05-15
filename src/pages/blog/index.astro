@@ -1,0 +1,48 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import Navbar from '../../components/Navbar.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => 
+  new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<MainLayout 
+  title="写作博客 - 厦门灯塔"
+  description="英文作文写作技巧、高考提分干货、批改案例"
+>
+  <Navbar />
+
+  <div class="container" style="padding: 100px 0 120px;">
+    <h1 style="text-align: center; font-size: 2.4rem; color: var(--primary); margin-bottom: 20px;">写作指导博客</h1>
+    <p style="text-align: center; font-size: 1.15rem; color: #475569; margin-bottom: 60px;">实用技巧 · 批改案例 · 提分策略</p>
+
+    {sortedPosts.length > 0 ? (
+      <div style="display: grid; gap: 32px; max-width: 800px; margin: 0 auto;">
+        {sortedPosts.map((post) => (
+          <article style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
+            <div style="color: #64748b; font-size: 0.9rem; margin-bottom: 12px;">
+              {new Date(post.data.pubDate).toLocaleDateString('zh-CN')}
+            </div>
+            <h2 style="font-size: 1.45rem; margin-bottom: 12px;">
+              <a href={`${base}/blog/${post.id.replace(/\.(md|mdx)$/, '')}`} style="color: var(--primary); text-decoration: none;">
+                {post.data.title}
+              </a>
+            </h2>
+            <p style="color: #475569; line-height: 1.7;">
+              {post.data.description}
+            </p>
+            <a href={`${base}/blog/${post.id.replace(/\.(md|mdx)$/, '')}`} style="color: var(--primary); font-weight: 500; margin-top: 16px; display: inline-block;">
+              阅读全文 →
+            </a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p style="text-align: center; font-size: 1.2rem; color: #64748b;">暂无文章，敬请期待...</p>
+    )}
+  </div>
+</MainLayout>

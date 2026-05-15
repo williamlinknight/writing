@@ -1,0 +1,45 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Navbar from '../components/Navbar.astro';
+---
+
+<MainLayout 
+  title="关于威廉老师 - 厦门灯塔"
+  description="厦门灯塔创始人威廉老师简介"
+>
+  <Navbar />
+
+  <div class="container" style="padding: 120px 0; max-width: 720px;">
+    <h1 style="font-size: 2.6rem; color: var(--primary); text-align: center; margin-bottom: 60px;">关于威廉老师</h1>
+    
+    <div style="font-size: 1.12rem; line-height: 1.9; color: #334155;">
+      <p>我是 <strong>William</strong>，厦门灯塔的创始人和主理老师。</p>
+      
+      <p>专注于英文作文教学多年，累计帮助数百名学生在中考、高考和雅思写作中显著提分。</p>
+      
+      <p>我相信好的作文教学不只是修改语法，而是帮助学生建立英文思维方式和母语级表达能力。</p>
+
+      <h2 style="margin: 50px 0 25px; color: var(--primary);">教学特色</h2>
+      <ul style="line-height: 2.1; padding-left: 20px;">
+        <li>逐句深度批改 + 详细讲解</li>
+        <li>逻辑结构重塑</li>
+        <li>中式英语纠正与地道表达升级</li>
+        <li>长期跟踪指导，形成写作习惯</li>
+      </ul>
+
+      <p style="margin-top: 50px; text-align: center; font-size: 1.2rem;">
+        <strong>教学地点：</strong>厦门市思明区（第一中学附近）<br>
+        欢迎厦门本地学生预约线下复盘。
+      </p>
+    </div>
+
+    <div style="text-align: center; margin-top: 70px;">
+      <button onclick="alert('请添加微信：linstudio799 （备注：作文批改）')" 
+              style="background: var(--primary); color: white; border: none; padding: 18px 60px; border-radius: 50px; font-size: 1.15rem; cursor: pointer;">
+        添加微信咨询
+      </button>
+    </div>
+  </div>
+</MainLayout>
+
+
