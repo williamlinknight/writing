@@ -30,6 +30,13 @@ const pubDateDisplay = pubDate.toLocaleDateString('zh-CN', {
 // Slug for URL
 const postSlug = post.id.replace(/\.(md|mdx)$/, '');
 const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
+
+// Related posts (exclude current, pick 3 random)
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter((p) => p.id !== post.id)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
 ---
 
 <MainLayout
@@ -81,28 +88,49 @@ const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Article",
-          "headline": post.data.title,
-          "description": post.data.description,
-          "author": {
-            "@type": "Person",
-            "name": post.data.author || "William",
-          },
-          "datePublished": pubDateISO,
-          "dateModified": pubDateISO,
-          "url": postUrl,
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": postUrl,
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "厦门灯塔",
-            "url": siteUrl,
-          },
-          "inLanguage": "zh-CN",
-          "wordCount": wordCount,
-          "timeRequired": readingTime,
+          "@graph": [
+            {
+              "@type": "Article",
+              "headline": post.data.title,
+              "description": post.data.description,
+              "author": {
+                "@type": "Person",
+                "name": post.data.author || "William",
+              },
+              "datePublished": pubDateISO,
+              "dateModified": pubDateISO,
+              "url": postUrl,
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": postUrl,
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "厦门灯塔",
+                "url": siteUrl,
+              },
+              "inLanguage": "zh-CN",
+              "wordCount": wordCount,
+              "timeRequired": readingTime,
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "博客",
+                  "item": `${siteUrl}${base}/blog`,
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": post.data.title,
+                  "item": postUrl,
+                },
+              ],
+            },
+          ],
         })}
       </script>
 
@@ -121,6 +149,32 @@ const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
           分享
         </button>
       </div>
+
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <div style="margin-top: 60px;">
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--text-heading); margin-bottom: 20px;">📖 相关文章</h3>
+          <div style="display: grid; gap: 16px;">
+            {relatedPosts.map((rp) => {
+              const rpSlug = rp.id.replace(/\.(md|mdx)$/, '');
+              const rpDate = new Date(rp.data.pubDate).toLocaleDateString('zh-CN', {
+                year: 'numeric', month: 'long', day: 'numeric',
+              });
+              return (
+                <a href={`${base}/blog/${rpSlug}`} style="display: block; background: var(--bg-card); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow-card); text-decoration: none; transition: box-shadow 0.2s, transform 0.2s;"
+                   onmouseover="this.style.boxShadow='var(--shadow-hover)'; this.style.transform='translateY(-1px)'"
+                   onmouseout="this.style.boxShadow='var(--shadow-card)'; this.style.transform='translateY(0)'">
+                  <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px;">{rpDate}</div>
+                  <h4 style="font-family: var(--font-heading); font-size: 1rem; color: var(--text-heading); margin: 0 0 4px; line-height: 1.4;">{rp.data.title}</h4>
+                  {rp.data.description && (
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; line-height: 1.5;">{rp.data.description}</p>
+                  )}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
     </div>
   </article>

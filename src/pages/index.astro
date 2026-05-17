@@ -9,7 +9,91 @@ import Navbar from '../components/Navbar.astro';
 >
   <Navbar />
 
-  <!-- Hero -->
+  <!-- Structured Data: Organization + Person -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://williamwriting.com/#organization",
+          "name": "厦门灯塔",
+          "url": "https://williamwriting.com",
+          "description": "英文作文逐句批改服务，专业人工深度批改",
+          "foundingDate": "2023",
+          "areaServed": "CN",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "厦门",
+            "addressRegion": "福建",
+            "addressCountry": "CN"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+86-linstudio799",
+            "email": "linstudio799@wechat.com"
+          },
+          "founder": {
+            "@type": "Person",
+            "@id": "https://williamwriting.com/#founder",
+            "name": "William",
+            "description": "厦门灯塔创始人，英文作文教学专家"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://williamwriting.com/#person",
+          "name": "William",
+          "description": "英文作文教学专家，厦门灯塔创始人",
+          "url": "https://williamwriting.com/about",
+          "knowsAbout": ["英语教学", "英文写作", "雅思写作", "高考英语", "中考英语"]
+        }
+      ]
+    }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "为什么校内作文反馈难以满足需求？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1. 时间有限：一位老师面对50+学生，每篇批改不足3分钟。2. 标准模糊：批注如「结构不清」但孩子不知如何改进。3. 缺乏跟踪：没有后续订正和巩固练习。4. 应试脱节：日常练习与考试评分标准存在差距。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "校内作文批改和一对一专业批改有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "校内批改通常只有分数和简短批注（如「需改进」），而林老师的批改会逐句标注每一处语法错误，提供3种以上修改方案，按中考/高考标准打分，并附词汇升级清单和结构建议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "林老师作文批改服务有哪些优势？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "五大优势：1. 专业细致的PDF批改报告（红笔标注、多方案修改、中考/高考标准打分）。2. 24小时快速反馈。3. 闭环学习系统（批改→订正→练习→复查）。4. 考试导向训练（真题库、热点预测、高分模板）。5. 灵活付费方案（单次/月/季套餐）。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "怎么联系林老师开始批改？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "添加微信 LinStudio799（备注"作文批改+年级"），拍照发送作文，即可在24小时内收到专业批改报告。"
+          }
+        }
+      ]
+    }
+  </script>
   <header style="padding: 100px 24px 80px; text-align: center; background: linear-gradient(135deg, var(--brand-light) 0%, #fce4d6 100%);">
     <div class="container">
       <h1 style="font-size: 3rem; color: var(--text-heading); margin-bottom: 12px; font-family: var(--font-heading);">厦门灯塔</h1>
