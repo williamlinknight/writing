@@ -37,6 +37,54 @@ const relatedPosts = allPosts
   .filter((p) => p.id !== post.id)
   .sort(() => Math.random() - 0.5)
   .slice(0, 3);
+
+// Pre-compute JSON-LD to avoid Astro script-type issues
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": post.data.title,
+      "description": post.data.description,
+      "author": {
+        "@type": "Person",
+        "name": post.data.author || "William",
+      },
+      "datePublished": pubDateISO,
+      "dateModified": pubDateISO,
+      "url": postUrl,
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": postUrl,
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "厦门灯塔",
+        "url": siteUrl,
+      },
+      "inLanguage": "zh-CN",
+      "wordCount": wordCount,
+      "timeRequired": readingTime,
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "博客",
+          "item": `${siteUrl}${base}/blog`,
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": post.data.title,
+          "item": postUrl,
+        },
+      ],
+    },
+  ],
+});
 ---
 
 <MainLayout
@@ -85,54 +133,7 @@ const relatedPosts = allPosts
       <div class="post-content" set:html={postContent} />
 
       {/* JSON-LD Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Article",
-              "headline": post.data.title,
-              "description": post.data.description,
-              "author": {
-                "@type": "Person",
-                "name": post.data.author || "William",
-              },
-              "datePublished": pubDateISO,
-              "dateModified": pubDateISO,
-              "url": postUrl,
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": postUrl,
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "厦门灯塔",
-                "url": siteUrl,
-              },
-              "inLanguage": "zh-CN",
-              "wordCount": wordCount,
-              "timeRequired": readingTime,
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "博客",
-                  "item": `${siteUrl}${base}/blog`,
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": post.data.title,
-                  "item": postUrl,
-                },
-              ],
-            },
-          ],
-        })}
-      </script>
+      <script type="application/ld+json" set:html={jsonLd}></script>
 
       {/* Separator */}
       <div style="height: 1px; background: linear-gradient(to right, transparent, var(--brand-accent), transparent); margin: 56px 0 40px;" />
