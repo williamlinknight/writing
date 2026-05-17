@@ -17,7 +17,7 @@ const {
   slug,
 } = Astro.props;
 
-const siteUrl = Astro.url.origin;
+const siteUrl = "https://www.williamwriting.com";
 const pageUrl = slug ? `${siteUrl}/${slug}` : Astro.url.href;
 const ogImage = image || `${siteUrl}/og-default.png`;
 ---
