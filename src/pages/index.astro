@@ -9,51 +9,221 @@ import Navbar from '../components/Navbar.astro';
 >
   <Navbar />
 
-  <header style="padding: 100px 24px 80px; text-align: center; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);">
+  <!-- Hero -->
+  <header style="padding: 100px 24px 80px; text-align: center; background: linear-gradient(135deg, var(--brand-light) 0%, #fce4d6 100%);">
     <div class="container">
-      <h1 style="font-size: 3.2rem; color: var(--primary); margin-bottom: 12px;">厦门灯塔</h1>
-      <p style="font-size: 1.45rem; color: #1e40af; margin-bottom: 20px;">英文作文逐句批改服务</p>
-      <p style="font-size: 1.2rem; max-width: 680px; margin: 0 auto; color: #334155;">
+      <h1 style="font-size: 3rem; color: var(--text-heading); margin-bottom: 12px; font-family: var(--font-heading);">厦门灯塔</h1>
+      <p style="font-size: 1.45rem; color: var(--brand-dark); margin-bottom: 20px; font-weight: 500;">英文作文逐句批改服务</p>
+      <p style="font-size: 1.15rem; max-width: 680px; margin: 0 auto; color: var(--text-muted);">
         专业人工深度批改 · 逐句分析 + 逻辑重构 + 母语级表达升级
       </p>
     </div>
   </header>
 
   <main class="container" style="padding: 60px 24px 100px;">
-    <!-- Core Advantages -->
-    <section style="margin-bottom: 80px;">
-      <h2 style="text-align: center; font-size: 2.1rem; color: var(--primary); margin-bottom: 50px;">核心优势</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px;">
-        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
-          <h3 style="color: var(--primary);">逐句精批</h3>
-          <p>详细标注语法、词汇、句式问题，并提供2-3个地道升级版本</p>
+
+    <!-- Problem Introduction -->
+    <section style="margin-bottom: 70px;">
+      <div style="background: white; border-radius: var(--radius); padding: 40px; box-shadow: var(--shadow-card);">
+        <p style="font-size: 1.1rem; line-height: 1.9; color: var(--text-body);">
+          最近收到很多家长的咨询：<strong>"林老师，我家孩子英语考试其他部分都不错，就是作文总是拿不到高分，怎么办？"</strong>
+        </p>
+        <p style="font-size: 1.1rem; line-height: 1.9; color: var(--text-body); margin-top: 16px;">
+          当我问："学校老师有没有告诉孩子作文具体哪里需要改进？"大多数家长都无奈地摇头：<strong>"只有分数，17分、15分...却不知道问题出在哪里。"</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- Case Comparison -->
+    <section style="margin-bottom: 70px;">
+      <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">一个真实的对比案例</h2>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">上周批改的一位初二学生的作文</p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+        <div style="background: #fff5f5; border-radius: var(--radius); padding: 28px; border: 1px solid #fed7d7;">
+          <h3 style="color: #c53030; font-size: 1.1rem; margin-bottom: 16px;">🏫 学校老师的批改</h3>
+          <div style="background: white; border-radius: 8px; padding: 20px; margin-bottom: 16px;">
+            <p style="font-style: italic; color: var(--text-muted);">"I very like play basketball. It make me happy."</p>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 1.3rem; font-weight: 700; color: #c53030;">12 / 20</span>
+            <span style="color: var(--text-muted); font-size: 0.95rem;">批注：需改进</span>
+          </div>
         </div>
-        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
-          <h3 style="color: var(--primary);">逻辑重构</h3>
-          <p>帮助你重塑文章结构，解决中式思维导致的逻辑问题</p>
+
+        <div style="background: #f0fff4; border-radius: var(--radius); padding: 28px; border: 1px solid #c6f6d5;">
+          <h3 style="color: #276749; font-size: 1.1rem; margin-bottom: 16px;">📝 林老师的批改</h3>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="padding: 8px 0; border-bottom: 1px solid #e2e8f0; font-size: 0.95rem;">✅ "very like"→"really like"；"play"→"playing"</li>
+            <li style="padding: 8px 0; border-bottom: 1px solid #e2e8f0; font-size: 0.95rem;">✅ "make"→"makes"（主谓一致）</li>
+            <li style="padding: 8px 0; border-bottom: 1px solid #e2e8f0; font-size: 0.95rem;">✅ 升级表达："It brings me great joy..."</li>
+            <li style="padding: 8px 0; font-size: 0.95rem;">✅ 结构建议：补充具体事例</li>
+          </ul>
         </div>
-        <div style="background: white; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.07);">
-          <h3 style="color: var(--primary);">长期提分</h3>
-          <p>中考 / 高考 / 雅思写作稳定提升</p>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px; padding: 20px; background: var(--brand-light); border-radius: var(--radius);">
+        <p style="font-size: 1.1rem; color: var(--text-heading);">单纯的分数和"需改进"三个字，真的能帮助孩子进步吗？</p>
+      </div>
+    </section>
+
+    <!-- Pain Points -->
+    <section style="margin-bottom: 70px; background: #fafafa; border-radius: var(--radius); padding: 50px 40px;">
+      <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">为什么校内作文反馈难以满足需求？</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+        <div style="background: white; padding: 24px; border-radius: 12px; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 12px;">⏰</div>
+          <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">时间有限</h3>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">一位老师面对50+学生，每篇作文批改时间不足3分钟</p>
+        </div>
+        <div style="background: white; padding: 24px; border-radius: 12px; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 12px;">❓</div>
+          <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">标准模糊</h3>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">批注如"结构不清""用词简单"，但孩子不知道如何改进</p>
+        </div>
+        <div style="background: white; padding: 24px; border-radius: 12px; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 12px;">🔁</div>
+          <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">缺乏跟踪</h3>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">没有后续的订正和巩固练习，错误一犯再犯</p>
+        </div>
+        <div style="background: white; padding: 24px; border-radius: 12px; text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 12px;">📊</div>
+          <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">应试脱节</h3>
+          <p style="font-size: 0.92rem; color: var(--text-muted);">日常练习与考试评分标准存在差距</p>
+        </div>
+      </div>
+      <div style="margin-top: 32px; padding: 20px; background: white; border-radius: 12px; border-left: 4px solid var(--brand);">
+        <p style="font-style: italic; color: var(--text-muted);">"孩子月考英语作文16分，我问他老师说了什么需要改进，他居然说老师只说了'还可以'..."</p>
+        <p style="text-align: right; color: var(--text-muted); font-size: 0.9rem; margin-top: 8px;">——张妈妈，初三家长</p>
+      </div>
+    </section>
+
+    <!-- Five Advantages -->
+    <section style="margin-bottom: 70px;">
+      <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">林老师一对一作文批改服务的五大优势</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card);">
+          <h3 style="color: var(--brand); font-size: 1.1rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+            <span style="background: var(--brand); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0;">1</span>
+            专业细致的批改报告（PDF格式）
+          </h3>
+          <ul style="list-style: none; padding: 0; margin: 0 0 16px;">
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 红笔标注每一处错误</li>
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 提供3种以上修改方案</li>
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 按中考/高考标准打分</li>
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 附词汇升级清单</li>
+          </ul>
+          <div style="background: var(--brand-light); padding: 14px; border-radius: 8px; font-size: 0.9rem;">
+            <strong>示例：</strong>"The weather is good." → "The sun is shining brightly with a gentle breeze."
+          </div>
+        </div>
+
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card);">
+          <h3 style="color: var(--brand); font-size: 1.1rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+            <span style="background: var(--brand); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0;">2</span>
+            24小时快速反馈
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--text-body);">紧急需求可加急处理，当天完成批改。</p>
+        </div>
+
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card);">
+          <h3 style="color: var(--brand); font-size: 1.1rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+            <span style="background: var(--brand); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0;">3</span>
+            闭环学习系统
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 12px;">批改 → 学生订正 → 附加练习 → 老师复查</p>
+          <p style="font-size: 0.95rem; color: var(--text-body);">确保每个错误不重复犯。</p>
+        </div>
+
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card);">
+          <h3 style="color: var(--brand); font-size: 1.1rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+            <span style="background: var(--brand); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0;">4</span>
+            考试导向训练
+          </h3>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 近三年中考/高考真题库</li>
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 预测热点话题</li>
+            <li style="padding: 4px 0; font-size: 0.95rem; color: var(--text-body);">✓ 高分句型模板</li>
+          </ul>
+        </div>
+
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card);">
+          <h3 style="color: var(--brand); font-size: 1.1rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+            <span style="background: var(--brand); color: white; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0;">5</span>
+            灵活付费方案
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--text-body);">单次体验 / 月套餐 / 季套餐，满足不同需求。</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Service Flow -->
+    <section style="margin-bottom: 70px; background: var(--brand-light); border-radius: var(--radius); padding: 50px 40px;">
+      <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">服务流程</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+        <div style="text-align: center;">
+          <div style="background: var(--brand); color: white; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.3rem; font-weight: 700;">1</div>
+          <h3 style="color: var(--text-heading); font-size: 1rem; margin-bottom: 8px;">添加微信</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">微信号：<strong style="color: var(--brand);">LinStudio799</strong><br/>备注"作文批改+年级"</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="background: var(--brand); color: white; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.3rem; font-weight: 700;">2</div>
+          <h3 style="color: var(--text-heading); font-size: 1rem; margin-bottom: 8px;">拍照发送作文</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">确保字迹清晰<br/>注明题目要求</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="background: var(--brand); color: white; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.3rem; font-weight: 700;">3</div>
+          <h3 style="color: var(--text-heading); font-size: 1rem; margin-bottom: 8px;">接收批改报告</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">批注版+示范作文版+练习页<br/>建议打印后使用</p>
+        </div>
+        <div style="text-align: center;">
+          <div style="background: var(--brand); color: white; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.3rem; font-weight: 700;">4</div>
+          <h3 style="color: var(--text-heading); font-size: 1rem; margin-bottom: 8px;">完成订正作业</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">抄正作文+完成练习<br/>拍照发给老师检查</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section style="margin-bottom: 70px;">
+      <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">家长见证</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card); border-top: 4px solid var(--brand);">
+          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic;">
+            "孩子跟林老师改了8篇作文后，期末考作文第一次拿到18分（满分20）！关键是现在写作文知道怎么组织语言了，不再凑字数。"
+          </p>
+          <p style="text-align: right; color: var(--text-muted); font-size: 0.9rem; margin-top: 16px;">——李爸爸，高一家长</p>
+        </div>
+        <div style="background: white; border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-card); border-top: 4px solid var(--brand);">
+          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic;">
+            "PDF批改报告太实用了，我们把12篇批改装订成册，成了最好的复习资料。"
+          </p>
+          <p style="text-align: right; color: var(--text-muted); font-size: 0.9rem; margin-top: 16px;">——王妈妈，初三家长</p>
         </div>
       </div>
     </section>
 
     <!-- CTA -->
-    <div style="text-align: center; padding: 80px 20px; background: #f8fafc; border-radius: 20px;">
-      <h2 style="font-size: 2rem; color: var(--primary);">单次精批仅需 ¥100 元</h2>
-      <p style="font-size: 1.2rem; margin: 20px 0 40px;">含逐句批注 + 逻辑诊断 + 升级范文</p>
-      <p style="font-size: 1.4rem; margin: 30px 0;"><strong>微信：linstudio799</strong></p>
-      <button onclick="alert('请添加微信：linstudio799 （备注：作文批改）')" 
-              style="background: var(--primary); color: white; border: none; padding: 18px 60px; border-radius: 50px; font-size: 1.15rem; cursor: pointer;">
-        立即联系威廉老师
+    <div style="text-align: center; padding: 60px 30px; background: white; border-radius: var(--radius); box-shadow: var(--shadow-card); border: 2px solid var(--brand-light);">
+      <h2 style="font-size: 2rem; color: var(--text-heading); font-family: var(--font-heading); margin-bottom: 16px;">立即开始提分</h2>
+      <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 12px;">发送孩子最近一篇英语作文，看看提分空间在哪里！</p>
+      <p style="font-size: 1.4rem; margin: 24px 0; color: var(--brand); font-weight: 700;">微信：LinStudio799</p>
+      <button onclick="alert('请添加微信：linstudio799 （备注：作文批改+年级）')" 
+              style="background: var(--brand); color: white; border: none; padding: 18px 60px; border-radius: 50px; font-size: 1.15rem; cursor: pointer; font-weight: 600; transition: background 0.2s;"
+              onmouseover="this.style.background='var(--brand-dark)'"
+              onmouseout="this.style.background='var(--brand)'">
+        立即联系林老师
       </button>
+      <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 20px; font-style: italic;">教育不是注满一桶水，而是点燃一把火。希望我们的批改服务能点燃孩子对英语写作的热情！</p>
     </div>
+
   </main>
 
-  <footer style="text-align: center; padding: 60px 20px; color: #64748b; border-top: 1px solid #eee;">
+  <footer style="text-align: center; padding: 60px 24px; color: var(--text-muted); border-top: 1px solid var(--border-light); background: white;">
     <p>© 2026 厦门灯塔英文作文逐句批改服务 · 威廉老师</p>
-    <p>厦门市思明区 · 专业提升你的英文写作能力</p>
+    <p style="font-size: 0.9rem; margin-top: 8px;">厦门市思明区 · 专业提升你的英文写作能力</p>
   </footer>
 </MainLayout>
-
