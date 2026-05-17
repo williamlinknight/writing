@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FFF8EF" stroke="#E67E60" stroke-width="1.5"/>
+  
+  <!-- Lighthouse tower -->
+  <path d="M 38 90 L 42 35 L 58 35 L 62 90 Z" fill="#E67E60"/>
+  
+  <!-- Horizontal bands on tower -->
+  <rect x="39" y="53" width="22" height="3" rx="1.5" fill="#FFF8EF" opacity="0.3"/>
+  <rect x="39" y="62" width="22" height="3" rx="1.5" fill="#FFF8EF" opacity="0.3"/>
+  <rect x="39" y="71" width="22" height="3" rx="1.5" fill="#FFF8EF" opacity="0.3"/>
+  
+  <!-- Gallery/balcony -->
+  <rect x="35" y="30" width="30" height="5" rx="2" fill="#D87C52"/>
+  
+  <!-- Lantern room -->
+  <rect x="42" y="22" width="16" height="8" rx="2" fill="#E8D3B5"/>
+  
+  <!-- Light inside lantern -->
+  <circle cx="50" cy="26" r="3" fill="#FFF8EF"/>
+  
+  <!-- Light beams -->
+  <path d="M 50 24 L 10 12 L 15 16 Z" fill="#E8D3B5" opacity="0.5"/>
+  <path d="M 50 24 L 90 12 L 85 16 Z" fill="#E8D3B5" opacity="0.5"/>
+  
+  <!-- Dome/roof -->
+  <path d="M 42 22 L 50 14 L 58 22 Z" fill="#D87C52"/>
+  
+  <!-- Window on tower -->
+  <rect x="47" y="42" width="6" height="8" rx="3" fill="#FFF8EF" opacity="0.5"/>
+</svg>
