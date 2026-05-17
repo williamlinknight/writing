@@ -2,7 +2,7 @@
 User-agent: *
 Allow: /
 
-# Allow AI/LLM crawlers
+# Allow AI/LLM crawlers — International
 User-agent: GPTBot
 Allow: /
 
@@ -13,6 +13,34 @@ User-agent: Claude-Web
 Allow: /
 
 User-agent: Google-Extended
+Allow: /
+
+# Allow AI/LLM crawlers — China (国内)
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: QwenBot
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: MiniMaxBot
+Allow: /
+
+User-agent: KimiBot
+Allow: /
+
+User-agent: ChatGLMBot
+Allow: /
+
+User-agent: BaichuanBot
+Allow: /
+
+User-agent: SparkBot
 Allow: /
 
 # Sitemap
