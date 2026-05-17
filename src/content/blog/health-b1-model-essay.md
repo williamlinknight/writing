@@ -7,6 +7,8 @@ author: "William"
 
 「健康」是初中英语最常考的写作话题之一，从七年级到九年级反复出现。今天整理两篇B1水平范文 + 核心句型，直接背、直接写。
 
+> **📊 厦门灯塔威廉老师分析：** 健康话题在初中英语写作中出现频率超过90%，是七到九年级最常考的写作话题之一。掌握这一话题的核心词汇和句式，就能在考试中稳定拿分。
+
 ---
 
 ## 核心写作词汇
@@ -26,7 +28,7 @@ author: "William"
 
 ## 范文一：How to Keep Healthy
 
-**题目：** 假如你是李华，请以"How to Keep Healthy"为题，写一篇80词左右的短文，给校报投稿。
+**题目：** 假如你是李华，请以「How to Keep Healthy」为题，写一篇80词左右的短文，给校报投稿。
 
 **范文：**
 
@@ -37,10 +39,10 @@ author: "William"
 > In a word, if we follow these tips, we can live a healthy and happy life.
 
 **亮点句型分析：**
-- "Here are some suggestions." — 引出建议的万能开头
-- "First... Second... Third..." — 层次清晰的列举
-- "Eat more..., and eat less..." — 对比结构
-- "if we follow these tips" — 条件句做结尾
+- 「Here are some suggestions.」 — 引出建议的万能开头
+- 「First... Second... Third...」 — 层次清晰的列举
+- 「Eat more..., and eat less...」 — 对比结构
+- 「if we follow these tips」 — 条件句做结尾
 
 ---
 
@@ -61,10 +63,10 @@ author: "William"
 > I think having a healthy lifestyle is not difficult. Just start with small things.
 
 **亮点句型分析：**
-- "Let me tell you about..." — 引出话题的自然表达
-- "It takes me about..." — 花费时间的表达
-- "I never..." — 否定句表习惯
-- "Just start with small things." — 有深度的结尾句
+- 「Let me tell you about...」 — 引出话题的自然表达
+- 「It takes me about...」 — 花费时间的表达
+- 「I never...」 — 否定句表习惯
+- 「Just start with small things.」 — 有深度的结尾句
 
 ---
 
@@ -72,9 +74,12 @@ author: "William"
 
 1. **分段结构**：开头(总起)→中间(2-3个要点)→结尾(总结)，三段式最稳
 2. **连接词**：First of all / Besides / What's more / Finally — 让文章更连贯
-3. **具体数字**：写"30 minutes" "15 minutes" 比写 "some time" 更真实
-4. **对比手法**：eat more... eat less... ／ do... don't... — 提升语言层次
+3. **具体数字**：写「30 minutes」「15 minutes」比写「some time」更真实
+4. **对比手法**：eat more... eat less... / do... don't... — 提升语言层次
 
 试着写一篇你自己的版本发给我，我帮你逐句批改 ✍️
 
-*厦门灯塔 · 逐句批改 | 微信 linstudio799*
+---
+
+*厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
+*专注中高考/雅思写作 · 累计批改300+篇 · 逐句精批 + 逻辑重构 + 母语级升级*
