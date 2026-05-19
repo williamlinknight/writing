@@ -96,15 +96,24 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </p>
       </div>
 
+      <!-- Pagination -->
+      <div id="pagination" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 48px; flex-wrap: wrap; display: none;">
+      </div>
+
     </div>
   </div>
 
   <script>
+    const POSTS_PER_PAGE = 12;
+    let currentPage = 1;
+    let lastQuery = '';
+
     const searchInput = document.getElementById('blog-search');
     const postsContainer = document.getElementById('posts-container');
     const noResults = document.getElementById('no-results');
     const countNum = document.getElementById('count-num');
-    const cards = postsContainer.querySelectorAll('.blog-card');
+    const paginationEl = document.getElementById('pagination');
+    const cards = Array.from(postsContainer.querySelectorAll('.blog-card'));
 
     // Debounce helper
     function debounce(fn, ms) {
@@ -115,6 +124,51 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       };
     }
 
+    function renderPagination(totalVisible) {
+      const totalPages = Math.ceil(totalVisible / POSTS_PER_PAGE);
+      if (totalPages <= 1) {
+        paginationEl.style.display = 'none';
+        return;
+      }
+      paginationEl.style.display = 'flex';
+      paginationEl.innerHTML = '';
+
+      // Prev button
+      const prevBtn = document.createElement('button');
+      prevBtn.textContent = '‹';
+      prevBtn.style.cssText = 'padding: 8px 14px; border: 1px solid var(--border-light); background: var(--bg-card); color: var(--text-body); border-radius: var(--radius); cursor: pointer; font-size: 1rem; transition: background 0.2s;';
+      prevBtn.disabled = currentPage === 1;
+      if (prevBtn.disabled) prevBtn.style.opacity = '0.4';
+      prevBtn.addEventListener('click', () => { if (currentPage > 1) { currentPage--; applyPagination(); } });
+      paginationEl.appendChild(prevBtn);
+
+      // Page numbers
+      const maxVisiblePages = 7;
+      let startPage = Math.max(1, currentPage - 3);
+      let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+      if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.textContent = i;
+        const isActive = i === currentPage;
+        pageBtn.style.cssText = `padding: 8px 14px; border: 1px solid ${isActive ? 'var(--brand)' : 'var(--border-light)'}; background: ${isActive ? 'var(--brand)' : 'var(--bg-card)'}; color: ${isActive ? '#fff' : 'var(--text-body)'}; border-radius: var(--radius); cursor: pointer; font-size: 0.95rem; font-weight: ${isActive ? '600' : '400'}; transition: all 0.2s;`;
+        pageBtn.addEventListener('click', () => { currentPage = i; applyPagination(); });
+        paginationEl.appendChild(pageBtn);
+      }
+
+      // Next button
+      const nextBtn = document.createElement('button');
+      nextBtn.textContent = '›';
+      nextBtn.style.cssText = 'padding: 8px 14px; border: 1px solid var(--border-light); background: var(--bg-card); color: var(--text-body); border-radius: var(--radius); cursor: pointer; font-size: 1rem; transition: background 0.2s;';
+      nextBtn.disabled = currentPage === totalPages;
+      if (nextBtn.disabled) nextBtn.style.opacity = '0.4';
+      nextBtn.addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; applyPagination(); } });
+      paginationEl.appendChild(nextBtn);
+    }
+
     function filterPosts(query) {
       const q = query.trim().toLowerCase();
       let visibleCount = 0;
@@ -123,26 +177,75 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         const title = (card.getAttribute('data-title') || '').toLowerCase();
         const desc = (card.getAttribute('data-description') || '').toLowerCase();
         const matches = q === '' || title.includes(q) || desc.includes(q);
-        card.style.display = matches ? '' : 'none';
+        card.dataset.visible = matches ? '1' : '0';
         if (matches) visibleCount++;
       });
 
-      postsContainer.style.display = cards.length > 0 ? '' : 'none';
-      noResults.style.display = q !== '' && visibleCount === 0 ? '' : 'none';
-      countNum.textContent = visibleCount;
+      return visibleCount;
+    }
+
+    function applyPagination() {
+      const visibleCards = cards.filter(c => c.dataset.visible === '1');
+      const totalVisible = visibleCards.length;
+
+      // Update post count display
+      countNum.textContent = totalVisible;
+
+      if (totalVisible === 0) {
+        postsContainer.style.display = 'none';
+        noResults.style.display = '';
+        paginationEl.style.display = 'none';
+        return;
+      }
+
+      postsContainer.style.display = '';
+      noResults.style.display = 'none';
+
+      // If showing search results, show all (no pagination)
+      if (lastQuery.trim() !== '') {
+        cards.forEach((card) => {
+          card.style.display = card.dataset.visible === '1' ? '' : 'none';
+        });
+        paginationEl.style.display = 'none';
+        return;
+      }
+
+      // Paginate
+      const start = (currentPage - 1) * POSTS_PER_PAGE;
+      const end = start + POSTS_PER_PAGE;
+
+      cards.forEach((card, i) => {
+        if (card.dataset.visible === '1' && i >= start && i < end) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      renderPagination(totalVisible);
+    }
+
+    function handleSearch(query) {
+      lastQuery = query;
+      currentPage = 1;
+      const visibleCount = filterPosts(query);
+      applyPagination();
     }
 
     // Clear search button (Escape key)
     searchInput.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         searchInput.value = '';
-        filterPosts('');
+        handleSearch('');
         searchInput.blur();
       }
     });
 
     searchInput.addEventListener('input', debounce(function () {
-      filterPosts(this.value);
+      handleSearch(this.value);
     }, 200));
+
+    // Initial render
+    handleSearch('');
   </script>
 </MainLayout>
