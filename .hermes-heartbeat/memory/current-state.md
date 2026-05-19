@@ -22,6 +22,7 @@
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
 - ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）
 - ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）
+- ✅ 文章发表: gaokao-argumentative-reading-strategies.md（高考英语议论文阅读：三步拆解行文逻辑）
 
 ## 待优化
 - NEXT 队列：添加相关文章链接、搜索功能、分页
