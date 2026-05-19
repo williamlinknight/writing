@@ -1,7 +1,7 @@
 # Task Queue — 2026-05-20 04:04
 
 ## NOW
-（无）
+- [ ] 手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5（第28篇新文章 ↔ 雅思阅读策略互链）
 
 ## NEXT
 （无）
@@ -52,3 +52,4 @@
 - ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
 - ✅ 手动内链：背了3000个单词作文还是拿不到高分 ←→ essay-expansion-techniques（词汇输入差距↔扩写方案互链）
 - ✅ **全部19对 manual interlink 已完成** — 2026-05-20
+- ✅ 文章发表: ielts-ai-human-correction.md（雅思写作卡在6分？别让AI成了你的"分数天花板" — AI vs human correction）

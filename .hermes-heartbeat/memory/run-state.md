@@ -1,17 +1,20 @@
 # Run State — Last Heartbeat
 
-## 2026-05-20 04:04 (手动内链：junior-high-essay-correction-farming ↔ zhongkao-common-mistakes — 初中批改案例↔中考常见扣分点互链)
-- 类型: optimization (manual interlinking)
+## 2026-05-20 04:41 (第28篇文章发表：ielts-ai-human-correction — AI vs human IELTS writing correction)
+- 类型: content (new blog post from Desktop file)
 - 完成事项:
   - 读取所有状态文件 ✅
-  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
-  - junior-high-essay-correction-farming.md 添加指向zhongkao-common-mistakes的推荐链接 ✅
-  - zhongkao-common-mistakes.md 添加指向junior-high-essay-correction-farming的推荐链接（在已有interlink之后）✅
-  - 更新 interlinking-pairs.md（移到✅区域 + 完成全部19对）✅
-  - 构建成功 (30 pages) ✅
+  - 检查 ~/Desktop/Daily/ — 发现 ielts_writing_guide.md（无 blog_前缀，手动处理） ✅
+  - 内容审核：Format B/C hybrid — 雅思写作AI vs人工批改，未覆盖的新话题 ✅
+  - 创建博客文章：ielts-ai-human-correction.md ✅
+  - 添加 GEO 数据 blockquote（雅思写作AI vs 人工批改数据）✅
+  - 添加 interlink 推荐 → ielts-first-exam-to-6.5 ✅
+  - 添加标准品牌页脚 ✅
+  - 删除源文件 ielts_writing_guide.md ✅
+  - 构建成功 (31 pages) ✅
   - Git commit + push 成功 ✅
-- 桌面待定文件: 无
-- 下一步: NEXT 队列为空 — 所有19对 natural pair 互链已完成。后续可考虑 LATER 队列（RSS优化、评论功能、微信引流二维码）
+- 桌面待定文件: 21_day_english_practice_book.md（练习册内容，已过滤跳过）；HighSchool_ReadWrite_Practice_beautiful.md（续写练习册，已过滤跳过）
+- 下一步: 第28篇新文章 interlinking — ielts-ai-human-correction ↔ ielts-first-exam-to-6.5
 - 阻塞: 无
 
 ## 2026-05-20 00:45 (手动内链：health-b1-model-essay ↔ zhongkao-common-mistakes — B1话题范文↔中考常见扣分点互链)
