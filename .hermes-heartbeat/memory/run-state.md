@@ -1,17 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-19 14:55 (自动发布: 新概念英语写作价值)
-- 类型: publish (blog_auto_publish.py)
+## 2026-05-19 16:17 (文章分页功能)
+- 类型: feature (client-side pagination)
 - 完成事项:
   - 读取所有状态文件 ✅
-  - 检查 ~/Desktop/Daily/ — 发现 blog_新概念英语的写作价值.txt ✅
-  - 查重校验 — 无重复（新话题） ✅
-  - 运行 blog_auto_publish.py — 成功 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
+  - 搜索功能标记为已完成（已在此前轮次实现）✅
+  - 添加文章列表分页功能（12篇/页，客户端JS分页）✅
+    - 页面底部页码导航（‹ 1 2 3 › 按钮）
+    - 搜索时自动禁用分页，显示全部匹配结果
   - 构建成功 (30 pages) ✅
   - Git commit + push 成功 ✅
-  - 验证部署 — 博客列表页有新文章链接，独立页 200 OK ✅
-  - 源文件已自动删除 ✅
-  - 更新 current-state.md, run-state.md ✅
-- 桌面待定文件: 中考写作-情感类作文.md（Format D 知识内容，之前已评估为跳过），中考听说策略.md（与已发布 zhongkao-listening-test-strategies.md 话题重叠），21_day_english_practice_book.md（练习册，跳过），中考30个核心句型.txt（纯列表，跳过）
-- 下一步: 推进 NEXT 队列（添加文章搜索功能、或文章分页）
+  - 验证部署 — id="pagination" 存在于页面 HTML ✅
+- 桌面待定文件: （与上次相同，无变化）
+- 下一步: 推进 NEXT 队列（添加更多相关文章链接 — 手动内链优化）
 - 阻塞: 无
