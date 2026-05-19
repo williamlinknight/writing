@@ -1,10 +1,10 @@
-# Task Queue — 2026-05-19 19:10
+# Task Queue — 2026-05-20 04:04
 
 ## NOW
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：...gaokao-writing-phrases↔gaokao-argumentative-reading-strategies互链、zhongkao-117-to-130↔zhongkao-common-mistakes互链、oxford-reading-tree-guide↔zhongkao-reading-comprehension-strategies互链。继续：Priority 3 — junior-high-essay-correction-farming ↔ zhongkao-common-mistakes）
+（无）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -51,3 +51,4 @@
 - ✅ 手动内链：zhongkao-30-sentence-patterns ←→ zhongkao-china-business-card（核心句型↔中国名片互链）
 - ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
 - ✅ 手动内链：背了3000个单词作文还是拿不到高分 ←→ essay-expansion-techniques（词汇输入差距↔扩写方案互链）
+- ✅ **全部19对 manual interlink 已完成** — 2026-05-20

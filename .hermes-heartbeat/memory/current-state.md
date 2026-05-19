@@ -46,6 +46,8 @@
 - ✅ 手动内链：gaokao-writing-phrases ←→ gaokao-argumentative-reading-strategies（高考句式↔议论文阅读互链）
 - ✅ 手动内链：zhongkao-117-to-130 ←→ zhongkao-common-mistakes（提分路径↔扣分分析互链）
 - ✅ 手动内链：oxford-reading-tree-guide ←→ zhongkao-reading-comprehension-strategies（分级阅读↔中考阅读理解策略互链）
+- ✅ 手动内链：junior-high-essay-correction-farming ←→ zhongkao-common-mistakes（初中批改案例↔中考常见扣分点互链）
+- ✅ **全部手动内链已完成** — 所有27篇博客的 natural pair 已完成双向互链（共19对）
 
 ## 技术状态
 - Gateway: 运行中

@@ -1,17 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-20 03:30 (手动内链：oxford-reading-tree-guide ↔ zhongkao-reading-comprehension-strategies — 分级阅读↔中考阅读理解策略互链)
+## 2026-05-20 04:04 (手动内链：junior-high-essay-correction-farming ↔ zhongkao-common-mistakes — 初中批改案例↔中考常见扣分点互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:
   - 读取所有状态文件 ✅
-  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
-  - oxford-reading-tree-guide.md 添加指向zhongkao-reading-comprehension-strategies的推荐链接 ✅
-  - zhongkao-reading-comprehension-strategies.md 添加指向oxford-reading-tree-guide的推荐链接（在已有interlink之后）✅
-  - 更新 interlinking-pairs.md（移到✅区域 + 移除To Do条目）✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
+  - junior-high-essay-correction-farming.md 添加指向zhongkao-common-mistakes的推荐链接 ✅
+  - zhongkao-common-mistakes.md 添加指向junior-high-essay-correction-farming的推荐链接（在已有interlink之后）✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 完成全部19对）✅
   - 构建成功 (30 pages) ✅
   - Git commit + push 成功 ✅
 - 桌面待定文件: 无
-- 下一步: NEXT 队列 — Priority 3: junior-high-essay-correction-farming ↔ zhongkao-common-mistakes
+- 下一步: NEXT 队列为空 — 所有19对 natural pair 互链已完成。后续可考虑 LATER 队列（RSS优化、评论功能、微信引流二维码）
 - 阻塞: 无
 
 ## 2026-05-20 00:45 (手动内链：health-b1-model-essay ↔ zhongkao-common-mistakes — B1话题范文↔中考常见扣分点互链)
