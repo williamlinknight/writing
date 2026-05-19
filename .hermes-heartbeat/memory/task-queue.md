@@ -1,12 +1,14 @@
-# Task Queue — 2026-05-19 09:10
+# Task Queue — 2026-05-19 09:43
 
 ## NOW
-- [ ] （空闲 — 等待新的 blog_*.txt 自动发布或选择 Desktop TXT 转为文章）
+- [ ] （空闲 — 桌面有 2 个 blog_*.md 待转为文章: 50seconds-vs-60minutes, vague-feedback-to-action）
 
 ## NEXT
 - [ ] 添加更多相关文章链接
 - [ ] 添加文章搜索功能
 - [ ] 文章分页
+- [ ] 发布 blog_50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
+- [ ] 发布 blog_vague-feedback-to-action.md（模糊反馈 vs 具体行动）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -34,3 +36,4 @@
 - ✅ 关于页面内容充实（详细个人介绍、GEO数据、对比表、品牌页脚）
 - ✅ 首页页脚统一为品牌页脚（含微信ID）
 - ✅ 文章发表: zhongkao-china-business-card.md（中考英语写作之中国名片）
+- ✅ 文章发表: 17-20-ceiling.md（逐句批改3种升级方案：从16-17分突破瓶颈）
