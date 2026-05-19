@@ -1,10 +1,10 @@
-# Task Queue — 2026-05-19 12:40
+# Task Queue — 2026-05-19 14:20
 
 ## NOW
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接
+- [x] 添加更多相关文章链接（3→5篇，更丰富的内链网络 ✅）
 - [ ] 添加文章搜索功能
 - [ ] 文章分页
 
@@ -17,7 +17,7 @@
 （无）
 
 ## DONE
-- 14 篇 blog 文章上线
+- 26 篇 blog 文章上线
 - GEO 优化
 - 自动发布脚本创建
 - 自动发布脚本路径已验证 ✅
@@ -38,7 +38,8 @@
 - ✅ 文章发表: zhaokao-growth-three-dimensions.md（2026中考英语作文预测：时光慢邮成长三维论）
 - ✅ 文章发表: 50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
-- ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）——前一轮误判为重复，修正后发布
+- ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）
 - ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）
 - ✅ 文章发表: gaokao-argumentative-reading-strategies.md（高考英语议论文阅读：三步拆解行文逻辑）
 - ✅ 文章发表: 背了3000个单词作文还是拿不到高分.md（Format C — 词汇输入与写作产出差距角度，自动发布脚本处理）
+- ✅ 相关文章推荐从3篇改为5篇（更丰富的内链网络）
