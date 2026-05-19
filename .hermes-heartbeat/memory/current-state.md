@@ -40,6 +40,7 @@
 - ✅ 手动内链：17-20-ceiling ←→ vague-feedback-to-action（促销集群互链 #1 — 分数瓶颈↔反馈质量角度）
 - ✅ 手动内链：50seconds-vs-60minutes ←→ vague-feedback-to-action（促销集群互链 #2 — 时间对比↔反馈质量角度）
 | ✅ 手动内链：essay-correction-service-promo ←→ 17-20-ceiling（促销集群互链 #3 — 服务推广↔分数瓶颈角度）
+- ✅ 手动内链：continuation-writing-ten-sentences ←→ zhaokao-growth-three-dimensions（续写技术↔中考预测互链）
 
 ## 技术状态
 - Gateway: 运行中
