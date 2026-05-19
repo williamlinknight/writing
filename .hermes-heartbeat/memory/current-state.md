@@ -1,4 +1,4 @@
-# Current State — 2026-05-19 17:26
+# Current State — 2026-05-19 19:10
 
 ## 当前阶段
 稳定运行 — 第27篇博客文章已上线
@@ -30,11 +30,10 @@
 - ✅ 文章搜索功能标记为已完成（已在之前轮次实现 — 标题+描述客户端搜索）
 - ✅ 手动内链：gaokao-news-reading-strategies ←→ gaokao-argumentative-reading-strategies（高考阅读姊妹篇互链）
 - ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
-
 - ✅ 手动内链：zhongkao-listening-test-strategies ←→ zhongkao-cloze-test-strategies（中考听说测试↔完形填空策略互链）
 - ✅ 手动内链：essay-expansion-techniques ←→ 新概念英语的写作价值（句式扩写↔新概念英语理论互链）
-
-- NEXT 队列：继续手动内链（zhongkao-common-mistakes ↔ zhongkao-30-sentence-patterns 等）
+- ✅ 手动内链：zhongkao-common-mistakes ←→ zhongkao-30-sentence-patterns（问题↔解决方案互链）
+- ✅ 手动内链：high-school-100-to-120 ←→ middle-to-high-school-english-drop（高中提分↔初高断崖分析互链）
 
 ## 技术状态
 - Gateway: 运行中

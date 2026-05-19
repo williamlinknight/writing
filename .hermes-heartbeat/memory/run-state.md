@@ -1,5 +1,18 @@
 # Run State — Last Heartbeat
 
+## 2026-05-19 19:10 (手动内链：中考常见扣分点↔30个核心句型互链)
+- 类型: optimization (manual interlinking)
+- 完成事项:
+  - 读取所有状态文件 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
+  - zhongkao-common-mistakes.md 添加指向30个核心句型的推荐链接 ✅
+  - zhongkao-30-sentence-patterns.md 添加指向四种常见扣分点的推荐链接 ✅
+  - 构建成功 (30 pages) ✅
+  - Git commit + push 成功 ✅
+- 桌面待定文件: 无
+- 下一步: NEXT 队列 — 继续手动内链（zhongkao-30-sentence-patterns ↔ zhongkao-china-business-card）
+- 阻塞: 无
+
 ## 2026-05-19 18:36 (手动内链：句式扩写↔新概念英语理论互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:

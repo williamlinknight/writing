@@ -1,10 +1,10 @@
-# Task Queue — 2026-05-19 17:26
+# Task Queue — 2026-05-19 19:10
 
 ## NOW
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链。继续：zhongkao-common-mistakes ↔ zhongkao-30-sentence-patterns 等）
+- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链。继续：zhongkao-30-sentence-patterns ↔ zhongkao-china-business-card 等）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -44,3 +44,6 @@
 - ✅ 文章发表: 新概念英语的写作价值.md（Format D2 — 新概念英语写作拆解分析，自动发布脚本处理）
 - ✅ 手动内链：gaokao-news-reading-strategies ←→ gaokao-argumentative-reading-strategies（高考阅读姊妹篇互链）
 - ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
+- ✅ 手动内链：zhongkao-listening-test-strategies ←→ zhongkao-cloze-test-strategies（中考听说测试↔完形填空策略互链）
+- ✅ 手动内链：essay-expansion-techniques ←→ 新概念英语的写作价值（句式扩写↔新概念英语理论互链）
+- ✅ 手动内链：zhongkao-common-mistakes ←→ zhongkao-30-sentence-patterns（问题↔解决方案互链）
