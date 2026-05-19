@@ -37,6 +37,7 @@
 - ✅ 手动内链：zhongkao-30-sentence-patterns ←→ zhongkao-china-business-card（核心句型↔中国名片互链）
 - ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
 - ✅ 手动内链：背了3000个单词作文还是拿不到高分 ←→ essay-expansion-techniques（词汇输入差距↔扩写方案互链）
+- ✅ 手动内链：17-20-ceiling ←→ vague-feedback-to-action（促销集群互链 #1 — 分数瓶颈↔反馈质量角度）
 
 ## 技术状态
 - Gateway: 运行中
