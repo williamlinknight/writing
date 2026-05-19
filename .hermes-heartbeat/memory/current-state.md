@@ -1,13 +1,13 @@
-# Current State — 2026-05-19 14:20
+# Current State — 2026-05-19 14:55
 
 ## 当前阶段
-稳定运行 — 第26篇博客文章已上线
+稳定运行 — 第27篇博客文章已上线
 
 ## 主任务
 维护和更新厦门灯塔教育博客 williamwriting.com
 
 ## 已完成
-- 26 篇 blog 文章已发布
+- 27 篇 blog 文章已发布
 - GEO 优化完成（专家数据声明、对比表格、统一页脚）
 - OG 分享图已添加
 - 灯塔图标 & PWA Manifest 已配置
@@ -25,13 +25,13 @@
 - ✅ 文章发表: gaokao-argumentative-reading-strategies.md（高考英语议论文阅读：三步拆解行文逻辑）
 - ✅ 文章发表: 背了3000个单词作文还是拿不到高分.md（Format C — 词汇输入与写作产出差距角度）
 - ✅ 相关文章推荐从3篇改为5篇（更丰富的内链网络）
+- ✅ 文章发表: 新概念英语的写作价值.md（Format D2 — 新概念英语写作拆解分析）
 
 ## 待优化
 - NEXT 队列：添加文章搜索功能、文章分页
-- .hermes-heartbeat/ 部分文件已 tracked in git，需修复 .gitignore
 
 ## 技术状态
 - Gateway: 运行中
-- Blog 构建: 正常 (29 pages, 863ms)
-- 自动发布脚本: ✅ 正常（但只匹配 .txt 后缀，不匹配 .md）
+- Blog 构建: 正常 (30 pages)
+- 自动发布脚本: ✅ 正常（只匹配 .txt 后缀）
 - Cron 心跳: ✅ 活跃 (Work Heartbeat 每30m, Short Review 每12h)
