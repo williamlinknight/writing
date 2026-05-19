@@ -1,4 +1,4 @@
-# Current State — 2026-05-19 14:55
+# Current State — 2026-05-19 17:26
 
 ## 当前阶段
 稳定运行 — 第27篇博客文章已上线
@@ -29,9 +29,10 @@
 - ✅ 文章列表分页功能（12篇/页，客户端JS分页 + 搜索时自动禁用分页）
 - ✅ 文章搜索功能标记为已完成（已在之前轮次实现 — 标题+描述客户端搜索）
 - ✅ 手动内链：gaokao-news-reading-strategies ←→ gaokao-argumentative-reading-strategies（高考阅读姊妹篇互链）
+- ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
 
 ## 待优化
-- NEXT 队列：添加更多相关文章链接
+- NEXT 队列：继续手动内链（句式扩写↔新概念英语互链等）
 
 ## 技术状态
 - Gateway: 运行中

@@ -1,10 +1,10 @@
-# Task Queue — 2026-05-19 14:20
+# Task Queue — 2026-05-19 17:26
 
 ## NOW
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链。继续：zhongkao策略篇互链、句式扩写↔新概念英语互链等）
+- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链。继续：句式扩写↔新概念英语互链等）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -42,3 +42,5 @@
 - ✅ 文章发表: 背了3000个单词作文还是拿不到高分.md（Format C — 词汇输入与写作产出差距角度，自动发布脚本处理）
 - ✅ 相关文章推荐从3篇改为5篇（更丰富的内链网络）
 - ✅ 文章发表: 新概念英语的写作价值.md（Format D2 — 新概念英语写作拆解分析，自动发布脚本处理）
+- ✅ 手动内链：gaokao-news-reading-strategies ←→ gaokao-argumentative-reading-strategies（高考阅读姊妹篇互链）
+- ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
