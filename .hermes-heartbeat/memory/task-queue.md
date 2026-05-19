@@ -1,15 +1,14 @@
-# Task Queue — 2026-05-19 08:04
+# Task Queue — 2026-05-19 08:37
 
 ## NOW
 - [ ] （空闲 — 等待新的 blog_*.txt 自动发布或选择 Desktop TXT 转为文章）
 
 ## NEXT
-- [ ] 添加「关于我」页面内容
 - [ ] 添加更多相关文章链接
-
-## LATER
 - [ ] 添加文章搜索功能
 - [ ] 文章分页
+
+## LATER
 - [ ] RSS 输出优化
 - [ ] 添加文章评论功能
 - [ ] 添加微信引流二维码
@@ -32,3 +31,5 @@
 - ✅ 30句教辅版核对 — 话题已发布在 zhongkao-30-sentence-patterns.md，无需补充
 - ✅ 文章发表: zhongkao-cloze-test-strategies.md（中考英语完形填空解题策略）
 - ✅ 文章发表: zhongkao-reading-comprehension-strategies.md（中考英语阅读理解解题策略）
+- ✅ 关于页面内容充实（详细个人介绍、GEO数据、对比表、品牌页脚）
+- ✅ 首页页脚统一为品牌页脚（含微信ID）
