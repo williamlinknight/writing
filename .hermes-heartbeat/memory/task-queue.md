@@ -1,7 +1,7 @@
-# Task Queue — 2026-05-19 11:35
+# Task Queue — 2026-05-19 12:08
 
 ## NOW
-- [ ] 桌面还有 1 个 blog_*.md（sentence-expansion-workbook）——话题与 essay-expansion-techniques.md 重叠，跳过
+（无）
 
 ## NEXT
 - [ ] 添加更多相关文章链接
@@ -38,4 +38,4 @@
 - ✅ 文章发表: zhaokao-growth-three-dimensions.md（2026中考英语作文预测：时光慢邮成长三维论）
 - ✅ 文章发表: 50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
-- ⏸️ blog_sentence-expansion-workbook.md 跳过——话题与 essay-expansion-techniques.md 重叠
+- ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）——前一轮误判为重复，修正后发布
