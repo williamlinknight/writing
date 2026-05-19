@@ -39,6 +39,7 @@
 - ✅ 手动内链：背了3000个单词作文还是拿不到高分 ←→ essay-expansion-techniques（词汇输入差距↔扩写方案互链）
 - ✅ 手动内链：17-20-ceiling ←→ vague-feedback-to-action（促销集群互链 #1 — 分数瓶颈↔反馈质量角度）
 - ✅ 手动内链：50seconds-vs-60minutes ←→ vague-feedback-to-action（促销集群互链 #2 — 时间对比↔反馈质量角度）
+| ✅ 手动内链：essay-correction-service-promo ←→ 17-20-ceiling（促销集群互链 #3 — 服务推广↔分数瓶颈角度）
 
 ## 技术状态
 - Gateway: 运行中
