@@ -1,17 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-20 00:08 (手动内链：continuation-writing-ten-sentences ↔ zhaokao-growth-three-dimensions续写技术↔中考预测互链)
+## 2026-05-20 00:45 (手动内链：health-b1-model-essay ↔ zhongkao-common-mistakes — B1话题范文↔中考常见扣分点互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:
   - 读取所有状态文件 ✅
   - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
-  - continuation-writing-ten-sentences.md 添加指向zhaokao-growth-three-dimensions的推荐链接 ✅
-  - zhaokao-growth-three-dimensions.md 添加指向continuation-writing-ten-sentences的推荐链接 ✅
-  - 更新 interlinking-pairs.md（移到✅区域 + 清理Priority 2已完成的重复条目）✅
+  - health-b1-model-essay.md 添加指向zhongkao-common-mistakes的推荐链接 ✅
+  - zhongkao-common-mistakes.md 添加指向health-b1-model-essay的推荐链接（在已有interlink之后）✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 清理Priority 3已完成的条目）✅
   - 构建成功 (30 pages) ✅
   - Git commit + push 成功 ✅
 - 桌面待定文件: 无
-- 下一步: NEXT 队列 — Priority 3 health-b1-model-essay ↔ zhongkao-common-mistakes
+- 下一步: NEXT 队列 — Priority 2: sentence-expansion-workbook-promo ↔ essay-expansion-techniques
 - 阻塞: 无
 
 ## 2026-05-19 22:33 (手动内链：50seconds-vs-60minutes ↔ vague-feedback-to-action促销集群互链)
