@@ -45,6 +45,7 @@
 - ✅ 手动内链：sentence-expansion-workbook-promo ←→ essay-expansion-techniques（Format C练习册推广↔Format D句式扩写技巧互链）
 - ✅ 手动内链：gaokao-writing-phrases ←→ gaokao-argumentative-reading-strategies（高考句式↔议论文阅读互链）
 - ✅ 手动内链：zhongkao-117-to-130 ←→ zhongkao-common-mistakes（提分路径↔扣分分析互链）
+- ✅ 手动内链：oxford-reading-tree-guide ←→ zhongkao-reading-comprehension-strategies（分级阅读↔中考阅读理解策略互链）
 
 ## 技术状态
 - Gateway: 运行中
