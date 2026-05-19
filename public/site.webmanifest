@@ -3,7 +3,7 @@
   "short_name": "厦门灯塔",
   "description": "英文作文逐句批改服务 | 厦门灯塔威廉老师",
   "start_url": "/",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#FFF8EF",
   "theme_color": "#E67E60",
   "icons": [
