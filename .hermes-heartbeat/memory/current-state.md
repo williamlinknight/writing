@@ -35,6 +35,7 @@
 - ✅ 手动内链：zhongkao-common-mistakes ←→ zhongkao-30-sentence-patterns（问题↔解决方案互链）
 - ✅ 手动内链：high-school-100-to-120 ←→ middle-to-high-school-english-drop（高中提分↔初高断崖分析互链）
 - ✅ 手动内链：zhongkao-30-sentence-patterns ←→ zhongkao-china-business-card（核心句型↔中国名片互链）
+- ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
 
 ## 技术状态
 - Gateway: 运行中

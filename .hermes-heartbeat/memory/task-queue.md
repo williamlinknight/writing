@@ -4,7 +4,7 @@
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链、核心句型↔中国名片互链。继续：ielts-first-exam-to-6.5 ↔ ielts-essay-topics-2020-2024）
+- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链、核心句型↔中国名片互链、IELTS阅读策略↔写作高频题库互链。继续：背了3000个单词作文还是拿不到高分 ↔ essay-expansion-techniques）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -47,3 +47,6 @@
 - ✅ 手动内链：zhongkao-listening-test-strategies ←→ zhongkao-cloze-test-strategies（中考听说测试↔完形填空策略互链）
 - ✅ 手动内链：essay-expansion-techniques ←→ 新概念英语的写作价值（句式扩写↔新概念英语理论互链）
 - ✅ 手动内链：zhongkao-common-mistakes ←→ zhongkao-30-sentence-patterns（问题↔解决方案互链）
+- ✅ 手动内链：high-school-100-to-120 ←→ middle-to-high-school-english-drop（高中提分↔初高断崖分析互链）
+- ✅ 手动内链：zhongkao-30-sentence-patterns ←→ zhongkao-china-business-card（核心句型↔中国名片互链）
+- ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
