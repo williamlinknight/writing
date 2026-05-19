@@ -31,7 +31,7 @@
 - ✅ 手动内链：gaokao-news-reading-strategies ←→ gaokao-argumentative-reading-strategies（高考阅读姊妹篇互链）
 - ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
 
-## 待优化
+- ✅ 手动内链：zhongkao-listening-test-strategies ←→ zhongkao-cloze-test-strategies（中考听说测试↔完形填空策略互链）
 - NEXT 队列：继续手动内链（句式扩写↔新概念英语互链等）
 
 ## 技术状态
