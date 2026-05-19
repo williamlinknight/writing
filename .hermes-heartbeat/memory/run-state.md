@@ -1,5 +1,19 @@
 # Run State — Last Heartbeat
 
+## 2026-05-20 01:17 (手动内链：sentence-expansion-workbook-promo ↔ essay-expansion-techniques — Format C↔Format D互链)
+- 类型: optimization (manual interlinking)
+- 完成事项:
+  - 读取所有状态文件 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
+  - sentence-expansion-workbook-promo.md 添加指向essay-expansion-techniques的推荐链接 ✅
+  - essay-expansion-techniques.md 添加指向sentence-expansion-workbook-promo的推荐链接（在已有interlinks之后）✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 清理Priority 2已完成的条目）✅
+  - 构建成功 (30 pages) ✅
+  - Git commit + push 成功 ✅
+- 桌面待定文件: 无
+- 下一步: NEXT 队列 — Priority 3: gaokao-writing-phrases ↔ gaokao-argumentative-reading-strategies
+- 阻塞: 无
+
 ## 2026-05-20 00:45 (手动内链：health-b1-model-essay ↔ zhongkao-common-mistakes — B1话题范文↔中考常见扣分点互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:

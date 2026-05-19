@@ -31,6 +31,8 @@ The sun was setting, painting the sky in shades of orange and purple.
 
 用好这三个句式，读后续写至少提5分。
 
+> **📌 相关推荐：** 议论文阅读是高考英语的另一大难点。推荐阅读 [《高考英语议论文阅读：三步拆解行文逻辑，从绕迷宫到直达主旨》](/blog/gaokao-argumentative-reading-strategies/) —— 学会论证分析框架，阅读和写作同步提升。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
