@@ -1,5 +1,19 @@
 # Run State — Last Heartbeat
 
+## 2026-05-20 05:15 (手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5 双向互链)
+- 类型: optimization (manual interlinking)
+- 完成事项:
+  - 读取所有状态文件 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
+  - ielts-ai-human-correction.md → ielts-first-exam-to-6.5 已有内链（上轮创建时添加）✅
+  - ielts-first-exam-to-6.5.md → ielts-ai-human-correction 添加反向推荐链接 ✅
+  - 更新 interlinking-pairs.md（one-way→bidirectional）✅
+  - 构建成功 (31 pages) ✅
+  - Git commit + push 成功 ✅
+- 桌面待定文件: 无
+- 下一步: NEXT 队列为空 — 待新内容
+- 阻塞: 无
+
 ## 2026-05-20 04:41 (第28篇文章发表：ielts-ai-human-correction — AI vs human IELTS writing correction)
 - 类型: content (new blog post from Desktop file)
 - 完成事项:

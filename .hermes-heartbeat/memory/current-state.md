@@ -49,6 +49,7 @@
 - ✅ 手动内链：junior-high-essay-correction-farming ←→ zhongkao-common-mistakes（初中批改案例↔中考常见扣分点互链）
 - ✅ **全部手动内链已完成** — 所有27篇博客的 natural pair 已完成双向互链（共19对）
 - ✅ 文章发表: ielts-ai-human-correction.md（雅思写作卡在6分？别让AI成了你的"分数天花板" — AI vs human correction）
+- ✅ 手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5（第28篇新文章 ↔ 雅思阅读策略双向互链）
 
 ## 技术状态
 - Gateway: 运行中
