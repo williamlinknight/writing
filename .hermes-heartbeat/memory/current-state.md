@@ -32,7 +32,9 @@
 - ✅ 手动内链：zhongkao-cloze-test-strategies ←→ zhongkao-reading-comprehension-strategies（中考完形填空↔阅读理解策略互链）
 
 - ✅ 手动内链：zhongkao-listening-test-strategies ←→ zhongkao-cloze-test-strategies（中考听说测试↔完形填空策略互链）
-- NEXT 队列：继续手动内链（句式扩写↔新概念英语互链等）
+- ✅ 手动内链：essay-expansion-techniques ←→ 新概念英语的写作价值（句式扩写↔新概念英语理论互链）
+
+- NEXT 队列：继续手动内链（zhongkao-common-mistakes ↔ zhongkao-30-sentence-patterns 等）
 
 ## 技术状态
 - Gateway: 运行中
