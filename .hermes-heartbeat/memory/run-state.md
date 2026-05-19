@@ -1,17 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-19 21:57 (手动内链：17-20-ceiling ↔ vague-feedback-to-action促销集群互链)
+## 2026-05-19 22:33 (手动内链：50seconds-vs-60minutes ↔ vague-feedback-to-action促销集群互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:
   - 读取所有状态文件 ✅
-  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
-  - 17-20-ceiling.md 添加指向vague-feedback-to-action的推荐链接 ✅
-  - vague-feedback-to-action.md 添加指向17-20-ceiling的推荐链接 ✅
-  - 更新 interlinking-pairs.md（移到✅区域）✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
+  - 50seconds-vs-60minutes.md 添加指向vague-feedback-to-action的推荐链接 ✅
+  - vague-feedback-to-action.md 添加指向50seconds-vs-60minutes的推荐链接 ✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 清理已完成的重复条目）✅
   - 构建成功 (30 pages) ✅
   - Git commit + push 成功 ✅
 - 桌面待定文件: 无
-- 下一步: NEXT 队列 — Priority 2 促销集群互链（50seconds-vs-60minutes ↔ vague-feedback-to-action）
+- 下一步: NEXT 队列 — Priority 2 促销集群互链（essay-correction-service-promo ↔ 17-20-ceiling）
 - 阻塞: 无
 
 ## 2026-05-19 20:49 (手动内链：IELTS阅读策略↔写作高频题库互链)
