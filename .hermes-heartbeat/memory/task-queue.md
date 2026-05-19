@@ -1,10 +1,9 @@
-# Task Queue — 2026-05-19 10:31
+# Task Queue — 2026-05-19 11:35
 
 ## NOW
-- [ ] 桌面还有 1 个 blog_*.md 待转为文章: vague-feedback-to-action
+- [ ] 桌面还有 1 个 blog_*.md（sentence-expansion-workbook）——话题与 essay-expansion-techniques.md 重叠，跳过
 
 ## NEXT
-- [ ] 发布 blog_vague-feedback-to-action.md（模糊反馈 vs 具体行动）
 - [ ] 添加更多相关文章链接
 - [ ] 添加文章搜索功能
 - [ ] 文章分页
@@ -38,3 +37,5 @@
 - ✅ 文章发表: 17-20-ceiling.md
 - ✅ 文章发表: zhaokao-growth-three-dimensions.md（2026中考英语作文预测：时光慢邮成长三维论）
 - ✅ 文章发表: 50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
+- ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
+- ⏸️ blog_sentence-expansion-workbook.md 跳过——话题与 essay-expansion-techniques.md 重叠
