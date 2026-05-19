@@ -1,4 +1,4 @@
-# Task Queue — 2026-05-19 07:32
+# Task Queue — 2026-05-19 08:04
 
 ## NOW
 - [ ] （空闲 — 等待新的 blog_*.txt 自动发布或选择 Desktop TXT 转为文章）
@@ -6,7 +6,6 @@
 ## NEXT
 - [ ] 添加「关于我」页面内容
 - [ ] 添加更多相关文章链接
-- [ ] Desktop 中考复习-阅读理解解题策略.md → 已处理完形填空，仍有阅读理解策略可发
 
 ## LATER
 - [ ] 添加文章搜索功能
@@ -32,3 +31,4 @@
 - ✅ 文章发表: essay-expansion-techniques.md（中考英语作文扩写提分技巧）
 - ✅ 30句教辅版核对 — 话题已发布在 zhongkao-30-sentence-patterns.md，无需补充
 - ✅ 文章发表: zhongkao-cloze-test-strategies.md（中考英语完形填空解题策略）
+- ✅ 文章发表: zhongkao-reading-comprehension-strategies.md（中考英语阅读理解解题策略）
