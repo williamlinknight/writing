@@ -1,4 +1,4 @@
-# Task Queue — 2026-05-19 12:08
+# Task Queue — 2026-05-19 12:40
 
 ## NOW
 （无）
@@ -39,3 +39,4 @@
 - ✅ 文章发表: 50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
 - ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）——前一轮误判为重复，修正后发布
+- ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）

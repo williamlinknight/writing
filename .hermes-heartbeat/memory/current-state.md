@@ -21,12 +21,13 @@
 - ✅ 文章发表: 50seconds-vs-60minutes.md（校内50秒 vs 灯塔60分钟逐句批改对比）
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
 - ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）
+- ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）
 
 ## 待优化
 - NEXT 队列：添加相关文章链接、搜索功能、分页
 
 ## 技术状态
 - Gateway: 运行中
-- Blog 构建: 正常 (26 pages, 933ms)
+- Blog 构建: 正常 (27 pages, 935ms)
 - 自动发布脚本: ✅ 正常（但只匹配 .txt 后缀，不匹配 .md）
 - Cron 心跳: ✅ 活跃 (Work Heartbeat 每30m, Short Review 每12h)
