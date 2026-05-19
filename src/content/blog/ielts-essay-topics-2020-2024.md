@@ -145,6 +145,8 @@ What are the causes of intense job competition, and how can job seekers improve 
 - **优缺点题** 和 **原因解决题** 结构较固定，记好模板即可
 - **高频话题重叠区：** AI、社交媒体、远程工作 这三个话题在多种题型中出现，务必重点准备
 
+> **📌 相关推荐：** 如果你是首次备考或阅读来不及写完，推荐阅读 [《雅思首考阅读没写完？从焦虑到6.5》](/blog/ielts-first-exam-to-6.5/) —— 拆解时间管理策略和从5.5到6.5的系统训练方案。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*

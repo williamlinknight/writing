@@ -1,28 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-19 19:43 (手动内链：高中提分↔初高断崖分析互链)
+## 2026-05-19 20:16 (手动内链：核心句型↔中国名片互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:
   - 读取所有状态文件 ✅
   - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
-  - high-school-100-to-120.md 添加指向初高断崖分析的推荐链接 ✅
-  - middle-to-high-school-english-drop.md 添加指向100→120提分方案的推荐链接 ✅
-  - 更新 interlinking-pairs.md（移到✅区域）✅
+  - zhongkao-30-sentence-patterns.md 添加指向中国名片作文的推荐链接 ✅
+  - zhongkao-china-business-card.md 添加指向30个核心句型的推荐链接 ✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 清理已完成的 pair）✅
   - 构建成功 (30 pages) ✅
   - Git commit + push 成功 ✅
 - 桌面待定文件: 无
-- 下一步: NEXT 队列 — 继续手动内链（zhongkao-30-sentence-patterns ↔ zhongkao-china-business-card）
-- 阻塞: 无
-- 类型: optimization (manual interlinking)
-- 完成事项:
-  - 读取所有状态文件 ✅
-  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
-  - zhongkao-common-mistakes.md 添加指向30个核心句型的推荐链接 ✅
-  - zhongkao-30-sentence-patterns.md 添加指向四种常见扣分点的推荐链接 ✅
-  - 构建成功 (30 pages) ✅
-  - Git commit + push 成功 ✅
-- 桌面待定文件: 无
-- 下一步: NEXT 队列 — 继续手动内链（zhongkao-30-sentence-patterns ↔ zhongkao-china-business-card）
+- 下一步: NEXT 队列 — 继续手动内链（ielts-first-exam-to-6.5 ↔ ielts-essay-topics-2020-2024）
 - 阻塞: 无
 
 ## 2026-05-19 18:36 (手动内链：句式扩写↔新概念英语理论互链)

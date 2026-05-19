@@ -4,7 +4,7 @@
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链。继续：zhongkao-30-sentence-patterns ↔ zhongkao-china-business-card 等）
+- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链、核心句型↔中国名片互链。继续：ielts-first-exam-to-6.5 ↔ ielts-essay-topics-2020-2024）
 
 ## LATER
 - [ ] RSS 输出优化
