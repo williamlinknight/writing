@@ -4,7 +4,6 @@
 （无）
 
 ## NEXT
-- [ ] 文章发表: 背了3000个单词作文还是拿不到高分 (blog_背了3000个单词作文还是拿不到高分.txt 已在 Desktop)
 - [ ] 添加更多相关文章链接
 - [ ] 添加文章搜索功能
 - [ ] 文章分页
@@ -18,7 +17,7 @@
 （无）
 
 ## DONE
-- 13 篇 blog 文章上线
+- 14 篇 blog 文章上线
 - GEO 优化
 - 自动发布脚本创建
 - 自动发布脚本路径已验证 ✅
@@ -41,3 +40,5 @@
 - ✅ 文章发表: vague-feedback-to-action.md（模糊反馈 vs 具体行动——反馈质量角度）
 - ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）——前一轮误判为重复，修正后发布
 - ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）
+- ✅ 文章发表: gaokao-argumentative-reading-strategies.md（高考英语议论文阅读：三步拆解行文逻辑）
+- ✅ 文章发表: 背了3000个单词作文还是拿不到高分.md（Format C — 词汇输入与写作产出差距角度，自动发布脚本处理）

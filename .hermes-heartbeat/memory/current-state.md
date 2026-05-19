@@ -7,7 +7,7 @@
 维护和更新厦门灯塔教育博客 williamwriting.com
 
 ## 已完成
-- 23 篇 blog 文章已发布
+- 24 篇 blog 文章已发布
 - GEO 优化完成（专家数据声明、对比表格、统一页脚）
 - OG 分享图已添加
 - 灯塔图标 & PWA Manifest 已配置
@@ -23,6 +23,7 @@
 - ✅ 文章发表: sentence-expansion-workbook-promo.md（句式扩写练习册 Format C 推广文章）
 - ✅ 文章发表: gaokao-news-reading-strategies.md（高考英语阅读之新闻类文章全解析）
 - ✅ 文章发表: gaokao-argumentative-reading-strategies.md（高考英语议论文阅读：三步拆解行文逻辑）
+- ✅ 文章发表: 背了3000个单词作文还是拿不到高分.md（Format C — 词汇输入与写作产出差距角度）
 
 ## 待优化
 - NEXT 队列：添加相关文章链接、搜索功能、分页

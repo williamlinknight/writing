@@ -31,12 +31,12 @@ const pubDateDisplay = pubDate.toLocaleDateString('zh-CN', {
 const postSlug = post.id.replace(/\.(md|mdx)$/, '');
 const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
 
-// Related posts (exclude current, pick 3 random)
+// Related posts (exclude current, pick 5 random for richer internal linking)
 const allPosts = await getCollection('blog');
 const relatedPosts = allPosts
   .filter((p) => p.id !== post.id)
   .sort(() => Math.random() - 0.5)
-  .slice(0, 3);
+  .slice(0, 5);
 
 // Pre-compute JSON-LD to avoid Astro script-type issues
 const jsonLd = JSON.stringify({
