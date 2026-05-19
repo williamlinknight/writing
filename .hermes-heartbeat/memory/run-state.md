@@ -1,5 +1,18 @@
 # Run State — Last Heartbeat
 
+## 2026-05-19 16:53 (手动内链：高考阅读姊妹篇互链)
+- 类型: optimization (manual interlinking)
+- 完成事项:
+  - 读取所有状态文件 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt 文件 ✅
+  - gaokao-news-reading-strategies.md 添加指向议论文阅读的推荐链接 ✅
+  - gaokao-argumentative-reading-strategies.md 添加指向新闻类阅读的推荐链接 ✅
+  - 构建成功 (30 pages) ✅
+  - Git commit + push 成功 ✅
+- 桌面待定文件: 无
+- 下一步: 继续 NEXT 队列 — 继续手动内链（zhongkao策略篇、句式扩写↔新概念英语等）
+- 阻塞: 无
+
 ## 2026-05-19 16:17 (文章分页功能)
 - 类型: feature (client-side pagination)
 - 完成事项:
