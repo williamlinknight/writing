@@ -4,7 +4,7 @@
 （无）
 
 ## NEXT
-- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链、核心句型↔中国名片互链、IELTS阅读策略↔写作高频题库互链。继续：背了3000个单词作文还是拿不到高分 ↔ essay-expansion-techniques）
+- [ ] 添加更多相关文章链接（已做：gaokao阅读姊妹篇互链、zhongkao完形填空↔阅读理解互链、zhongkao听说↔完形填空互链、句式扩写↔新概念英语理论互链、中考常见扣分点↔30个核心句型互链、高中100→120↔初中到高中成绩下滑互链、核心句型↔中国名片互链、IELTS阅读策略↔写作高频题库互链、背了3000个单词↔句式扩写互链。继续：Priority 2 促销集群互链）
 
 ## LATER
 - [ ] RSS 输出优化
@@ -50,3 +50,4 @@
 - ✅ 手动内链：high-school-100-to-120 ←→ middle-to-high-school-english-drop（高中提分↔初高断崖分析互链）
 - ✅ 手动内链：zhongkao-30-sentence-patterns ←→ zhongkao-china-business-card（核心句型↔中国名片互链）
 - ✅ 手动内链：ielts-first-exam-to-6.5 ←→ ielts-essay-topics-2020-2024（IELTS阅读策略↔写作高频题库互链）
+- ✅ 手动内链：背了3000个单词作文还是拿不到高分 ←→ essay-expansion-techniques（词汇输入差距↔扩写方案互链）
