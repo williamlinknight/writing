@@ -1,4 +1,4 @@
-# Task Queue — 2026-05-19 08:37
+# Task Queue — 2026-05-19 09:10
 
 ## NOW
 - [ ] （空闲 — 等待新的 blog_*.txt 自动发布或选择 Desktop TXT 转为文章）
@@ -33,3 +33,4 @@
 - ✅ 文章发表: zhongkao-reading-comprehension-strategies.md（中考英语阅读理解解题策略）
 - ✅ 关于页面内容充实（详细个人介绍、GEO数据、对比表、品牌页脚）
 - ✅ 首页页脚统一为品牌页脚（含微信ID）
+- ✅ 文章发表: zhongkao-china-business-card.md（中考英语写作之中国名片）
