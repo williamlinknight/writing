@@ -1,17 +1,17 @@
 # Run State — Last Heartbeat
 
-## 2026-05-20 01:52 (手动内链：gaokao-writing-phrases ↔ gaokao-argumentative-reading-strategies — 高考句式↔议论文阅读互链)
+## 2026-05-20 02:26 (手动内链：zhongkao-117-to-130 ↔ zhongkao-common-mistakes — 提分路径↔扣分分析互链)
 - 类型: optimization (manual interlinking)
 - 完成事项:
   - 读取所有状态文件 ✅
   - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
-  - gaokao-writing-phrases.md 添加指向gaokao-argumentative-reading-strategies的推荐链接 ✅
-  - gaokao-argumentative-reading-strategies.md 添加指向gaokao-writing-phrases的推荐链接（在已有interlink之后）✅
-  - 更新 interlinking-pairs.md（移到✅区域 + 清理Priority 3已完成的条目）✅
+  - zhongkao-117-to-130.md 添加指向zhongkao-common-mistakes的推荐链接 ✅
+  - zhongkao-common-mistakes.md 添加指向zhongkao-117-to-130的推荐链接（在已有interlink之后）✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 恢复意外删除的oxford行）✅
   - 构建成功 (30 pages) ✅
-  - Git commit + push 成功 ✅（配置git proxy后推送成功）
+  - Git commit + push 成功 ✅（修复current-state.md格式继承bug）
 - 桌面待定文件: 无
-- 下一步: NEXT 队列 — Priority 3: zhongkao-117-to-130 ↔ zhongkao-common-mistakes
+- 下一步: NEXT 队列 — Priority 3: oxford-reading-tree-guide ↔ zhongkao-reading-comprehension-strategies
 - 阻塞: 无
 
 ## 2026-05-20 00:45 (手动内链：health-b1-model-essay ↔ zhongkao-common-mistakes — B1话题范文↔中考常见扣分点互链)
