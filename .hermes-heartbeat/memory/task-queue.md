@@ -1,12 +1,12 @@
-# Task Queue — 2026-05-18 16:28
+# Task Queue — 2026-05-19 07:32
 
 ## NOW
 - [ ] （空闲 — 等待新的 blog_*.txt 自动发布或选择 Desktop TXT 转为文章）
 
 ## NEXT
-- [ ] 中考30个核心句型教辅版.txt → 检查是否需要补充已发表的文章
 - [ ] 添加「关于我」页面内容
 - [ ] 添加更多相关文章链接
+- [ ] Desktop 中考复习-阅读理解解题策略.md → 已处理完形填空，仍有阅读理解策略可发
 
 ## LATER
 - [ ] 添加文章搜索功能
@@ -30,3 +30,5 @@
 - 文章发表: high-school-100-to-120.md（高中英语从100提到120）
 - 文章发表: ielts-first-exam-to-6.5.md（雅思首考阅读没写完？从焦虑到6.5）
 - ✅ 文章发表: essay-expansion-techniques.md（中考英语作文扩写提分技巧）
+- ✅ 30句教辅版核对 — 话题已发布在 zhongkao-30-sentence-patterns.md，无需补充
+- ✅ 文章发表: zhongkao-cloze-test-strategies.md（中考英语完形填空解题策略）
