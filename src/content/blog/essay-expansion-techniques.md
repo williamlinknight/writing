@@ -127,6 +127,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你对什么样的叙事结构能写出打动人心的文章感兴趣，推荐阅读 [《哈佛文书揭秘：如何用文字打动顶尖学府 —— Sarikaの"I, Too, Can Dance"深度解析》](/blog/harvard-essay-analysis-sarika/) —— 逐句解析哈佛优秀文书的叙事技巧，学习如何通过独特的叙事视角和情感弧线来让文章脱颖而出。
 
+> **📌 相关推荐：** 如果你想把句子从"Tell"变成"Show"，推荐阅读 [《为什么你的作文被批"太干"？——英文写作"Show, don't tell"技巧深度解析》](/blog/show-dont-tell-writing-technique/) —— 通过《Wonder》和《老人与海》的经典案例，学习如何用动作、细节和环境代替空洞的形容词。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
