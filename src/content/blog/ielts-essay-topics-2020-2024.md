@@ -149,6 +149,8 @@ What are the causes of intense job competition, and how can job seekers improve 
 
 > **📌 相关推荐：** 学会题型框架是提分第一步，推荐阅读 [《雅思写作单边讨论类（Agree/Disagree）满分攻略：从简单赞同到逻辑碾压》](/blog/ielts-agree-disagree-strategy/) —— 解析7分+标准框架：让步反驳、逻辑推演、高分表达对比。
 
+> **📌 相关推荐：** 双边讨论（Discuss Both Views）是雅思大作文第二大高频题型，推荐阅读 [《双边讨论类（Discuss Both Views）高分技巧：如何避免观点模糊？》](/blog/ielts-discuss-both-views-strategy/) —— 解析双边讨论核心框架、普通 vs 高分对比、备考建议。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
