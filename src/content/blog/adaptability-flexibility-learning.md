@@ -146,6 +146,8 @@ If managers are unwilling to cultivate these qualities themselves, they cannot e
 | cynicism | ['sɪnɪsɪz(ə)m] | 玩世不恭 |
 | shorthand for | — | 是…的代名词 |
 
+> **📌 相关推荐：** 如果你想把灵活运用英语的理念落实到具体的写作技巧中，推荐阅读 [《中考英语作文扩写提分技巧：一句话从3分到满分》](/blog/essay-expansion-techniques/) —— 掌握5大扩写心法，从"灵活理解"进阶为"灵活表达"。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
