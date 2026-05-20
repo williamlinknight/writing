@@ -46,6 +46,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你想看一篇真实的初中英语作文批改案例，推荐阅读 [《初中英语作文批改范例：这篇关于「农耕 vs 采集」的文章》](/blog/junior-high-essay-correction-farming/) —— 学生思路与表达之间的差距是如何通过逐句批改一步步缩小的。
 
+> **📌 相关推荐：** 如果你想了解中考情感类作文的写作方法，推荐阅读 [《中考英语写作｜情感类作文——以"The Hero in My Heart"为例》](/blog/zhongkao-emotional-essay-writing/) —— 三段式结构 + 核心句型 + 素材库，告别"有内容无真情"。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*

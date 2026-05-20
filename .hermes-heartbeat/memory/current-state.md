@@ -1,13 +1,13 @@
-# Current State — 2026-05-20 06:20
+# Current State — 2026-05-20 09:33
 
 ## 当前阶段
-稳定运行 — 第29篇博客文章已上线
+稳定运行 — 第33篇博客文章已上线
 
 ## 主任务
 维护和更新厦门灯塔教育博客 williamwriting.com
 
 ## 已完成
-- 28 篇 blog 文章已发布
+- 33 篇 blog 文章已发布
 - GEO 优化完成（专家数据声明、对比表格、统一页脚）
 - OG 分享图已添加
 - 灯塔图标 & PWA Manifest 已配置
@@ -52,6 +52,10 @@
 - ✅ 手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5（第28篇新文章 ↔ 雅思阅读策略双向互链）
 - ✅ RSS 输出优化 — 添加 @astrojs/rss 包，创建 /rss.xml，添加 autodiscovery link
 - ✅ 文章发表: zhongkao-emotional-essay-writing.md（中考写作情感类作文——以"The Hero in My Heart"为例，Format D2）
+- ✅ 文章发表: adaptability-flexibility-learning.md（双语阅读：适应能力与成长型思维，Format D，含GEO数据blockquote+品牌页脚）
+- ✅ 文章发表: how-to-persist-in-writing.md（写作坚持方法论：3个写作计划+文笔提升路径，含GEO数据blockquote+品牌页脚）
+- ✅ 微信引流二维码 — 在 about.astro 页面添加 WeChat QR code（linstudio799）
+- ✅ 手动内链：zhongkao-emotional-essay-writing ↔ zhongkao-china-business-card（情感类作文↔中国名片介绍类互链，Priority 1/3）
 
 ## 技术状态
 - Gateway: 运行中

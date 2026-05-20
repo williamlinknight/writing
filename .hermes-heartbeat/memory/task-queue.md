@@ -1,14 +1,13 @@
-# Task Queue — 2026-05-20 05:15
+# Task Queue — 2026-05-20 09:33
 
 ## NOW
 （无）
 
 ## NEXT
-（无）
+- [ ] 手动内链：zhongkao-emotional-essay-writing ↔ zhongkao-common-mistakes（Priority 1/3 — 第2队）
 
 ## LATER
 - [ ] 添加文章评论功能
-- [ ] 添加微信引流二维码
 
 ## BLOCKED
 （无）
@@ -48,3 +47,6 @@
 - ✅ 手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5
 - ✅ RSS 输出优化 — @astrojs/rss 包安装，/rss.xml 端点创建，布局 autodiscovery link
 - ✅ 文章发表: zhongkao-emotional-essay-writing.md（中考写作情感类作文——以"The Hero in My Heart"为例，Format D2）
+- ✅ 文章发表: adaptability-flexibility-learning.md（双语阅读：适应能力与成长型思维，Format D）
+- ✅ 文章发表: how-to-persist-in-writing.md（写作坚持方法论，自动发布脚本处理）
+- ✅ 微信引流二维码 — about.astro 添加 WeChat QR code (linstudio799)

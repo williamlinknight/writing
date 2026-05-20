@@ -1,5 +1,21 @@
 # Run State — Last Heartbeat
 
+## 2026-05-20 11:11 (手动内链：zhongkao-emotional-essay-writing ↔ zhongkao-china-business-card — Priority 1/3)
+- 类型: optimization (manual interlinking)
+- 完成事项:
+  - 读取所有状态文件 ✅
+  - 检查 ~/Desktop/Daily/ — 无 blog_*.txt/blog_*.md 文件 ✅
+  - NOW/NEXT 队列均为空，但 interlinking-pairs.md Priority 1 仍有 3 对待处理 ✅
+  - zhongkao-emotional-essay-writing.md 添加指向中国名片作文的推荐链接 ✅
+  - zhongkao-china-business-card.md 添加指向情感类作文的推荐链接（在已有 interlink 之后）✅
+  - 更新 interlinking-pairs.md（移到✅区域 + 从 Priority 1 移除）✅
+  - 构建成功 (36 pages) ✅
+  - Git commit + push 成功 ✅
+- 博客数量: 33 篇
+- 桌面待定文件: 无新内容（ft-bilingual-articles/ 为双语阅读材料，非博客可发内容）
+- 下一步: Priority 1 仍有 2 队待处理 — zhongkao-emotional-essay-writing ↔ zhongkao-common-mistakes
+- 阻塞: 无
+
 ## 2026-05-20 06:20 (第29篇文章发表：zhongkao-emotional-essay-writing — 中考写作情感类作文)
 - 类型: content (new blog post from Desktop file)
 - 完成事项:
