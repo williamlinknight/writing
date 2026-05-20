@@ -75,6 +75,8 @@ Discuss Both Views的核心是：**通过展示双方，引出你的个人观点
 
 > **📌 相关推荐：** 熟悉高频话题有助于针对性练习，推荐阅读 [《雅思写作高频题库：Agree/Disagree + Discuss Both + 优缺点 + 原因解决 — 2020-2024中国大陆考情》](/blog/ielts-essay-topics-2020-2024/) —— 收录37道考场真题，覆盖四大题型，考场重复率极高。
 
+> **📌 相关推荐：** Problem & Solution 是雅思大作文第三大高频题型，推荐阅读 [《雅思写作问题解决类（Problem & Solution）满分攻略：从"喊口号"到"落地对策"》](/blog/ielts-problem-solution-strategy/) —— 从空泛对策到落地因果逻辑，掌握高分框架拿稳7分。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
