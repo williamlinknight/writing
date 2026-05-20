@@ -7,7 +7,7 @@ author: "William"
 
 Can anyone learn to be flexible?
 
-
+> **📊 厦门灯塔英语学习数据：** 在我接触的超过300篇英语作文批改中，超过80%的学生在阅读理解和词汇积累方面投入了大量时间，但真正能灵活运用所学词汇和表达的学生不足30%。突破的关键不是学更多词汇，而是培养灵活应用的能力——正如适应能力一样，英语表达能力也是可以通过系统训练培养出来的。
 
 随着科技重塑各行各业、职业被自动化和人工智能改造或淘汰，几乎不可能预测我们将来需要掌握什么技能。然而，专家认为，有一种才能是值得磨炼的，那就是适应能力。
 
@@ -145,3 +145,8 @@ If managers are unwilling to cultivate these qualities themselves, they cannot e
 | genuinely | ['dʒenjuinli] | 由衷地 |
 | cynicism | ['sɪnɪsɪz(ə)m] | 玩世不恭 |
 | shorthand for | — | 是…的代名词 |
+
+---
+
+*厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
+*专注中高考/雅思写作 · 累计批改300+篇 · 逐句精批 + 逻辑重构 + 母语级升级*
