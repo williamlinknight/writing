@@ -1,7 +1,7 @@
-# Current State — 2026-05-19 19:10
+# Current State — 2026-05-20 06:20
 
 ## 当前阶段
-稳定运行 — 第28篇博客文章已上线
+稳定运行 — 第29篇博客文章已上线
 
 ## 主任务
 维护和更新厦门灯塔教育博客 williamwriting.com
@@ -50,6 +50,8 @@
 - ✅ **全部手动内链已完成** — 所有27篇博客的 natural pair 已完成双向互链（共19对）
 - ✅ 文章发表: ielts-ai-human-correction.md（雅思写作卡在6分？别让AI成了你的"分数天花板" — AI vs human correction）
 - ✅ 手动内链：ielts-ai-human-correction ↔ ielts-first-exam-to-6.5（第28篇新文章 ↔ 雅思阅读策略双向互链）
+- ✅ RSS 输出优化 — 添加 @astrojs/rss 包，创建 /rss.xml，添加 autodiscovery link
+- ✅ 文章发表: zhongkao-emotional-essay-writing.md（中考写作情感类作文——以"The Hero in My Heart"为例，Format D2）
 
 ## 技术状态
 - Gateway: 运行中
