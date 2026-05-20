@@ -194,6 +194,8 @@ A week later, I was walking home from school when I saw someone waving at me. It
 
 > **📌 相关推荐：** 如果你对读后续写的高分句型感兴趣，推荐阅读 [《高考英语读后续写万能高分句型：用「两行半」点亮你的作文》](/blog/gaokao-continuation-writing-sentences/) —— 6个自带比喻和情感画面的万金油句型，写续写直接套用。
 
+> **📌 相关推荐：** 如果你想知道读后续写为什么写不好，推荐阅读 [《一篇文章讲透：读后续写为什么写不好》](/blog/gaokao-continuation-why-hard/) —— 深度剖析续写困难的三层原因，从根源理解问题。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
