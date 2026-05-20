@@ -151,37 +151,7 @@ const jsonLd = JSON.stringify({
         </button>
       </div>
 
-      {/* ========== 评论区 (Giscus) ========== */}
-      {/*
-        Giscus 评论系统 — 基于 GitHub Discussions
-        启用步骤（由用户操作）：
-          1. 打开 https://github.com/williamlinknight/writing/settings → 勾选 Discussions
-          2. 安装 Giscus App：https://github.com/apps/giscus
-          3. 访问 https://giscus.app 选择本仓库，获取 repo-id 和 category-id
-          4. 将下方 GISCUS_ENABLED 改为 true，填入 repo-id 和 category-id
-      */}
-      <div style="margin-top: 60px;">
-        <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: var(--text-heading); margin-bottom: 20px;">💬 评论</h3>
-        <script
-          src="https://giscus.app/client.js"
-          data-repo="williamlinknight/writing"
-          data-repo-id="REPLACE_ME"
-          data-category="Blog Comments"
-          data-category-id="REPLACE_ME"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="bottom"
-          data-theme="light"
-          data-lang="zh-CN"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async
-        >
-        </script>
-        <noscript>请启用 JavaScript 以查看评论。</noscript>
-      </div>
+
 
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
