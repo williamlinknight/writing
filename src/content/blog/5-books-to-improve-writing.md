@@ -124,6 +124,8 @@ author: 'William'
 
 > **📌 相关推荐：** 如果你想让描写从"干写"变成"展现"，推荐阅读 [《为什么你的作文被批"太干"？——英文写作"Show, don't tell"技巧深度解析》](/blog/show-dont-tell-writing-technique/) —— 通过对《Wonder》和《老人与海》的深度拆解，学习如何用细节让你的文字"活"起来。
 
+> 📌 相关推荐： 如果你想让英语摆脱“翻译感”，推荐阅读 [《为什么你的英语听起来像翻译软件？试试这些地道表达》](/blog/natural-english-expressions/) —— 通过《Charlotte's Web》和《Everything I Never Told You》的深度拆解，学习如何用精准的动词搭配写出自然英语。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*

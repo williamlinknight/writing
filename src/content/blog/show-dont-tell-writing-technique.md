@@ -85,6 +85,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你想让句子更丰富有层次，推荐阅读 [《英语作文如何"扩写"？5种实用句式扩展技巧》](/blog/essay-expansion-techniques/) —— 从简单句到复合句，掌握5种扩写手法，单句得分提升2-3分。
 
+> 📌 相关推荐： 如果你想让英语告别“翻译感”，推荐阅读 [《为什么你的英语听起来像翻译软件？试试这些地道表达》](/blog/natural-english-expressions/) —— 通过《Charlotte's Web》和《Everything I Never Told You》的深度拆解，学习如何用精准的动词搭配写出自然英语。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
