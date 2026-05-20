@@ -147,6 +147,8 @@ What are the causes of intense job competition, and how can job seekers improve 
 
 > **📌 相关推荐：** 如果你是首次备考或阅读来不及写完，推荐阅读 [《雅思首考阅读没写完？从焦虑到6.5》](/blog/ielts-first-exam-to-6.5/) —— 拆解时间管理策略和从5.5到6.5的系统训练方案。
 
+> **📌 相关推荐：** 学会题型框架是提分第一步，推荐阅读 [《雅思写作单边讨论类（Agree/Disagree）满分攻略：从简单赞同到逻辑碾压》](/blog/ielts-agree-disagree-strategy/) —— 解析7分+标准框架：让步反驳、逻辑推演、高分表达对比。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
