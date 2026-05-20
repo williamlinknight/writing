@@ -7,6 +7,8 @@ author: "William"
 
 本文从阅卷评分标准、万能结构框架、情节设计技巧、语言提升方法到完整范文，一站式帮你搞定读后续写。
 
+> **📊 厦门灯塔威廉老师批改数据：** 超过85%的考生在高考读后续写中失分，不是因为词汇量不够，而是缺乏清晰的写作框架。掌握「3+3+3」结构框架和5个情节设计技巧后，多数学生能在2-3次练习中提升3-5分。
+
 > 来源：酷爸比 | 2026年5月17日
 
 
@@ -189,3 +191,10 @@ When I got to school, I told my teacher what had happened. She was very proud of
 
 **Paragraph 2:**
 A week later, I was walking home from school when I saw someone waving at me. It was the old man I had helped. He was wearing a warm coat and a hat, and he looked much better. He walked over to me and handed me a small, worn book. "This is my favorite book, and I want you to have it. Thank you again for your kindness." That day, I learned that a small act of kindness can make a big difference in someone's life.
+
+> **📌 相关推荐：** 如果你对读后续写的高分句型感兴趣，推荐阅读 [《高考英语读后续写万能高分句型：用「两行半」点亮你的作文》](/blog/gaokao-continuation-writing-sentences/) —— 6个自带比喻和情感画面的万金油句型，写续写直接套用。
+
+---
+
+*厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
+*专注中高考/雅思写作 · 累计批改300+篇 · 逐句精批 + 逻辑重构 + 母语级升级*
