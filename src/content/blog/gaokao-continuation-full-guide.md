@@ -196,6 +196,8 @@ A week later, I was walking home from school when I saw someone waving at me. It
 
 > **📌 相关推荐：** 如果你想知道读后续写为什么写不好，推荐阅读 [《一篇文章讲透：读后续写为什么写不好》](/blog/gaokao-continuation-why-hard/) —— 深度剖析续写困难的三层原因，从根源理解问题。
 
+> **📌 相关推荐：** 如果你想系统学习读后续写的高分技巧（5要素分析法+两段功能分工+语言升级），推荐阅读 [《高中英语读后续写高分技巧（适配高考评分标准）》](/blog/gaokao-continuation-high-score-techniques/) —— 从原文解读到情节搭建再到语言升级，全流程系统教学。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
