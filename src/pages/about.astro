@@ -98,7 +98,18 @@ import Navbar from '../components/Navbar.astro';
 
     </div>
 
-    <div style="text-align: center; margin-top: 70px; margin-bottom: 40px;">
+    <!-- WeChat QR Code + CTA -->
+    <div style="text-align: center; margin-top: 60px; margin-bottom: 20px;">
+      <p style="font-size: 1.1rem; color: var(--brand); font-weight: 600; margin-bottom: 16px;">
+        扫码添加微信 · 备注"作文批改"
+      </p>
+      <img src="/wechat-qr.png" alt="厦门灯塔微信二维码" style="width: 180px; height: 180px; border: 3px solid var(--brand-light); border-radius: 12px; margin-bottom: 20px;" />
+      <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px;">
+        微信号：<strong style="color: var(--brand);">linstudio799</strong>
+      </p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 40px;">
       <a href="weixin://dl/chat?linstudio799" style="text-decoration: none;" onclick="alert('请复制微信号 linstudio799 添加微信（备注：作文批改）')">
         <button style="background: var(--brand); color: white; border: none; padding: 18px 60px; border-radius: 50px; font-size: 1.15rem; cursor: pointer; transition: filter 0.2s;"
                 onmouseover="this.style.filter='brightness(1.1)'" onmouseout="this.style.filter='none'">
