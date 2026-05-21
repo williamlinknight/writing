@@ -96,6 +96,8 @@ author: "William"
 
 > **📌 相关推荐：** Problem & Solution 是雅思大作文第三大高频题型，推荐阅读 [《雅思写作问题解决类（Problem & Solution）满分攻略：从"喊口号"到"落地对策"》](/blog/ielts-problem-solution-strategy/) —— 从空泛对策到落地因果逻辑，掌握高分框架拿稳7分。
 
+> **📌 相关推荐：** 你写观点总是干巴巴的？很多考生的核心问题是"观点空洞"而不自知。推荐阅读 [《雅思写作卡在6分？考官最反感的3个通病，改掉就能冲7》](/blog/ielts-three-common-mistakes/) —— 3个最常见的6分通病自查，看看你中了几个。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
