@@ -56,6 +56,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你收到过"language is too simple"的评语，推荐阅读 [《老师评语写着"language is too simple"，到底什么意思？》](/blog/language-too-simple-meaning/) —— 从"小学英语"到初三优秀水平，3个最基础的升级方法。
 
+> **📌 相关推荐：** 如果你想用3个简单方法帮孩子提升英语作文分数，推荐阅读 [《英语作文总扣分？3步多拿8分（家长在家就能帮孩子练的方法）》](/blog/three-writing-fix-methods/) —— 一句话只说一件事、模板句替代中文翻译、背单词改背短语，3个实用方法在家就能练。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
