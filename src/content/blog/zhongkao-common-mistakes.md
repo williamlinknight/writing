@@ -54,6 +54,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你想知道校园安全类邮件怎么写，推荐阅读 [《2026中考英语作文解题思路：校园安全回复邮件》](/blog/zhongkao-campus-safety-email/) —— 三分审题法拆解校园安全类回复邮件，基础版+进阶版双范文对照和评分标准。
 
+> **📌 相关推荐：** 如果你收到过"language is too simple"的评语，推荐阅读 [《老师评语写着"language is too simple"，到底什么意思？》](/blog/language-too-simple-meaning/) —— 从"小学英语"到初三优秀水平，3个最基础的升级方法。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
