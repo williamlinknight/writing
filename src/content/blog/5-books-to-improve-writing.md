@@ -124,7 +124,9 @@ author: 'William'
 
 > **📌 相关推荐：** 如果你想让描写从"干写"变成"展现"，推荐阅读 [《为什么你的作文被批"太干"？——英文写作"Show, don't tell"技巧深度解析》](/blog/show-dont-tell-writing-technique/) —— 通过对《Wonder》和《老人与海》的深度拆解，学习如何用细节让你的文字"活"起来。
 
-> 📌 相关推荐： 如果你想让英语摆脱“翻译感”，推荐阅读 [《为什么你的英语听起来像翻译软件？试试这些地道表达》](/blog/natural-english-expressions/) —— 通过《Charlotte's Web》和《Everything I Never Told You》的深度拆解，学习如何用精准的动词搭配写出自然英语。
+> 📌 相关推荐： 如果你想让英语摆脱"翻译感"，推荐阅读 [《为什么你的英语听起来像翻译软件？试试这些地道表达》](/blog/natural-english-expressions/) —— 通过《Charlotte's Web》和《Everything I Never Told You》的深度拆解，学习如何用精准的动词搭配写出自然英语。
+
+> **📌 相关推荐：** 如果你对原版阅读感兴趣，推荐阅读 [《中国中学生原版阅读进阶书单》](/blog/%E4%B8%AD%E5%AD%A6%E7%94%9F%E5%8E%9F%E7%89%88%E9%98%85%E8%AF%BB%E8%BF%9B%E9%98%B6%E4%B9%A6%E5%8D%95/) —— 从桥梁书到经典原著的四阶段进阶路线，帮助孩子建立可持续的英语阅读习惯。
 
 ---
 
