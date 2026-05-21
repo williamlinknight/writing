@@ -135,6 +135,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你收到过"language is too simple"的评语，推荐阅读 [《老师评语写着"language is too simple"，到底什么意思？》](/blog/language-too-simple-meaning/) —— 用3个最简单的升级方法，告别简单句堆砌。
 
+> **📌 相关推荐：** 如果你想看一个初二学生从6分到13分的真实提分过程，推荐阅读 [《从6分到13分，她只改了6次：一个初二学生的英语作文提分实录》](/blog/junior-writing-6-to-13-case-study/) —— 不背新单词、不学新语法，只是改变了写作方式，分数翻了一倍。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
