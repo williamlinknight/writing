@@ -170,23 +170,23 @@ const latestPosts = allPosts
     <!-- ============ PAIN POINTS ============ -->
     <section style="margin-bottom: 60px; background: #fafafa; border-radius: 20px; padding: 48px 36px;">
       <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">为什么校内作文反馈难以满足需求？</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
-        <div style="background: white; padding: 28px 20px; border-radius: 14px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 700px; margin: 0 auto;">
+        <div style="background: white; padding: 24px 20px; border-radius: 12px; text-align: center; border: 1px solid var(--border-light);">
           <div style="font-size: 2rem; margin-bottom: 14px; width: 56px; height: 56px; background: var(--brand-light); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">⏰</div>
           <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">时间有限</h3>
           <p style="font-size: 0.95rem; color: var(--text-muted);">一位老师面对50+学生，每篇作文批改时间不足3分钟</p>
         </div>
-        <div style="background: white; padding: 28px 20px; border-radius: 14px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+        <div style="background: white; padding: 24px 20px; border-radius: 12px; text-align: center; border: 1px solid var(--border-light);">
           <div style="font-size: 2rem; margin-bottom: 14px; width: 56px; height: 56px; background: var(--brand-light); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">❓</div>
           <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">标准模糊</h3>
           <p style="font-size: 0.95rem; color: var(--text-muted);">批注如"结构不清""用词简单"，但孩子不知道如何改进</p>
         </div>
-        <div style="background: white; padding: 28px 20px; border-radius: 14px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+        <div style="background: white; padding: 24px 20px; border-radius: 12px; text-align: center; border: 1px solid var(--border-light);">
           <div style="font-size: 2rem; margin-bottom: 14px; width: 56px; height: 56px; background: var(--brand-light); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">🔁</div>
           <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">缺乏跟踪</h3>
           <p style="font-size: 0.95rem; color: var(--text-muted);">没有后续的订正和巩固练习，错误一犯再犯</p>
         </div>
-        <div style="background: white; padding: 28px 20px; border-radius: 14px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+        <div style="background: white; padding: 24px 20px; border-radius: 12px; text-align: center; border: 1px solid var(--border-light);">
           <div style="font-size: 2rem; margin-bottom: 14px; width: 56px; height: 56px; background: var(--brand-light); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">📊</div>
           <h3 style="color: var(--text-heading); font-size: 1.05rem; margin-bottom: 8px;">应试脱节</h3>
           <p style="font-size: 0.95rem; color: var(--text-muted);">日常练习与考试评分标准存在差距</p>
@@ -382,21 +382,22 @@ const latestPosts = allPosts
     <!-- ============ TESTIMONIALS ============ -->
     <section style="margin-bottom: 60px;">
       <h2 style="text-align: center; font-size: 1.8rem; color: var(--text-heading); margin-bottom: 40px; font-family: var(--font-heading);">家长见证</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
-border-radius: 14px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); position: relative;
-          <div style="font-size: 3rem; color: rgba(230,126,96,0.1); position: absolute; top: 12px; left: 18px; font-family: Georgia, serif; line-height: 1;">"</div>
-          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic; position: relative; z-index: 1;">
-            孩子跟林老师改了8篇作文后，期末考作文第一次拿到18分（满分20）！关键是现在写作文知道怎么组织语言了，不再凑字数。
+      <div style="max-width: 700px; margin: 0 auto;">
+
+        <div style="background: white; border-radius: 12px; padding: 24px 28px; margin-bottom: 20px; border: 1px solid var(--border-light);">
+          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic;">
+            "孩子跟林老师改了8篇作文后，期末考作文第一次拿到18分（满分20）！关键是现在写作文知道怎么组织语言了，不再凑字数。"
           </p>
-          <p style="text-align: right; color: var(--text-muted); font-size: 0.95rem; margin-top: 12px;">——李爸爸，高一家长</p>
+          <p style="text-align: right; color: var(--text-muted); font-size: 0.9rem; margin-top: 12px;">——李爸爸，高一家长</p>
         </div>
-border-radius: 14px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); position: relative;
-          <div style="font-size: 3rem; color: rgba(230,126,96,0.1); position: absolute; top: 12px; left: 18px; font-family: Georgia, serif; line-height: 1;">"</div>
-          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic; position: relative; z-index: 1;">
-            PDF批改报告太实用了，我们把12篇批改装订成册，成了最好的复习资料。
+
+        <div style="background: white; border-radius: 12px; padding: 24px 28px; border: 1px solid var(--border-light);">
+          <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-body); font-style: italic;">
+            "PDF批改报告太实用了，我们把12篇批改装订成册，成了最好的复习资料。"
           </p>
-          <p style="text-align: right; color: var(--text-muted); font-size: 0.95rem; margin-top: 12px;">——王妈妈，初三家长</p>
+          <p style="text-align: right; color: var(--text-muted); font-size: 0.9rem; margin-top: 12px;">——王妈妈，初三家长</p>
         </div>
+
       </div>
     </section>
 
