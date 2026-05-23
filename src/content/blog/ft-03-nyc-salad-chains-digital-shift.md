@@ -23,7 +23,7 @@ author: "William"
 
 ## 高分表达解析
 
-### 1️⃣ a mob scene / throngs of
+### **1.** a mob scene / throngs of
 
 **原文：** "the lunch rush was a mob scene" / "throngs of office workers"
 
@@ -40,7 +40,7 @@ author: "William"
 
 ---
 
-### 2️⃣ take a nosedive
+### **2.** take a nosedive
 
 **原文：** "our sales took a massive nosedive right away"
 
@@ -57,7 +57,7 @@ author: "William"
 
 ---
 
-### 3️⃣ evaporate
+### **3.** evaporate
 
 **原文：** "along comes Covid and, of course, it mostly evaporates"
 
@@ -74,7 +74,7 @@ author: "William"
 
 ---
 
-### 4️⃣ usher in
+### **4.** usher in
 
 **原文：** "this is going to usher in a new breed of digitally native restaurants"
 
@@ -91,7 +91,7 @@ author: "William"
 
 ---
 
-### 5️⃣ weather the storm
+### **5.** weather the storm
 
 **原文：** "all three chief executives are confident they will be able to weather the storm"
 
@@ -117,6 +117,12 @@ author: "William"
 - **weather the storm** → 写危机应对、韧性成长
 
 每次读完一篇文章，用这个方法梳理5个表达，坚持一个月，你的英语作文词汇量会肉眼可见地提升。
+
+---
+
+> **📌 相关推荐：** 如果你对这个系列感兴趣，推荐阅读 [《读外刊学写作：从V型复苏学5个高分表达》](/blog/ft-shape-recovery-vocabulary/) —— 同一系列第一篇文章，从经济词汇角度教你用外刊表达升级作文。
+
+---
 
 > *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
 > *专注中高考/雅思写作 · 逐句精批 + 逻辑重构 + 母语级升级*
