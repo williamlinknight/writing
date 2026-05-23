@@ -10,7 +10,6 @@ import sys
 import time
 import traceback
 
-import sys
 from dotenv import load_dotenv
 
 # ============================================================
