@@ -89,6 +89,8 @@ author: "William"
 
 > **📌 相关推荐：** 如果你想知道"language is too simple"背后还有哪些扣分点，推荐阅读 [《中考英语作文的四种常见扣分点》](/blog/zhongkao-common-mistakes/) —— 系统整理中式英语、时态混乱、简单句堆砌、内容空洞四大高频扣分陷阱及应对策略。
 
+> **📌 相关推荐：** 如果你想掌握更系统的连接词使用技巧，推荐阅读 [《英语写作中逻辑连接词的使用技巧——让你的文章从"散沙"变成"链条"》](/blog/%E8%8B%B1%E8%AF%AD%E5%86%99%E4%BD%9C%E9%80%BB%E8%BE%91%E8%BF%9E%E6%8E%A5%E8%AF%8D/) —— 分析三类常见连接词错误、按写作场景分类推荐连接词，教你从"and/but/so"升级到"nevertheless/furthermore/consequently"。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
