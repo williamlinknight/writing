@@ -10,7 +10,7 @@ STATE_PATH = os.path.join(BASE_DIR, ".hermes-heartbeat", "draft-push-state.md")
 BLOG_DIR = os.path.join(BASE_DIR, "src", "content", "blog")
 
 WECHAT_APPID = "wx098e516e3867bd0d"
-WECHAT_APPSECRET = "36980b93b7a4860963415a492d6255d7"
+WECHAT_APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
 
 # ==========================================
 # Helpers
