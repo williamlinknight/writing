@@ -16,7 +16,7 @@ import requests
 # CONFIG
 # ============================================================
 APPID = "wx098e516e3867bd0d"
-APPSECRET = "36980b93b7a4860963415a492d6255d7"
+APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
 BLOG_DIR = "/Users/william/writing/src/content/blog"
 STATE_FILE = "/Users/william/writing/.hermes-heartbeat/draft-push-state.md"
 DEFAULT_COVER = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
