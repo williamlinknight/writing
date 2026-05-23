@@ -4,9 +4,13 @@ Cron job: Dynamically find new blog articles and push to WeChat draft box.
 """
 import json, re, time, os, sys, subprocess
 import requests
+from dotenv import load_dotenv
 
-APPID = "wx098e516e3867bd0d"
-APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
+# Load .env from project root
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+
+APPID = os.environ["WECHAT_APPID"]
+APPSECRET = os.environ["WECHAT_APPSECRET"]
 BLOG_DIR = "/Users/william/writing/src/content/blog"
 STATE_FILE = "/Users/william/writing/.hermes-heartbeat/draft-push-state.md"
 COVER_DEFAULT = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"

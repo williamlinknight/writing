@@ -8,9 +8,11 @@ import time
 import os
 import re
 import sys
+from dotenv import load_dotenv
 
-APPID = "wx098e516e3867bd0d"
-APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+APPID = os.environ["WECHAT_APPID"]
+APPSECRET = os.environ["WECHAT_APPSECRET"]
 BLOG_DIR = "/Users/william/writing/src/content/blog"
 COVER_DEFAULT = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
 COVER_FT = "/Users/william/Desktop/Daily/封面_读金融时报学英文写作.jpg"

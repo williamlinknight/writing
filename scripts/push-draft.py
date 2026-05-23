@@ -113,11 +113,18 @@ if not articles_data:
 print("=" * 50)
 print("STEP 2: Getting access token...")
 
+import sys
+from dotenv import load_dotenv
+
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+appid = os.environ["WECHAT_APPID"]
+secret = os.environ["WECHAT_APPSECRET"]
+
 token_url = "https://api.weixin.qq.com/cgi-bin/stable_token"
 payload = {
     "grant_type": "client_credential",
-    "appid": "wx098e516e3867bd0d",
-    "secret": "WECHAT_APP_SECRET_PLACEHOLDER"
+    "appid": appid,
+    "secret": secret,
 }
 
 token = None

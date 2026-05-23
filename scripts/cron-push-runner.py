@@ -10,13 +10,15 @@ import sys
 import time
 import traceback
 
-import requests
+import sys
+from dotenv import load_dotenv
 
 # ============================================================
-# CONFIG
+# CONFIG — load from env for security
 # ============================================================
-APPID = "wx098e516e3867bd0d"
-APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+APPID = os.environ["WECHAT_APPID"]
+APPSECRET = os.environ["WECHAT_APPSECRET"]
 BLOG_DIR = "/Users/william/writing/src/content/blog"
 STATE_FILE = "/Users/william/writing/.hermes-heartbeat/draft-push-state.md"
 DEFAULT_COVER = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"

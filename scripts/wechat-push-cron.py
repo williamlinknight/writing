@@ -2,6 +2,9 @@
 """Push new blog articles to WeChat Official Account draft box."""
 import json, re, time, os, sys, subprocess
 import requests
+from dotenv import load_dotenv
+
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 BASE_DIR = "/Users/william/writing"
 COVER_DEFAULT = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
@@ -9,8 +12,8 @@ COVER_FT = "/Users/william/Desktop/Daily/封面_读金融时报学英文写作.j
 STATE_PATH = os.path.join(BASE_DIR, ".hermes-heartbeat", "draft-push-state.md")
 BLOG_DIR = os.path.join(BASE_DIR, "src", "content", "blog")
 
-WECHAT_APPID = "wx098e516e3867bd0d"
-WECHAT_APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
+WECHAT_APPID = os.environ["WECHAT_APPID"]
+WECHAT_APPSECRET = os.environ["WECHAT_APPSECRET"]
 
 # ==========================================
 # Helpers
