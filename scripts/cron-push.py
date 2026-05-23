@@ -10,7 +10,7 @@ import re
 import sys
 
 APPID = "wx098e516e3867bd0d"
-APPSECRET = "36980b93b7a4860963415a492d6255d7"
+APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
 BLOG_DIR = "/Users/william/writing/src/content/blog"
 COVER_DEFAULT = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
 COVER_FT = "/Users/william/Desktop/Daily/封面_读金融时报学英文写作.jpg"

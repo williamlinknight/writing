@@ -1,325 +1,305 @@
 #!/usr/bin/env python3
+"""Push blog articles to WeChat draft box.
+Run via: python3 scripts/push-draft.py
 """
-Push blog articles to WeChat Official Account draft box.
-Usage: python scripts/push-draft.py
-"""
-
+import json, re, time, os, sys, subprocess
 import requests
-import json
-import time
-import sys
-import os
-import re
 
-APPID = "wx098e516e3867bd0d"
-APPSECRET = "WECHAT_APP_SECRET_PLACEHOLDER"
-BLOG_DIR = "/Users/william/writing/src/content/blog"
-COVER_DEFAULT = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
-COVER_FT = "/Users/william/Desktop/Daily/封面_读金融时报学英文写作.jpg"
+BASE_DIR = "/Users/william/writing"
 
-def get_access_token():
-    """Get WeChat access token via stable_token endpoint with retry."""
-    url = "https://api.weixin.qq.com/cgi-bin/stable_token"
-    payload = {"grant_type": "client_credential", "appid": APPID, "secret": APPSECRET}
-    for attempt in range(3):
-        try:
-            resp = requests.post(url, json=payload, timeout=15)
-            data = resp.json()
-            if "access_token" in data:
-                return data["access_token"]
-            print(f"Token error attempt {attempt+1}: {data}")
-            if data.get("errcode") == 40164:
-                print("IP not whitelisted. Aborting.")
-                sys.exit(1)
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
-            print(f"Token attempt {attempt+1} failed: {e}")
-            if attempt < 2:
-                time.sleep(2)
-    raise RuntimeError("Failed to get access_token after 3 attempts")
+# ==========================================
+# Helper: run converter script
+# ==========================================
+def convert_md(slug, title_arg):
+    """Convert markdown file to WeChat HTML."""
+    filepath = os.path.join(BASE_DIR, "src", "content", "blog", f"{slug}.md")
+    cmd = [
+        "python3",
+        os.path.join(BASE_DIR, "scripts", "md-to-wechat-html.py"),
+        "--file", filepath,
+        "--title", title_arg
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=15, cwd=BASE_DIR)
+    if result.returncode != 0:
+        print(f"  ⚠️ Converter error: {result.stderr}")
+    return result.stdout.strip()
 
-
-def upload_cover(token, cover_path):
-    """Upload cover image to WeChat material library, return media_id."""
-    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
-    for attempt in range(3):
-        try:
-            with open(cover_path, 'rb') as f:
-                files = {'media': ('cover.jpg', f, 'image/jpeg')}
-                result = requests.post(url, files=files, timeout=30).json()
-            if "media_id" in result:
-                return result["media_id"]
-            print(f"Cover upload error attempt {attempt+1}: {result}")
-            if "errcode" in result and result["errcode"] == 40164:
-                print("IP not whitelisted. Aborting.")
-                sys.exit(1)
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
-            print(f"Cover upload attempt {attempt+1} failed: {e}")
-            if attempt < 2:
-                time.sleep(2)
-    return None
-
-
-def truncate_to_bytes(text, limit):
-    """Truncate text to fit within byte limit, adding ... if truncated."""
-    if len(text.encode('utf-8')) <= limit:
-        return text
-    truncated = text
-    while len(truncated.encode('utf-8')) > limit - 3:
-        truncated = truncated[:-1]
-    return truncated + "..."
-
-
-def strip_frontmatter(md_text):
-    if md_text.startswith('---'):
-        idx = md_text.find('---', 3)
-        if idx != -1:
-            return md_text[idx + 3:].lstrip('\n')
-    return md_text
-
-
-def remove_h1(md_text):
-    lines = md_text.split('\n')
-    cleaned = []
-    for line in lines:
-        stripped = line.strip()
-        if stripped.startswith('# ') and not stripped.startswith('## '):
-            continue
-        cleaned.append(line)
-    return '\n'.join(cleaned)
-
-
-def inline_to_html(text):
-    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
-    text = re.sub(r'`(.+?)`', r'\1', text)
-    text = re.sub(r'\[(.+?)\]\(.*?\)', r'\1', text)
-    text = re.sub(r'!\[(.*?)\]\(.*?\)', r'\1', text)
-    return text
-
-
-def escape_html(text):
-    text = text.replace('<strong>', '\x00STRONG\x00')
-    text = text.replace('</strong>', '\x00/STRONG\x00')
-    text = text.replace('<em>', '\x00EM\x00')
-    text = text.replace('</em>', '\x00/EM\x00')
-    text = text.replace('&', '&amp;')
-    text = text.replace('<', '&lt;')
-    text = text.replace('>', '&gt;')
-    text = text.replace('"', '&quot;')
-    text = text.replace('\x00STRONG\x00', '<strong>')
-    text = text.replace('\x00/STRONG\x00', '</strong>')
-    text = text.replace('\x00EM\x00', '<em>')
-    text = text.replace('\x00/EM\x00', '</em>')
-    return text
-
-
-def md_to_wechat_html(md_text, title=""):
-    html_parts = []
-    if title:
-        html_parts.append(f"<h2>{escape_html(title)}</h2>")
-
-    lines = md_text.split('\n')
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        stripped = line.strip()
-        if not stripped:
-            i += 1
-            continue
-        if stripped == '---':
-            html_parts.append('<hr/>')
-            i += 1
-            continue
-        if stripped.startswith('### '):
-            html_parts.append(f"<h3>{inline_to_html(stripped[4:])}</h3>")
-            i += 1
-            continue
-        if stripped.startswith('## '):
-            html_parts.append(f"<h2>{inline_to_html(stripped[3:])}</h2>")
-            i += 1
-            continue
-        if stripped.startswith('> '):
-            bq_lines = []
-            while i < len(lines) and lines[i].strip().startswith('> '):
-                bq_lines.append(lines[i].strip()[2:])
-                i += 1
-            bq_text = '<br/>'.join(inline_to_html(l) for l in bq_lines if l)
-            html_parts.append(f"<blockquote>{bq_text}</blockquote>")
-            continue
-        if stripped.startswith('|') and stripped.endswith('|'):
-            if re.match(r'^\|[\s\-:]+\|[\s\-:]', stripped):
-                i += 1
-                continue
-            cells = [c.strip() for c in stripped.split('|')[1:-1]]
-            processed = []
-            for c in cells:
-                c = inline_to_html(c)
-                c = escape_html(c)
-                processed.append(c)
-            html_parts.append(f"<tr>{''.join(f'<td>{p}</td>' for p in processed)}</tr>")
-            i += 1
-            continue
-        html_parts.append(f"<p>{inline_to_html(stripped)}</p>")
-        i += 1
-
-    return '\n'.join(html_parts)
-
-
-def get_title_from_frontmatter(md_text):
-    """Extract title from YAML frontmatter."""
-    m = re.search(r'^---\s*\n\s*title:\s*"?(.+?)"?\s*\n', md_text)
-    if m:
-        return m.group(1).strip().strip('"')
-    return None
-
-
-def get_description_from_frontmatter(md_text):
-    """Extract description/digest from YAML frontmatter."""
-    m = re.search(r'^description:\s*"?(.+?)"?\s*\n', md_text)
-    if m:
-        return m.group(1).strip().strip('"')
-    return None
-
-
-def process_article(md_path, token, cover_media_id):
-    """Convert and push a single article to WeChat draft."""
-    slug = os.path.splitext(os.path.basename(md_path))[0]
-
-    with open(md_path, 'r', encoding='utf-8') as f:
-        md_text = f.read()
-
-    article_title = get_title_from_frontmatter(md_text)
-    if not article_title:
-        print(f"  ⚠️  Cannot extract title from {slug}")
-        return False
-
-    description = get_description_from_frontmatter(md_text) or ""
-
-    body = strip_frontmatter(md_text)
-    body = remove_h1(body)
-
-    html = md_to_wechat_html(body, title=article_title)
-
-    # Prepare title with prefix for FT articles
-    if slug.startswith('ft-') or slug.startswith('ft'):
-        display_title = f"读外刊学写作：{article_title}"
-    else:
-        display_title = article_title
-
-    # Use digest from description
-    if description:
-        digest = description[:120]
-    else:
-        digest = article_title[:120]
-
-    # Validate and truncate
-    title_final = truncate_to_bytes(display_title, 60)
-    digest_final = truncate_to_bytes(digest, 115)
-    author_final = "威廉"
-
-    print(f"\n  Title: {title_final}")
-    print(f"  Title bytes: {len(title_final.encode('utf-8'))}/64")
-    print(f"  Author: {author_final} ({len(author_final.encode('utf-8'))}/8 bytes)")
-    print(f"  Digest bytes: {len(digest_final.encode('utf-8'))}/120")
-    print(f"  HTML length: {len(html)} chars")
-
-    # Push to draft
-    draft_url = f"https://api.weixin.qq.com/cgi-bin/draft/add?access_token={token}"
-    article = {
-        "title": title_final,
-        "author": author_final,
-        "digest": digest_final,
-        "content": html,
-        "thumb_media_id": cover_media_id,
-        "content_source_url": "",
-        "need_open_comment": 0,
-        "only_fans_can_comment": 0
+# ==========================================
+# Step 1: Read articles and convert HTML
+# ==========================================
+articles_config = [
+    {
+        'slug': '考前一个月作文冲刺黄金期',
+        'title_arg': '考前一个月：英语作文提分的黄金窗口期',
+    },
+    {
+        'slug': '英语写作不跑题三步定位法',
+        'title_arg': '英语写作如何不跑题：三步定位法',
     }
-    payload = {"articles": [article]}
+]
 
+articles_data = []
+
+for cfg in articles_config:
+    slug = cfg['slug']
+    title_arg = cfg['title_arg']
+    
+    print(f"Converting: {slug}...")
+    raw_html = convert_md(slug, title_arg)
+    
+    if not raw_html:
+        print(f"  ❌ Empty HTML for {slug}")
+        continue
+    
+    # Fix tables: wrap <tr> groups in <table>
+    fixed_html = re.sub(
+        r'(<tr><td>.*?</td></tr>\s*)+',
+        lambda m: f'<table>{m.group(0).strip()}</table>\n',
+        raw_html
+    )
+    
+    # Read frontmatter for digest and title
+    blog_path = os.path.join(BASE_DIR, "src", "content", "blog", f"{slug}.md")
+    with open(blog_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Extract description from frontmatter
+    desc_match = re.search(r'description:\s*"(.+?)"', content, re.DOTALL)
+    desc = desc_match.group(1) if desc_match else title_arg
+    
+    # Extract title from frontmatter
+    title_match = re.search(r'title:\s*"(.+?)"', content, re.DOTALL)
+    display_title = title_match.group(1) if title_match else title_arg
+    
+    # Calculate byte sizes
+    title_byte_len = len(display_title.encode('utf-8'))
+    digest_len = len(desc.encode('utf-8'))
+    
+    print(f"  Slug: {slug}")
+    print(f"  Title: '{display_title}' - {title_byte_len} bytes {'✅' if title_byte_len <= 64 else '⚠️'}")
+    print(f"  Digest: {digest_len} bytes {'✅' if digest_len <= 120 else '⚠️'}")
+    
+    # Truncate title if needed
+    title = display_title
+    if title_byte_len > 61:
+        while len(title.encode('utf-8')) > 61:
+            title = title[:-1]
+        title += "..."
+    
+    # Truncate digest if needed
+    if digest_len > 117:
+        while len(desc.encode('utf-8')) > 117:
+            desc = desc[:-1]
+        desc += "..."
+    
+    articles_data.append({
+        'slug': slug,
+        'display_title': display_title,
+        'title': title,
+        'digest': desc,
+        'html': fixed_html,
+    })
+    print(f"  Final title: '{title}' ({len(title.encode('utf-8'))} bytes) ✅")
+    print(f"  Final digest: {len(desc.encode('utf-8'))} bytes ✅")
+    print()
+
+if not articles_data:
+    print("No articles to push. Exiting.")
+    sys.exit(0)
+
+# ==========================================
+# Step 2: Get access token
+# ==========================================
+print("=" * 50)
+print("STEP 2: Getting access token...")
+
+token_url = "https://api.weixin.qq.com/cgi-bin/stable_token"
+payload = {
+    "grant_type": "client_credential",
+    "appid": "wx098e516e3867bd0d",
+    "secret": "WECHAT_APP_SECRET_PLACEHOLDER"
+}
+
+token = None
+for attempt in range(3):
+    try:
+        resp = requests.post(token_url, json=payload, timeout=15)
+        token_data = resp.json()
+        if "access_token" in token_data:
+            token = token_data["access_token"]
+            print(f"  ✅ Token acquired: {token[:20]}...")
+            break
+        elif token_data.get("errcode") == 40164:
+            ip = requests.get('https://api.ipify.org', timeout=5).text.strip()
+            print(f"  ❌ IP {ip} not whitelisted! Exiting.")
+            print(f"  Error: {token_data}")
+            sys.exit(0)
+        else:
+            print(f"  ⚠️ Token attempt {attempt+1}: {token_data}")
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+        print(f"  ⚠️ Attempt {attempt+1}/3 failed: {e}")
+        if attempt < 2:
+            time.sleep(2)
+
+if not token:
+    print("  ❌ Failed to get token after 3 attempts")
+    sys.exit(1)
+
+# ==========================================
+# Step 3: Upload cover image
+# ==========================================
+print("\n" + "=" * 50)
+print("STEP 3: Uploading cover image...")
+
+cover_path = "/Users/william/Desktop/日常工作文稿/推广文案/公众号/封面_厦门灯塔.jpg"
+thumb_media_id = None
+
+for attempt in range(3):
+    try:
+        upload_url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
+        with open(cover_path, 'rb') as f:
+            files = {'media': ('cover.jpg', f, 'image/jpeg')}
+            cover_result = requests.post(upload_url, files=files, timeout=30).json()
+        
+        if "media_id" in cover_result:
+            thumb_media_id = cover_result["media_id"]
+            print(f"  ✅ Cover uploaded: media_id = {thumb_media_id}")
+            break
+        else:
+            print(f"  ⚠️ Cover upload error: {cover_result}")
+            if attempt < 2:
+                time.sleep(2)
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+        print(f"  ⚠️ Attempt {attempt+1}/3 failed: {e}")
+        if attempt < 2:
+            time.sleep(2)
+
+if not thumb_media_id:
+    print("  ❌ Failed to upload cover after 3 attempts")
+    sys.exit(1)
+
+# ==========================================
+# Step 4: Push articles
+# ==========================================
+print("\n" + "=" * 50)
+print("STEP 4: Pushing drafts...\n")
+
+draft_url = f"https://api.weixin.qq.com/cgi-bin/draft/add?access_token={token}"
+push_results = []
+
+for i, art in enumerate(articles_data, 1):
+    print(f"--- Article {i}/{len(articles_data)}: {art['display_title'][:40]}... ---")
+    
+    success = False
+    media_id = None
+    error_msg = None
+    
     for attempt in range(3):
         try:
+            article_payload = {
+                "title": art['title'],
+                "author": "威廉",
+                "digest": art['digest'],
+                "content": art['html'],
+                "thumb_media_id": thumb_media_id,
+                "content_source_url": "",
+                "need_open_comment": 0,
+                "only_fans_can_comment": 0
+            }
+            
+            body = {"articles": [article_payload]}
+            encoded = json.dumps(body, ensure_ascii=False).encode('utf-8')
+            
             resp = requests.post(
                 draft_url,
-                data=json.dumps(payload, ensure_ascii=False).encode('utf-8'),
+                data=encoded,
                 headers={"Content-Type": "application/json; charset=utf-8"},
                 timeout=30
             )
-            result = resp.json()
-            errcode = result.get("errcode", 0)
-            if errcode == 0:
-                media_id = result.get("media_id", "unknown")
-                print(f"  ✅ Success! media_id: {media_id}")
-                return True
-            elif errcode == 45003:
-                # Title too long - truncate more aggressively
-                title_final = truncate_to_bytes(display_title, 45)
-                payload["articles"][0]["title"] = title_final
-                print(f"  ⚠️  45003 - truncated title to {len(title_final.encode('utf-8'))} bytes, retrying...")
+            draft_result = resp.json()
+            
+            if "media_id" in draft_result:
+                media_id = draft_result["media_id"]
+                success = True
+                print(f"  ✅ media_id: {media_id}")
+                break
+            elif draft_result.get("errcode") == 45003:
+                print(f"  ⚠️ Title too long (45003), truncating...")
+                while len(art['title'].encode('utf-8')) > 45:
+                    art['title'] = art['title'][:-1]
+                art['title'] += "..."
+                print(f"  Retry title: '{art['title']}' ({len(art['title'].encode('utf-8'))} bytes)")
                 continue
-            elif errcode == 45004:
-                # Digest too long - truncate more aggressively
-                digest_final = truncate_to_bytes(digest, 90)
-                payload["articles"][0]["digest"] = digest_final
-                print(f"  ⚠️  45004 - truncated digest to {len(digest_final.encode('utf-8'))} bytes, retrying...")
+            elif draft_result.get("errcode") == 45004:
+                print(f"  ⚠️ Digest too long (45004), truncating...")
+                while len(art['digest'].encode('utf-8')) > 100:
+                    art['digest'] = art['digest'][:-1]
+                art['digest'] += "..."
+                print(f"  Retry: digest now {len(art['digest'].encode('utf-8'))} bytes")
                 continue
             else:
-                print(f"  ❌ Error attempt {attempt+1}: {result}")
-                if attempt < 2:
-                    time.sleep(2)
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
-            print(f"  ❌ Connection error attempt {attempt+1}: {e}")
+                error_msg = str(draft_result)
+                print(f"  ❌ Error: {draft_result}")
+                break
+                
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, ConnectionResetError) as e:
+            print(f"  ⚠️ Attempt {attempt+1}/3 failed: {e}")
             if attempt < 2:
                 time.sleep(2)
+    else:
+        error_msg = "Max retries exceeded"
+        print(f"  ❌ Failed after 3 attempts")
+    
+    push_results.append((art['slug'], art['display_title'], success, media_id, error_msg))
+    time.sleep(2)
 
-    return False
+# ==========================================
+# Step 5: Update state file
+# ==========================================
+print("\n" + "=" * 50)
+print("STEP 5: Updating state file...")
 
+state_path = os.path.join(BASE_DIR, ".hermes-heartbeat", "draft-push-state.md")
+with open(state_path, 'r', encoding='utf-8') as f:
+    state_lines = f.readlines()
 
-def main():
-    print("=" * 60)
-    print("WeChat Draft Push - Starting")
-    print("=" * 60)
+now = time.strftime("%Y-%m-%d %H:%M")
+new_lines = []
+for line in state_lines:
+    if line.startswith("Last check:"):
+        new_lines.append(f"Last check: {now}\n")
+    else:
+        new_lines.append(line)
 
-    # Step 1: Get access token
-    print("\n[1/3] Getting access token...")
-    token = get_access_token()
-    print(f"  ✅ Token obtained")
+# Add new slugs
+for slug, title, success, mid, err in push_results:
+    if success:
+        # Don't add if already present
+        already = any(slug in l for l in new_lines)
+        if not already:
+            new_lines.append(f"- {slug}\n")
+            print(f"  ✅ Added slug: {slug}")
+        else:
+            print(f"  ⚡ Slug already in state: {slug}")
+    else:
+        print(f"  ⚠️ Skipped adding slug (push failed): {slug}")
 
-    # Step 2: Upload cover image
-    print("\n[2/3] Uploading cover image...")
-    cover_path = COVER_DEFAULT
-    print(f"  Cover: {cover_path}")
-    cover_media_id = upload_cover(token, cover_path)
-    if not cover_media_id:
-        print("  ❌ Failed to upload cover image")
-        sys.exit(1)
-    print(f"  ✅ Cover uploaded, media_id: {cover_media_id}")
+with open(state_path, 'w', encoding='utf-8') as f:
+    f.writelines(new_lines)
 
-    # Step 3: Process articles
-    print("\n[3/3] Pushing articles to draft box...")
+print(f"  ✅ State file updated")
 
-    # Article 1: 高考热点素材科技人文
-    art1 = os.path.join(BLOG_DIR, "高考热点素材科技人文.md")
-    print(f"\n--- Article 1/2: 高考热点素材科技人文 ---")
-    r1 = process_article(art1, token, cover_media_id)
-    time.sleep(1.5)
-
-    # Article 2: 雅思小作文数据图表描述
-    art2 = os.path.join(BLOG_DIR, "雅思小作文数据图表描述.md")
-    print(f"\n--- Article 2/2: 雅思小作文数据图表描述 ---")
-    r2 = process_article(art2, token, cover_media_id)
-
-    print("\n" + "=" * 60)
-    print(f"Results: [1/2] 高考热点素材科技人文: {'✅' if r1 else '❌'}")
-    print(f"Results: [2/2] 雅思小作文数据图表描述: {'✅' if r2 else '❌'}")
-    print("=" * 60)
-
-    # Output slugs for state file update
-    if r1:
-        print("SLUG_OK:高考热点素材科技人文")
-    if r2:
-        print("SLUG_OK:雅思小作文数据图表描述")
-
-
-if __name__ == "__main__":
-    main()
+# ==========================================
+# Summary
+# ==========================================
+print("\n" + "=" * 50)
+print("FINAL SUMMARY")
+print("=" * 50)
+success_count = sum(1 for _, _, s, _, _ in push_results if s)
+for slug, title, success, mid, err in push_results:
+    if success:
+        print(f"  ✅ Success: 「{title}」")
+        print(f"     media_id: {mid}")
+    else:
+        print(f"  ❌ Failed: 「{title}」 - {err}")
+print(f"\nPushed {success_count}/{len(push_results)} articles to draft box")
