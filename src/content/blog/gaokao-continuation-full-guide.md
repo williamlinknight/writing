@@ -198,6 +198,8 @@ A week later, I was walking home from school when I saw someone waving at me. It
 
 > **📌 相关推荐：** 如果你想系统学习读后续写的高分技巧（5要素分析法+两段功能分工+语言升级），推荐阅读 [《高中英语读后续写高分技巧（适配高考评分标准）》](/blog/gaokao-continuation-high-score-techniques/) —— 从原文解读到情节搭建再到语言升级，全流程系统教学。
 
+> **📌 相关推荐：** 如果你需要一套从读不懂到写得妙的三步法框架，推荐阅读 [《读后续写高分三步法：从读不懂到写得妙》](/blog/读后续写三步法/) —— 专为解决"读完原文不知道写什么"的问题，适合不同考试级别的考生。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
