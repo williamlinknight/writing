@@ -33,6 +33,8 @@ The sun was setting, painting the sky in shades of orange and purple.
 
 > **📌 相关推荐：** 议论文阅读是高考英语的另一大难点。推荐阅读 [《高考英语议论文阅读：三步拆解行文逻辑，从绕迷宫到直达主旨》](/blog/gaokao-argumentative-reading-strategies/) —— 学会论证分析框架，阅读和写作同步提升。
 
+> **📌 相关推荐：** 素材积累不等于会用好素材。推荐阅读 [《高考英语写作三段式论证训练——有观点、有逻辑、有深度》](/blog/高考英语三段式论证训练/) —— 学会三段式论证框架，让积累的素材发挥最大价值。
+
 ---
 
 *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
