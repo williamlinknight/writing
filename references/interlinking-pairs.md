@@ -1,4 +1,4 @@
-# Manual Interlinking — Natural Pairs Across 145 Blog Posts (35 pairs done)
+# Manual Interlinking — Natural Pairs Across 146 Blog Posts (35 pairs done)
 
 Each row lists two posts that are natural companion pieces. Add bidirectional links using the format:
 > **📌 相关推荐：** ... [《标题》](/blog/slug/) —— 简短价值说明
@@ -72,6 +72,8 @@ Each row lists two posts that are natural companion pieces. Add bidirectional li
 | 读金融时报学英文写作-论证方法-澳洲房价 | 高考英语三段式论证训练 | Format E (argument methods) ↔ Format D (three-part argument training). FT source material ↔ exam application. |
 | 读金融时报学英文写作-词汇升级-珠宝营销 | 英语写作高级同义替换 | Format E (vocabulary upgrade) ↔ Format D (synonym guide). Natural input→output vocabulary chain. |
 | 读金融时报学英文写作-逻辑衔接-芯片短缺 | 英语长句短句搭配写作技巧 | Format E (logical connectors) ↔ Format D (sentence variety). Connectors create sentence rhythm. |
+|| ft-201-lockdown-face-zoom-boom | 英语写作高级同义替换 | Format E vocabulary input → Format D synonym tool. FT#201 (inundated/surge/cash in on/stall) vocabulary extraction bridge. |
+|| ft-201-lockdown-face-zoom-boom | ft-200-climate-tsunami-expressions | Format E FT series companion pair. FT#201 ↔ FT#200. Both are vocabulary-extraction posts from FT articles. |
 
 ### Priority 2: Broader connections
 
