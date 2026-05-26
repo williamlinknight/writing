@@ -31,12 +31,46 @@ const pubDateDisplay = pubDate.toLocaleDateString('zh-CN', {
 const postSlug = post.id.replace(/\.(md|mdx)$/, '');
 const postUrl = `${siteUrl}${base}/blog/${postSlug}`;
 
-// Related posts (exclude current, pick 5 random for richer internal linking)
+// ── Topic keywords extraction ──
+function extractKeywords(title, slug) {
+  const keywords = [];
+  if (title.includes('中考') || slug.includes('zhongkao')) keywords.push('中考');
+  if (title.includes('高考') || slug.includes('gaokao') || title.includes('高中') || slug.includes('high-school')) keywords.push('高考');
+  if (title.includes('雅思') || slug.includes('ielts') || title.includes('雅思')) keywords.push('雅思');
+  if (title.includes('读后续写') || slug.includes('continuation')) keywords.push('读后续写');
+  if (title.includes('初中') || title.includes('小学') || slug.includes('junior') || slug.includes('primary') || slug.includes('ket')) keywords.push('初中');
+  if (title.includes('KET') || title.includes('PET')) keywords.push('KET/PET');
+  if (slug.startsWith('ft-')) keywords.push('外刊阅读');
+  if (title.includes('批改') || title.includes('correction') || title.includes('批改')) keywords.push('作文批改');
+  if (title.includes('句型') || title.includes('语法') || title.includes('词汇') || title.includes('词') || title.includes('句式') || title.includes('sentence') || title.includes('vocabulary')) keywords.push('词汇语法');
+  if (title.includes('阅读') || slug.includes('reading')) keywords.push('阅读');
+  if (title.includes('听力') || slug.includes('listening')) keywords.push('听力');
+  if (keywords.length === 0) keywords.push('通用');
+  return keywords;
+}
+
+// Determine primary section
+const postKeywords = extractKeywords(post.data.title, post.id);
+const sectionMap = {
+  '中考': '中考英语', '高考': '高考英语', '雅思': '雅思写作',
+  '读后续写': '高中英语写作', '初中': '初中英语', 'KET/PET': 'KET/PET',
+  '外刊阅读': '外刊阅读学写作', '作文批改': '英语作文批改',
+  '词汇语法': '词汇语法', '阅读': '英语阅读', '听力': '英语听力',
+};
+const primarySection = sectionMap[postKeywords[0]] || '英语作文批改';
+
+// Related posts by keyword overlap (topic-based, not random)
 const allPosts = await getCollection('blog');
 const relatedPosts = allPosts
   .filter((p) => p.id !== post.id)
-  .sort(() => Math.random() - 0.5)
-  .slice(0, 5);
+  .map((p) => {
+    const theirKeywords = extractKeywords(p.data.title, p.id);
+    const overlap = postKeywords.filter(k => theirKeywords.includes(k)).length;
+    return { post: p, score: overlap };
+  })
+  .sort((a, b) => b.score - a.score || Math.random() - 0.5)
+  .slice(0, 5)
+  .map(item => item.post);
 
 // Pre-compute JSON-LD to avoid Astro script-type issues
 const jsonLd = JSON.stringify({
@@ -65,6 +99,8 @@ const jsonLd = JSON.stringify({
       "inLanguage": "zh-CN",
       "wordCount": wordCount,
       "timeRequired": readingTime,
+      "articleSection": primarySection,
+      "keywords": postKeywords.join(', '),
     },
     {
       "@type": "BreadcrumbList",
@@ -93,7 +129,7 @@ const jsonLd = JSON.stringify({
   type="article"
   publishedTime={pubDateISO}
   slug={`blog/${postSlug}`}
->
+  canonicalUrl={postUrl}>
   <Navbar />
 
   <article style="padding: 80px 0 100px;">

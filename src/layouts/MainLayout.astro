@@ -6,6 +6,7 @@ export interface Props {
   type?: "website" | "article";
   publishedTime?: string;
   slug?: string;
+  canonicalUrl?: string;
 }
 
 const {
@@ -15,6 +16,7 @@ const {
   type = "website",
   publishedTime,
   slug,
+  canonicalUrl,
 } = Astro.props;
 
 const siteUrl = "https://www.williamwriting.com";
@@ -44,6 +46,8 @@ const ogImage = image || `${siteUrl}/og-default.png`;
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="厦门灯塔 | 英文作文批改博客" href="/rss.xml" />
+  <!-- Canonical -->
+  {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
