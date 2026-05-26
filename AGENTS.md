@@ -93,3 +93,19 @@ npm run preview # 预览构建结果
 3. **所有推送脚本使用 env 变量**，不在代码中写死凭据。
 4. **修改推送脚本后**，在本地跑一次 `python3 scripts/cron-push-runner.py --dry-run` 测试（如有 dry-run 模式）。
 5. **不要修改 `.hermes-heartbeat/` 下的状态文件**——这些由 cron 任务管理。
+
+## 页面结构
+
+| 页面 | 文件 | 说明 |
+|------|------|------|
+| 首页 | `src/pages/index.astro` | 品牌首页，含 Organization/Person/FAQPage schema |
+| 博客列表 | `src/pages/blog/index.astro` | 全量文章列表，搜索+分页 |
+| 文章页 | `src/pages/blog/[slug].astro` | 单篇文章，含 Article/BreadcrumbList schema |
+| 关于 | `src/pages/about.astro` | 品牌介绍 |
+| FT 专题页 | `src/pages/ft.astro` | 读《金融时报》学英文写作 专属聚合页，深蓝色调 |
+
+### FT 专题页规则
+- **收录：** slug 以 `ft-` 开头 或 标题包含「读《金融时报》」「读外刊学写作」
+- **设计：** 深蓝渐变头图 + 搜索筛选 + FT精选/写作课标签
+- **导航：** `src/components/Navbar.astro` 中新增「FT双语」入口
+- **增长：** 每天 cron 生成的 FT 相关文章自动流入
