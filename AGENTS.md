@@ -45,17 +45,19 @@ author: "威廉"  # 可选
 - FT 双语系列 slug 以 `ft-` 开头（如 `ft-03-nyc-salad-chains-digital-shift.md`）
 - 每日10篇生成的源文件以 `blog_读《金融时报》学英文写作_` 开头（如 `blog_读《金融时报》学英文写作_词汇升级.txt`）
 
-## 公众号推送管道
+## 公众号推送管道（已暂停）
 
-blog 文章发布后，通过以下脚本推送到微信公众平台草稿箱：
+> **2026-05-26 策略变更：** 停止博客文章推送公众号。公众号改为发布「虚拟教辅资料」产品介绍文章，通过加微信（linstudio799）销售¥99的电子资料。不再使用草稿箱推送API。
+
+blog 文章发布后，原通过以下脚本推送到微信公众平台草稿箱（当前已停用）：
 
 | 脚本 | 用途 | 说明 |
 |------|------|------|
-| `scripts/cron-push-runner.py` | 主推送脚本 | 读取 blog 目录 → 转 HTML → 推草稿箱 |
-| `scripts/cron-push.py` | 旧版推送 | 已迁移到 runner |
-| `scripts/cron-push-new.py` | 新版推送 | 动态查找未推送文章 |
-| `scripts/wechat-push-cron.py` | cron 版推送 | 含状态管理 |
-| `scripts/push-draft.py` | 手动推送 | 指定 slug 推送 |
+| `scripts/cron-push-runner.py` | 主推送脚本 | 读取 blog 目录 → 转 HTML → 推草稿箱（已停用） |
+| `scripts/cron-push.py` | 旧版推送 | 已迁移到 runner（已停用） |
+| `scripts/cron-push-new.py` | 新版推送 | 动态查找未推送文章（已停用） |
+| `scripts/wechat-push-cron.py` | cron 版推送 | 含状态管理（已停用） |
+| `scripts/push-draft.py` | 手动推送 | 指定 slug 推送（已停用） |
 | `scripts/md-to-wechat-html.py` | markdown→HTML | 转换器 |
 
 **凭据：** 从 `.env` 中读取 `WECHAT_APPID` 和 `WECHAT_APPSECRET`（不在代码中硬编码）。`.env` 已加入 `.gitignore`。
@@ -70,7 +72,7 @@ blog 文章发布后，通过以下脚本推送到微信公众平台草稿箱：
 | 读《金融时报》学英文写作 × 每日10篇 | 每天1:00 | 从225篇FT双语素材生成10篇写作技巧文章，保存为 blog_读《金融时报》学英文写作_*.txt |
 | FT 双语系列 | 每天0:00/6:00 | 从FT双语阅读生成英文写作文章 |
 | 七年爬藤笔记 | 每天3:00 | 提取公众号教育观点 |
-| Blog → 公众号草稿箱 | 每30分钟 0-6点 | 推送新文章到微信 |
+| Blog → 公众号草稿箱 | 🚫 已暂停 | 不再推送博客内容到公众号，改为虚拟资料销售模式 |
 
 ## 部署
 
