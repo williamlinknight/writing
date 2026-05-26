@@ -39,6 +39,7 @@ Each row lists two posts that are natural companion pieces. Add bidirectional li
 | 雅思小作文数据图表描述 | ielts-agree-disagree-strategy | IELTS task types companion (charts vs opinion essays). Bidirectional links added 2026-05-27 heartbeat. |
 | 高考热点素材科技人文 | gaokao-writing-phrases | Gaokao writing: hot topics ↔ high-scoring phrases. Bidirectional links added 2026-05-27 work-heartbeat. |
 | 高考英语作文评分标准深度解读 | gaokao-continuation-full-guide | Gaokao scoring standards ↔ full continuation guide. Bidirectional links added 2026-05-27 heartbeat. |
+| ft-12-pilots-traders-career-switch | ft-8-missing-flying-vocabulary | Format E FT series companion pair. FT#12 ↔ FT#8. Both are vocabulary-extraction posts from FT articles. Bidirectional links added 2026-05-28 heartbeat. |
 
 ## 📋 To Do
 
@@ -46,7 +47,6 @@ Each row lists two posts that are natural companion pieces. Add bidirectional li
 
 | Post A | Post B | Rationale |
 |--------|--------|-----------|
-| ft-12-pilots-traders-career-switch | ft-8-missing-flying-vocabulary | Format E FT series companion pair. FT#12 ↔ FT#8. Both are vocabulary-extraction posts from FT articles. |
 | ft-15-chinese-designer-award | 英语写作高级同义替换 | Format E vocabulary input → Format D synonym tool. FT#15 vocabulary extraction bridge. |
 | ft-15-chinese-designer-award | ft-12-pilots-traders-career-switch | Format E FT series companion pair. FT#15 ↔ FT#12. Both are vocabulary-extraction posts from FT articles. |
 | ft-198-hypocrisy-write-lesson | 英语写作高级同义替换 | Format E vocabulary input → Format D synonym tool. FT#198 vocabulary extraction bridge. |
