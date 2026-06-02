@@ -1,0 +1,57 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Navbar from '../components/Navbar.astro';
+---
+
+<MainLayout 
+  title="支持本网站 - 厦门灯塔"
+  description="厦门灯塔寻求支持者——如果您或您所在的机构认同独立教育内容的价值，欢迎联系我们。"
+>
+  <Navbar />
+
+  <div class="container" style="padding: 120px 24px 60px; max-width: 640px;">
+    <h1 style="font-size: 2.6rem; color: var(--brand); text-align: center; margin-bottom: 60px;">支持这个网站</h1>
+
+    <div style="font-size: 1.12rem; line-height: 1.9; color: #334155;">
+
+      <section style="margin-bottom: 40px;">
+        <p>厦门灯塔是一个独立运作的英语写作教育网站。没有广告，没有投资，收入完全来自作文批改服务。</p>
+        <p>如果您或您所在的机构认同让优质教育内容免费开放给学生这件事，愿意帮助这个网站持续运营下去——欢迎成为我们的支持者。</p>
+      </section>
+
+      <section style="margin-bottom: 40px;">
+        <h2 style="margin: 0 0 20px; color: var(--brand); font-size: 1.3rem;">支持方式</h2>
+        <p>我们会在网站页脚以"本网站由以下机构支持"的方式展示支持方的名称和链接。无需广告位、无需内容植入。</p>
+        <p style="background: var(--brand-light); padding: 20px; border-radius: 8px; margin-top: 16px;">
+          年费：<strong>¥96,000</strong>（约¥8,000/月）<br>
+          半年度：<strong>¥55,000</strong>
+        </p>
+      </section>
+
+      <section style="margin-bottom: 20px;">
+        <h2 style="margin: 0 0 20px; color: var(--brand); font-size: 1.3rem;">联系</h2>
+        <p><strong>微信：</strong> linstudio799（备注"支持本网站"）</p>
+        <p><strong>邮箱：</strong> william@williamwriting.com</p>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Brand Footer -->
+  <footer style="text-align: center; padding: 50px 24px 40px; background: white; border-top: 1px solid var(--border-light);">
+    <p style="color: var(--brand); font-size: 1.1rem; font-weight: 600; margin-bottom: 8px;">厦门灯塔 · 专业英语作文逐句批改</p>
+    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 6px;">微信 linstudio799</p>
+    <p style="color: var(--text-muted); font-size: 0.92rem;">专注中高考/雅思写作 · 累计批改300+篇 · 逐句精批 + 逻辑重构 + 母语级升级</p>
+  </footer>
+
+</MainLayout>
+
+<style>
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  @media (max-width: 640px) {
+    h1 { font-size: 2rem !important; }
+  }
+</style>
