@@ -90,7 +90,7 @@ author: 'William'
 
 > *Mr Arkhom said that the government, which approved a record stimulus package in May to fight Covid-19, still had enough of those funds available to fight the fallout from the pandemic, without having to allocate more money. "I think that we have enough fiscal space for the relief of the economy and the rehabilitation of the economy," he said.*
 
-> *Of the 1tn Thai baht ($33bn) in borrowing to combat Covid-19 approved by the government, just 38 per cent had been disbursed, and a 400bn baht facility to stabilise the bond market remained untouched.*
+> *Of the 1tn Thai baht (33bn) in borrowing to combat Covid-19 approved by the government, just 38 per cent had been disbursed, and a 400bn baht facility to stabilise the bond market remained untouched.*
 
 **结构公式：**
 > **官员陈述 → 记者补充具体数据 → 官方引述加固**

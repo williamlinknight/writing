@@ -10,11 +10,11 @@ author: "William"
 今天我们通过一篇关于印度暂停疫苗出口的文章，提取 3 个可以直接迁移到各类议论文（尤其是雅思写作 Task 2）中的高级表达。
 
 > **FT原文**
-> 
+>
 > India, one of the world's biggest vaccine producers, has imposed a de facto ban on jab exports as it seeks to prioritise local vaccinations amid an accelerating second wave of coronavirus infections.
 
 > **中文对照**
-> 
+>
 > 世界上最大疫苗生产国之一印度已颁布事实上的疫苗出口禁令。在第二波新冠疫情加速蔓延的背景下，该国寻求优先为本国公民接种。
 
 ### 🔑 词汇精析
@@ -66,9 +66,9 @@ The implementation of the project **faced significant delays following a series 
 
 想要写出“外刊感”，核心不在于用多么生僻的词，而在于用**【搭配正确的专业词】**。
 
-- 不要写 `make a rule` $\rightarrow$ 写 `impose a regulation / ban`
-- 不要写 `want to do` $\rightarrow$ 写 `seek to / strive to / aim to`
-- 不要写 `have problems` $\rightarrow$ 写 `encounter setbacks / face challenges`
+- 不要写 `make a rule` → 写 `impose a regulation / ban`
+- 不要写 `want to do` → 写 `seek to / strive to / aim to`
+- 不要写 `have problems` → 写 `encounter setbacks / face challenges`
 
 建议同学们在阅读 FT 时，不要只盯着单个单词，而要记录像 `impose a ban` 这样完整的**词组搭配 (Collocation)**。
 

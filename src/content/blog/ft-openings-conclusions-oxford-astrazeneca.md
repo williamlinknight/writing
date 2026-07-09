@@ -25,7 +25,7 @@ author: 'William'
 >
 > [...]
 >
-> The jab is priced at about $3 to $4 a dose, supply deals suggest, a fraction of the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; other treatments require a storage temperature as low as minus 70C.
+> The jab is priced at about 3 to 4 a dose, supply deals suggest, a fraction of the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; other treatments require a storage temperature as low as minus 70C.
 
 **中文对照：**
 
@@ -91,9 +91,9 @@ author: 'William'
 
 **结构公式：** `[A的价格/特点] is [具体数据], a fraction of [B的价格/特点]; [A的优点] while [B的局限]`
 
-> "The jab is priced at about **$3 to $4 a dose**, **a fraction of** the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; **other treatments require** a storage temperature as low as minus 70C."
+> "The jab is priced at about **3 to 4 a dose**, **a fraction of** the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; **other treatments require** a storage temperature as low as minus 70C."
 
-结尾用两个对比句，清晰地告诉读者这家疫苗的独特优势（便宜 + 易于储存）。比说"This vaccine is cheap and easy to store"有力得多——因为具体的数字（$3-4 vs other vaccines）和具体的温度对比（2C-8C vs -70C）让结论有据可依。
+结尾用两个对比句，清晰地告诉读者这家疫苗的独特优势（便宜 + 易于储存）。比说"This vaccine is cheap and easy to store"有力得多——因为具体的数字（3-4 vs other vaccines）和具体的温度对比（2C-8C vs -70C）让结论有据可依。
 
 **❌ 学生初版**
 > This method is better than other methods. It is cheaper and easier to use.
@@ -114,7 +114,7 @@ author: 'William'
 **结构公式：** `[具体事实]；[补充事实]，[对比或转折]`
 
 文章最后一句话：
-> "The jab is priced at about $3 to $4 a dose, supply deals suggest, a fraction of the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; other treatments require a storage temperature as low as minus 70C."
+> "The jab is priced at about 3 to 4 a dose, supply deals suggest, a fraction of the price of other vaccines. The vaccine can be stored long-term at normal fridge temperature, between 2C and 8C; other treatments require a storage temperature as low as minus 70C."
 
 不写"总之"，不喊口号。记者把两个最关键的事实（价格、储存条件）并列摆出来，让读者自己去判断。这是新闻写作的高级收尾技巧——让事实说话。
 

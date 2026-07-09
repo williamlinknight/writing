@@ -12,13 +12,13 @@ author: 'William'
 今天我们通过《金融时报》关于字节跳动进军游戏领域的报道，来看看专业作者是如何用定语从句来增加信息密度的。
 
 > **FT 原文**
-> ByteDance began buying up small gaming companies in 2017, but on Monday it paid a reported $4bn to buy Moonton, a Shanghai-based studio set up by a former Tencent staffer, giving it a tent-pole franchise, Mobile Legends.
-> 
+> ByteDance began buying up small gaming companies in 2017, but on Monday it paid a reported 4bn to buy Moonton, a Shanghai-based studio set up by a former Tencent staffer, giving it a tent-pole franchise, Mobile Legends.
+>
 > Expanding into gaming is also a way of hitting back at Tencent, whose dominance of China’s gaming market has restricted ByteDance’s social-media platforms by stopping them from broadcasting shows featuring games under Tencent’s empire.
 
 > **中文对照**
 > 字节跳动从2017年开始收购小型游戏公司，但在本周一，它据报道斥资40亿美元买下由腾讯前员工在上海成立的游戏公司沐瞳科技(Moonton)，使其拥有一个支柱游戏品牌：《无尽对决》(Mobile Legends)。
-> 
+>
 > 扩张进入游戏领域也是回击腾讯的一种方式，后者在中国游戏市场的主导地位制约着字节跳动的社交媒体平台，比如阻止其直播腾讯旗下游戏。
 
 ### 💡 写作维度：定语从句的“信息叠加”术
@@ -34,7 +34,7 @@ author: 'William'
 **FT 的处理方式：**
 使用 `whose` 将 “Tencent” 与 “dominance” 直接链接。
 **结构公式：** `[主体], whose [属性/特质] + [导致的结果]`。
-这种写法能瞬间建立起**“因为拥有某种特质 $\rightarrow$ 所以产生某种影响”**的因果链条，非常适合在议论文中分析原因。
+这种写法能瞬间建立起**“因为拥有某种特质 → 所以产生某种影响”**的因果链条，非常适合在议论文中分析原因。
 
 #### 2. 考场应用：从“碎句”到“长句”的升级
 

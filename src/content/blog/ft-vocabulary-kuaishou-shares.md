@@ -17,7 +17,7 @@ author: 'William'
 
 > Shares in ByteDance's main competitor in China **tumbled** after the company's losses widened.
 >
-> The company's shares fell 11.5 per cent, **erasing** as much as $14bn off Kuaishou's market capitalisation.
+> The company's shares fell 11.5 per cent, **erasing** as much as 14bn off Kuaishou's market capitalisation.
 >
 > Kuaishou's short video app faces **stiffening** competition.
 >
@@ -52,13 +52,13 @@ author: 'William'
 
 ### 2. erase 蒸发/抹去
 
-**原文：** erasing as much as $14bn off Kuaishou's market capitalisation（让市值蒸发多达140亿美元）
+**原文：** erasing as much as 14bn off Kuaishou's market capitalisation（让市值蒸发多达140亿美元）
 
 **为什么好：** 学生写"失去价值"只会用 `took away` 或 `lost`。`erase`（抹去）是更生动、更正式的动词，适合描述**价值的消失**。
 
 | 学生写法 | 升级写法 |
 |---------|---------|
-| The company **lost** a lot of value. | The crisis **erased** $2bn off the company's market value. |
+| The company **lost** a lot of value. | The crisis **erased** 2bn off the company's market value. |
 | The disaster **took away** years of progress. | The disaster **erased** years of progress. |
 
 **公式：** `[Event] erased [amount] off [value/noun]`

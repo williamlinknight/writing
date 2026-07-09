@@ -19,7 +19,7 @@ author: 'William'
 >
 > **Roula Khalaf, the FT's editor and chair of judges,** said the book tackled 'two vital issues of our age'.
 >
-> In her book, **Ms Frier, a journalist for Bloomberg based in San Francisco,** describes the evolution of **Instagram, the image-based social media app,** and how Facebook shocked Silicon Valley by buying the start-up in 2012 for $1bn.
+> In her book, **Ms Frier, a journalist for Bloomberg based in San Francisco,** describes the evolution of **Instagram, the image-based social media app,** and how Facebook shocked Silicon Valley by buying the start-up in 2012 for 1bn.
 >
 > The book was published — **by Random House Business in the UK and Simon & Schuster in the US** — just as coronavirus and lockdown drove more people online.
 >

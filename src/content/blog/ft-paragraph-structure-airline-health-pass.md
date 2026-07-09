@@ -110,13 +110,13 @@ The platform, developed by a leading health-tech startup and backed by the Natio
 
 **原文：**
 
-> On Tuesday Iata warned that global airlines faced combined losses of $118.5bn this year, deeper than the $84.3bn forecast in June, and $39bn next year. Passenger numbers are forecast to fall 60 per cent on last year to 1.3bn.
+> On Tuesday Iata warned that global airlines faced combined losses of 118.5bn this year, deeper than the 84.3bn forecast in June, and 39bn next year. Passenger numbers are forecast to fall 60 per cent on last year to 1.3bn.
 
 **结构拆解：**
 
-- **数据锚定**：$118.5bn loss this year
-- **对比数据**：deeper than $84.3bn forecast in June
-- **延伸数据**：$39bn next year / 60% fall to 1.3bn
+- **数据锚定**：118.5bn loss this year
+- **对比数据**：deeper than 84.3bn forecast in June
+- **延伸数据**：39bn next year / 60% fall to 1.3bn
 
 **公式：** [Key data point] + [Comparative data] + [Supporting data / projection]
 

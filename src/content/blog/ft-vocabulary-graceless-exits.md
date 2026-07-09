@@ -10,15 +10,15 @@ author: "William"
 今天我们分析 FT 关于领导人离任（outgoing leaders）的一篇文章，学习如何用词来精准捕捉“体面”与“狼狈”之间的差异。
 
 > **FT 原文**
-> 
+>
 > Despite his and his supporters' best efforts to challenge the outcome, though, Mr Trump's authority is already ebbing away to Joe Biden. In the meantime, he is providing an object lesson in graceless exits that all leaders, outgoing or not, should study.
-> 
+>
 > The path away from power is peppered with tiny humiliations.
 
 > **中文对照**
-> 
+>
 > 尽管特朗普及其支持者尽了最大努力挑战选举结果，但他和乔·拜登的权威已经在此消彼长了。与此同时，他不体面的退场提供了一个经验教训，所有领导人，无论是否即将离任，都应该学习。
-> 
+>
 > 离开权力的道路充满了小小的羞辱。
 
 ### 💡 维度解析：词汇升级（Dynamic Verbs & Imagery）
@@ -58,9 +58,9 @@ His departure provides a poignant object lesson in graceless exits, serving as a
 ### ✍️ 写作建议
 
 当你需要描述某种抽象事物的“减少”、“消失”或“分布”时，尝试摆脱 `increase/decrease/many`：
-- **描述消退** $\rightarrow$ 使用 `ebb away` (潮退), `evaporate` (蒸发), `fade` (褪色)。
-- **描述密集分布** $\rightarrow$ 使用 `be peppered with` (点缀/布满), `be riddled with` (充满漏洞/问题)。
-- **描述典型案例** $\rightarrow$ 使用 `an object lesson in...` (一个关于...的绝佳教训)。
+- **描述消退** → 使用 `ebb away` (潮退), `evaporate` (蒸发), `fade` (褪色)。
+- **描述密集分布** → 使用 `be peppered with` (点缀/布满), `be riddled with` (充满漏洞/问题)。
+- **描述典型案例** → 使用 `an object lesson in...` (一个关于...的绝佳教训)。
 
 > *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
 > *专注中高考/雅思写作 · 逐句精批 + 逻辑重构 + 母语级升级*

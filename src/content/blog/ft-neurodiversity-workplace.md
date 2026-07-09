@@ -40,12 +40,12 @@ author: "William"
 **❌ 初级写法 (Basic)：**
 Companies should hire different people because it is good for the company and they have different ideas.
 *(公司应该雇佣不同的人，因为这对公司有好处，而且他们有不同的想法。)*
-$\rightarrow$ **问题**：词汇匮乏 (*different*, *good*), 句式简单。
+→ **问题**：词汇匮乏 (*different*, *good*), 句式简单。
 
 **✅ 高级写法 (Advanced)：**
 By embracing neurodiversity, corporations can transform what was once perceived as a liability into a strategic human asset, leveraging a broader spectrum of cognitive styles to foster innovation and see things from outside the box.
 *(通过接纳神经多样性，企业可以将曾经被视为负担的特质转化为战略性的人力资本，利用更广泛的认知风格来促进创新并跳出思维定势地思考问题。)*
-$\rightarrow$ **升级点**：使用 *transform A into B* 结构，引入 *perceived as* (被认为), *strategic human asset* (战略人力资本) 等专业表达。
+→ **升级点**：使用 *transform A into B* 结构，引入 *perceived as* (被认为), *strategic human asset* (战略人力资本) 等专业表达。
 
 ---
 *本文由 [厦门灯塔] 整理，旨在通过高质量输入驱动写作产出。*

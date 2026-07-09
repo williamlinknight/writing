@@ -12,14 +12,14 @@ author: "William"
 今天我们通过一篇关于好莱坞电影复苏的报道，来看看定语从句是如何在实战中被高效使用的。
 
 > **FT 原文**
-> Warner Bros has scored the biggest US box office hit of the pandemic with Godzilla vs Kong, **which sold $48.5m in tickets in its debut over the Easter holiday** — an encouraging sign for Hollywood as it looks to jump-start business after a year in the doldrums.
+> Warner Bros has scored the biggest US box office hit of the pandemic with Godzilla vs Kong, **which sold 48.5m in tickets in its debut over the Easter holiday** — an encouraging sign for Hollywood as it looks to jump-start business after a year in the doldrums.
 >
 > **中文对照**
 > 华纳兄弟的《哥斯拉大战金刚》创下新冠疫情期间美国票房的最好成绩——上映头5天（包含复活节）票房达4850万美元。这对于经历一年低迷后寻求重振旗鼓的好莱坞来说，是一个令人鼓舞的迹象。
 
 ### 💡 写作维度：定语从句的「信息插件」化
 
-在这句话中，作者没有把票房数据单独写成一句 `It sold $48.5m...`，而是用了 `which` 引导的非限制性定语从句。这种处理方式让读者在感知到「票房最高」这个核心结论的瞬间，立刻获得支撑这个结论的具体数据，信息传递效率极高。
+在这句话中，作者没有把票房数据单独写成一句 `It sold 48.5m...`，而是用了 `which` 引导的非限制性定语从句。这种处理方式让读者在感知到「票房最高」这个核心结论的瞬间，立刻获得支撑这个结论的具体数据，信息传递效率极高。
 
 以下是三个典型的定语从句实操技巧：
 

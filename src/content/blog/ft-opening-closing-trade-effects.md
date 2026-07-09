@@ -129,7 +129,7 @@ FT的写法在一个句子里完成了三件事：
 
 | 学生写法 ❌ | 升级写法 ✅ |
 |-----------|-----------|
-| In conclusion, China's tech industry is very competitive. | While China's tech sector attracted $42 billion in foreign investment in 2023, a 5% decline from the previous year, its domestic R&D spending surged to $78 billion — a mirror image of where global capital is flowing. |
+| In conclusion, China's tech industry is very competitive. | While China's tech sector attracted 42 billion in foreign investment in 2023, a 5% decline from the previous year, its domestic R&D spending surged to 78 billion — a mirror image of where global capital is flowing. |
 
 **模板：**
 ```

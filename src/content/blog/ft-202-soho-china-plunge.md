@@ -9,14 +9,14 @@ author: "William"
 
 今天我们分析一篇关于黑石终止收购SOHO中国导致股价暴跌的报道。
 
-> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its \$3bn takeover of the Chinese property company last week. About \$830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
+> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its \3bn takeover of the Chinese property company last week. About \830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
 
 > 周一，SOHO中国(SOHO China)股价一度下跌40%。此前，美国私人股本集团黑石(Blackstone)于上周终止了以30亿美元收购这家中国地产开发商的计划。周一港交所开盘后，SOHO中国股价随即暴跌，市值蒸发约8.3亿美元。
 
 ### 💡 核心表达解析
 
 #### 1. Pull a takeover/deal
-**原文出处：** "...after US private equity group Blackstone **pulled its \$3bn takeover**..."
+**原文出处：** "...after US private equity group Blackstone **pulled its \3bn takeover**..."
 **中文解释：** 终止/撤回一项收购计划。
 **为什么好：** *Pull* 在这里是非正式但极具动感的表达，比 *cancel* 或 *stop* 更形象，传达出一种“突然撤回”的力度感。
 
@@ -32,15 +32,15 @@ Blackstone **pulled its takeover** of the company.
 ---
 
 #### 2. Wipe from market value
-**原文出处：** "About \$830m was **wiped from Soho China's market value**..."
+**原文出处：** "About \830m was **wiped from Soho China's market value**..."
 **中文解释：** （市值）蒸发 / 消失。
 **为什么好：** *Wipe* (原意为擦除) 极其精准地描述了在股市剧震中，数以亿计的财富在瞬间“被抹掉”的惨烈感。
 
 **❌ 学生初版**
-The company's value decreased by \$830 million.
+The company's value decreased by \830 million.
 
 **✅ 升级版**
-\$830m was **wiped from the company's market value**.
+\830m was **wiped from the company's market value**.
 
 **💡 效果**
 从简单的“减少”变为“蒸发”，增强了视觉冲击力，符合财经写作的专业基调。

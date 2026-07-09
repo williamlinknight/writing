@@ -15,11 +15,11 @@ author: "William"
 
 > Tesla overcame severe supply chain problems in the latest quarter, boosting its profit margins and pushing its revenue above Wall Street expectations, according to figures released late on Monday.
 >
-> Revenue reached just less than $12bn, higher than the $11.2bn most analysts had expected and up 97 per cent from a year before, when a forced factory closure caused by the pandemic held back its business.
+> Revenue reached just less than 12bn, higher than the 11.2bn most analysts had expected and up 97 per cent from a year before, when a forced factory closure caused by the pandemic held back its business.
 >
-> The company's all-important gross profit margin from automotive operations reached 28.4 per cent, nearly two percentage points higher than the first three months of 2021. The advance came even though its income from selling regulatory credits, at $354m, was down from $514m in the preceding quarter.
+> The company's all-important gross profit margin from automotive operations reached 28.4 per cent, nearly two percentage points higher than the first three months of 2021. The advance came even though its income from selling regulatory credits, at 354m, was down from 514m in the preceding quarter.
 >
-> Operating profits tripled from a year before, to $1.3bn, as Tesla benefited from higher sales volumes and reined in its operating costs. The advance came despite a $176m charge to reflect what the company said was a likely payout under Musk's stock compensation plan.
+> Operating profits tripled from a year before, to 1.3bn, as Tesla benefited from higher sales volumes and reined in its operating costs. The advance came despite a 176m charge to reflect what the company said was a likely payout under Musk's stock compensation plan.
 >
 > — *Financial Times, "Tesla overcomes supply chain woes to boost profit margins"*
 
@@ -44,7 +44,7 @@ author: "William"
 
 | 学生常见写法 | ❌ 问题 | ✅ FT式升级 |
 |------------|--------|-----------|
-| *Tesla's revenue is very high. It has many cars. Tesla earned 12 billion dollars.* | 无主句统领，信息散乱 | **Revenue reached just less than $12bn** — 一句话给出完整信息（数字+对比+增长） |
+| *Tesla's revenue is very high. It has many cars. Tesla earned 12 billion dollars.* | 无主句统领，信息散乱 | **Revenue reached just less than 12bn** — 一句话给出完整信息（数字+对比+增长） |
 | *The profit is 28.4%. It is high. Last quarter was lower.* | 数据对比不精确，缺乏层次 | **28.4 per cent, nearly two percentage points higher than the first three months of 2021** — 精准对比 |
 | *Tesla made more money. They sold more cars. Costs are lower.* | 因果链不清晰 | **Operating profits tripled... as Tesla benefited from higher sales volumes and reined in its operating costs** — 因果结构清晰 |
 
@@ -64,7 +64,7 @@ author: "William"
 
 **学生仿写：**
 > The school revised its online learning platform, **improving student engagement** and **reducing technical issues**.
-> 
+>
 > The company invested in renewable energy, **cutting operational costs** and **enhancing its brand image**.
 
 ---
@@ -77,7 +77,7 @@ author: "William"
 > **[数据/事实]**, [具体数字] [对比/程度说明].
 
 **FT例句：**
-> Revenue reached just less than $12bn, **higher than the $11.2bn most analysts had expected** and **up 97 per cent from a year before**.
+> Revenue reached just less than 12bn, **higher than the 11.2bn most analysts had expected** and **up 97 per cent from a year before**.
 
 > The company's all-important gross profit margin from automotive operations reached 28.4 per cent, **nearly two percentage points higher than the first three months of 2021**.
 
@@ -96,7 +96,7 @@ author: "William"
 > **[数据点]** tripled / doubled / increased by X per cent **as / despite** [原因/转折].
 
 **FT例句：**
-> **Operating profits tripled** from a year before, to $1.3bn, **as** Tesla benefited from higher sales volumes and reined in its operating costs. **The advance came despite** a $176m charge to reflect what the company said was a likely payout under Musk's stock compensation plan.
+> **Operating profits tripled** from a year before, to 1.3bn, **as** Tesla benefited from higher sales volumes and reined in its operating costs. **The advance came despite** a 176m charge to reflect what the company said was a likely payout under Musk's stock compensation plan.
 
 **学生仿写：**
 > **Sales doubled** from the previous year, to 50,000 units, **as** the company expanded into overseas markets and introduced a budget model. **This growth came despite** rising raw material costs.

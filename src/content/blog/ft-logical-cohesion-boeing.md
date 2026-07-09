@@ -15,11 +15,11 @@ author: 'William'
 
 > Boeing reported lower first-quarter revenue **than a year ago, when it was in the midst of the 737 Max crisis, hurt by delays in 787 deliveries and a global pandemic that continues to depress airlines' demand for planes.**
 >
-> Revenue fell 10 per cent to $15.2bn in the first quarter, and the company reported a net loss of $561m. Its loss shrank slightly from the $641m net loss it posted for the same period **a year ago.**
+> Revenue fell 10 per cent to 15.2bn in the first quarter, and the company reported a net loss of 561m. Its loss shrank slightly from the 641m net loss it posted for the same period **a year ago.**
 >
 > **"While** the global pandemic continues to challenge the overall market environment, we view 2021 as a key inflection point for our industry **as** vaccine distribution accelerates, and we work together across government and industry to help enable a robust recovery," chief executive David Calhoun said.
 >
-> The flow of cash out of the door has slowed. The company reported free cash outflow — operating cash minus capital expenditures — of $3.7bn for the quarter, **compared with** an outflow of $4.7bn a year ago.
+> The flow of cash out of the door has slowed. The company reported free cash outflow — operating cash minus capital expenditures — of 3.7bn for the quarter, **compared with** an outflow of 4.7bn a year ago.
 >
 > Boeing resumed deliveries of its wide-body 787 planes last month **after** quality problems caused months of delays, which hurt first-quarter results. Boeing is dropping the production rate to five per month from six **as** demand for wide-bodies remains low.
 
@@ -73,7 +73,7 @@ While [承认反方事实], [坚持正方观点].
 | 学生写法 | 升级写法（compared with） |
 |---------|------------------------|
 | The number of students who chose science increased. However, the number of art students dropped. | The number of science students rose to 500, **compared with** only 320 in the art department. |
-| This year's profit is $3.7bn. But last year it was $4.7bn. | The company reported a free cash outflow of $3.7bn for the quarter, **compared with** $4.7bn a year ago. |
+| This year's profit is 3.7bn. But last year it was 4.7bn. | The company reported a free cash outflow of 3.7bn for the quarter, **compared with** 4.7bn a year ago. |
 
 ### 模板
 

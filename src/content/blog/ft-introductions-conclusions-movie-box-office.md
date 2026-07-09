@@ -15,7 +15,7 @@ author: 'William'
 
 **英文原文：**
 
-> Warner Bros has scored the biggest US box office hit of the pandemic with Godzilla vs Kong, which sold $48.5m in tickets in its debut over the Easter holiday — an encouraging sign for Hollywood as it looks to jump-start business after a year in the doldrums.
+> Warner Bros has scored the biggest US box office hit of the pandemic with Godzilla vs Kong, which sold 48.5m in tickets in its debut over the Easter holiday — an encouraging sign for Hollywood as it looks to jump-start business after a year in the doldrums.
 
 **中文对照：**
 
@@ -23,7 +23,7 @@ author: 'William'
 
 **为什么好？**
 
-中文写作习惯是**铺垫→结论**（先说背景，再说观点），但英语写作正好相反：**结论→展开**。这篇报道的第一句话就把三个核心信息全部抛出：**谁（Warner Bros）→做了什么（scored biggest hit）→为什么厉害（$48.5m + encouraging sign）**。
+中文写作习惯是**铺垫→结论**（先说背景，再说观点），但英语写作正好相反：**结论→展开**。这篇报道的第一句话就把三个核心信息全部抛出：**谁（Warner Bros）→做了什么（scored biggest hit）→为什么厉害（48.5m + encouraging sign）**。
 
 学生常见的写法是：先用两句话讲"疫情期间电影院很惨"，再慢慢引出"有一部电影成功了"。但英语母语者的思维方式是先把结论砸出来，再用后面的段落展开解释。这种开头的信息密度极高，阅卷老师一眼就能判断你的英语水平。
 
@@ -31,7 +31,7 @@ author: 'William'
 
 | 学生写法（铺垫式） | 升级写法（结论前置） |
 |-------------------|-------------------|
-| During the pandemic, many movies didn't do well in cinemas. People were afraid to go out. But one movie called Godzilla vs Kong was very successful. | Warner Bros **scored** the **biggest** box office hit during the pandemic with Godzilla vs Kong, **selling $48.5m** in tickets — an encouraging sign for the film industry after a year in the doldrums. |
+| During the pandemic, many movies didn't do well in cinemas. People were afraid to go out. But one movie called Godzilla vs Kong was very successful. | Warner Bros **scored** the **biggest** box office hit during the pandemic with Godzilla vs Kong, **selling 48.5m** in tickets — an encouraging sign for the film industry after a year in the doldrums. |
 
 **模板（可直接套用）：**
 
@@ -48,7 +48,7 @@ author: 'William'
 
 **英文原文：**
 
-> Hollywood executives had hoped the franchise film, in which the oversized sea monster battles with the giant ape, could make between $20m and $30m. Godzilla vs Kong brought in $32m over the weekend and $48.5m during the extended five-day Easter holiday period.
+> Hollywood executives had hoped the franchise film, in which the oversized sea monster battles with the giant ape, could make between 20m and 30m. Godzilla vs Kong brought in 32m over the weekend and 48.5m during the extended five-day Easter holiday period.
 
 **中文对照：**
 
@@ -64,7 +64,7 @@ author: 'William'
 
 | 学生写法（平铺直叙） | 升级写法（预期反差） |
 |-------------------|-------------------|
-| The movie was very popular. It made a lot of money. | Industry experts **had expected** the film to earn between $20m and $30m. In reality, it **brought in $48.5m** — more than doubling their initial projections. |
+| The movie was very popular. It made a lot of money. | Industry experts **had expected** the film to earn between 20m and 30m. In reality, it **brought in 48.5m** — more than doubling their initial projections. |
 
 **模板（可直接套用）：**
 

@@ -22,7 +22,7 @@ author: 'William'
 ## FT原文
 
 > In the only two notable agreements between the tech and media worlds so far, AP allowed its archives to be used to train OpenAI's models, while **Axel Springer, owner of Politico, Die Welt and Business Insider,** reached a broader deal with the same company earlier this month.
-> 
+>
 > Yet most major rights owners have held back, **hoping to find ways to share in the spoils from the new technology rather than seek to thwart it.**
 
 ——FT中文网《媒体和科技界围绕人工智能的战争达到新高度》
@@ -94,7 +94,7 @@ author: 'William'
 | 话题 | 学生写法 | 分词插入升级 |
 |:--|:--|:--|
 | 学习 | *I chose this university. I wanted to study with the best professors.* | **I chose this university, hoping to learn from the best professors in the field.** |
-| 社会 | *The company donated \$1 million. It wanted to support local education.* | **The company donated \$1 million, hoping to support local education and build community trust.** |
+| 社会 | *The company donated \1 million. It wanted to support local education.* | **The company donated \1 million, hoping to support local education and build community trust.** |
 | 个人 | *She took a gap year. She wanted to travel and discover herself.* | **She took a gap year, seeking to travel the world and discover her true passion.** |
 
 **注意：** 分词短语的逻辑主语必须和主句的主语一致。比如上面 FT 的例子，"rights owners"是 "hoping" 的逻辑主语，没错。如果主语不一致（比如"The door opened, hoping to..."），就是语法错误。

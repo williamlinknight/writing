@@ -88,7 +88,7 @@ author: 'William'
 
 **原文出处：**
 
-> **Although** the median projected base salary for the class of 2020 fell from $115,000 in 2019 to $105,000 after the start of the pandemic, 89 per cent intended to hire MBAs in 2021.
+> **Although** the median projected base salary for the class of 2020 fell from 115,000 in 2019 to 105,000 after the start of the pandemic, 89 per cent intended to hire MBAs in 2021.
 
 **为什么好：** "Although"是英文议论文最关键的高级衔接词之一。它的作用是：**先承认反方事实（工资下降了），再坚持正方观点（但公司还是要招MBA毕业生）**。这样写比直接说"Companies still want to hire MBAs"更有说服力——因为你主动"承认不利因素"，然后再给出更强有力的支持证据，这叫"concession + counter-argument"。
 

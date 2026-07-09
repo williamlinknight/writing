@@ -80,7 +80,7 @@ FT记者不只是引一家之言。他们构建了一个**多层权威金字塔*
 *Electric cars are becoming more popular.*
 
 **✅ 升级版**
-*In 2025, global EV sales exceeded 20 million units, representing a 35% year-on-year increase. **By contrast**, sales of traditional petrol vehicles fell by 12% in the same period, the steepest decline in a decade. While the average EV still costs $5,000 more upfront, **the gap has narrowed from $15,000 just five years ago**.*
+*In 2025, global EV sales exceeded 20 million units, representing a 35% year-on-year increase. **By contrast**, sales of traditional petrol vehicles fell by 12% in the same period, the steepest decline in a decade. While the average EV still costs 5,000 more upfront, **the gap has narrowed from 15,000 just five years ago**.*
 
 **💡 效果**
 通过双重对比（EV vs 燃油车增长对比 + 价差缩短对比），论证从"趋势判断"升级为"可量化的结构性变化"。

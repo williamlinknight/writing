@@ -38,65 +38,65 @@ author: 'William'
 - **中文解释**：被（报纸/媒体）大篇幅报道 / 登上（头版头条）。
 - **为什么好**：学生习惯写 *was reported on newspapers* 或 *was on the news*。**Splash** 原意为「泼洒」，用在媒体语境中，形象地传达出一个新闻被"铺满"版面的视觉效果，比 *reported* 更有冲击力。
 - **考场用法对比**：
-  **❌ 学生初版**
-  The accident was reported on many newspapers.
-  
-  **✅ 升级版**
-  The scandal was **splashed across** newspapers around the world within hours.
-  
-  **💡 效果**：从平淡的「被报道」升级为「被广泛、醒目地报道」，增强了事件的影响力和冲击感。
+**❌ 学生初版**
+The accident was reported on many newspapers.
+
+**✅ 升级版**
+The scandal was **splashed across** newspapers around the world within hours.
+
+**💡 效果**：从平淡的「被报道」升级为「被广泛、醒目地报道」，增强了事件的影响力和冲击感。
 
 **2. Be beset by**
 - **原文出处**：*The mass rollout...will surely be beset by many such coincidences...*
 - **中文解释**：受到……的困扰 / 被……缠身。
 - **为什么好**：学生习惯写 *have many problems* 或 *be affected by many difficulties*。**Beset** 是一个强有力的动词，表示「从四面八方向某人/某物发起攻击」，常用于描述某个过程或计划不断受到难题的困扰，语气比 *face* 或 *have* 重得多。
 - **考场用法对比**：
-  **❌ 学生初版**
-  The project had many problems from the beginning.
-  
-  **✅ 升级版**
-  The reform was **beset by** delays, budget cuts, and political opposition from day one.
-  
-  **💡 效果**：从「遇到问题」升级为「被多重困难包围」，体现了更强烈的逆境感。
+**❌ 学生初版**
+The project had many problems from the beginning.
+
+**✅ 升级版**
+The reform was **beset by** delays, budget cuts, and political opposition from day one.
+
+**💡 效果**：从「遇到问题」升级为「被多重困难包围」，体现了更强烈的逆境感。
 
 **3. Be misread as**
 - **原文出处**：*...the ever-present background noise of medical misfortune will be misread as vaccine side-effects.*
 - **中文解释**：被误读为 / 被误解为。
 - **为什么好**：学生常写 *be wrongly seen as* 或 *be mistaken for*。**Misread** (误读) 是一个比喻性的表达，将「错误理解」比作「读错了文本」，比 *mistaken* 更加精准地传达出「本有正确解释，只是被错误理解」的含义。
 - **考场用法对比**：
-  **❌ 学生初版**
-  His silence was wrongly seen as agreement.
-  
-  **✅ 升级版**
-  The government's caution was **misread as** indecision by the media.
-  
-  **💡 效果**：从「被错看」升级为「被误读」，暗示对方的理解有偏差，表达更精确。
+**❌ 学生初版**
+His silence was wrongly seen as agreement.
+
+**✅ 升级版**
+The government's caution was **misread as** indecision by the media.
+
+**💡 效果**：从「被错看」升级为「被误读」，暗示对方的理解有偏差，表达更精确。
 
 **4. Acquire sinister significance**
 - **原文出处**：*Illnesses that usually go unremarked upon may acquire sinister significance when they appear after vaccination.*
 - **中文解释**：被赋予可怕的意味 / 获得令人不安的意义。
 - **为什么好**：这是一个非常高级的搭配。**Acquire** (获得) 在这里暗示「某种原本没有的意义被附加上了」；**Sinister** (不祥的、险恶的) 比 *negative* 或 *bad* 更精准、更有文学感。整句话表达的是「原本普通的事情在特定语境下被赋予了负面含义」。
 - **考场用法对比**：
-  **❌ 学生初版**
-  People started to see the event in a bad way.
-  
-  **✅ 升级版**
-  In the context of rising unemployment, even a minor policy change **acquired sinister significance**.
-  
-  **💡 效果**：从「被人看坏」升级为「被赋予了不祥意味」，表达更具层次和学术感。
+**❌ 学生初版**
+People started to see the event in a bad way.
+
+**✅ 升级版**
+In the context of rising unemployment, even a minor policy change **acquired sinister significance**.
+
+**💡 效果**：从「被人看坏」升级为「被赋予了不祥意味」，表达更具层次和学术感。
 
 **5. Distinguish the signal from the noise**
 - **原文出处**：*The challenge will be to distinguish the signal from the noise.*
 - **中文解释**：区分信号与噪声（即：从大量无关信息中找出真正有用的信息）。
 - **为什么好**：这是英语世界中的一个经典习语，源自通信工程和科学领域。**Signal** (信号) 代表有价值的信息，**Noise** (噪声) 代表无意义的干扰。这个比喻在数据分析、科学研究、决策分析等多种语境下都极其适用。
 - **考场用法对比**：
-  **❌ 学生初版**
-  It is hard to find useful information among all the data.
-  
-  **✅ 升级版**
-  In the age of information overload, the key skill is learning to **distinguish the signal from the noise**.
-  
-  **💡 效果**：从一个普通的「找有用信息」描述，升级为一个经典、有力的学术比喻。这个短语几乎是任何议论文的"杀手锏"。
+**❌ 学生初版**
+It is hard to find useful information among all the data.
+
+**✅ 升级版**
+In the age of information overload, the key skill is learning to **distinguish the signal from the noise**.
+
+**💡 效果**：从一个普通的「找有用信息」描述，升级为一个经典、有力的学术比喻。这个短语几乎是任何议论文的"杀手锏"。
 
 ### ✍️ 写作建议
 

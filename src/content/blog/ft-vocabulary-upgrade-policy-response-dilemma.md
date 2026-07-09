@@ -14,11 +14,11 @@ author: "William"
 ## 📖 FT原文选段
 
 > The Biden administration **is struggling to address** an **influx** of unaccompanied minors attempting to cross the US southern border as figures confirmed a **sharp jump** in attempted crossings.
-> 
+>
 > The Biden administration **is confronting** the **uptick** in attempted entries while attempting to **radically overhaul** the Trump administration's zero-tolerance border strategy.
-> 
+>
 > While it **has placed blame** for the current border crisis on the previous White House, it has struggled to simultaneously **tout** a promising message to migrants while **deterring** people from crossing… which Jacobson acknowledged was like trying to "walk and chew gum at the same time".
-> 
+>
 > Republican lawmakers have **hit out at** the administration for not doing enough to **stem** the crisis.
 
 ---

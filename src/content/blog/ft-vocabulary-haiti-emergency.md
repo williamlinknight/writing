@@ -10,7 +10,7 @@ author: "William"
 真正的母语写作者会根据动作的**力度、意图和语境**，选择极其精准的动作词。今天我们分析 FT 关于海地总统遇刺的短篇报道。
 
 > Haiti has declared a state of emergency after the assassination of its president Jovenel Moïse, who was shot dead during the night in his private home on the outskirts of the capital Port-au-Prince.
-> 
+>
 > 海地宣布进入紧急状态，此前该国总统若弗内尔•莫伊兹(Jovenel Moïse)于夜间在首都太子港(Port-au-Prince)郊区的私人住所被枪杀。
 
 这篇文章虽然短，但每一个动词都带有强烈的「报道色彩」和「力度感」。
@@ -73,9 +73,9 @@ The authorities **confirmed** that the attack was carefully planned.
 
 想要摆脱「小学生词汇」，最快的方法是建立自己的 **Action Verb 库**。
 不要试图背诵长难词，而要寻找通用词的「精准替代品」：
-- `Say/Talk` $\rightarrow$ `Assert` (坚定地认为), `Claim` (主张), `Reiterate` (重申), `Condemn` (谴责)
-- `Change` $\rightarrow$ `Transform` (彻底改变), `Overhaul` (全面检修/改革), `Modify` (微调)
-- `Help` $\rightarrow$ `Facilitate` (使便捷), `Catalyse` (催化/加速), `Augment` (增强)
+- `Say/Talk` → `Assert` (坚定地认为), `Claim` (主张), `Reiterate` (重申), `Condemn` (谴责)
+- `Change` → `Transform` (彻底改变), `Overhaul` (全面检修/改革), `Modify` (微调)
+- `Help` → `Facilitate` (使便捷), `Catalyse` (催化/加速), `Augment` (增强)
 
 下次写作文时，尝试把文中的 `say` 或 `do` 圈出来，强制自己替换成一个更精准的动作词。
 

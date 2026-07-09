@@ -54,7 +54,7 @@ author: 'William'
 | 学生写法 | 升级写法 |
 |---------|---------|
 | A lot of countries are now thinking about making new rules for big tech companies. This is very important. | The new regulations mark a watershed moment for the global tech industry. More than 10 countries are now considering similar measures. |
-| My city has been working on environmental protection for many years. This is a big change. | The new policy marks a turning point for urban environmental protection. The city council has allocated $50m to green initiatives. |
+| My city has been working on environmental protection for many years. This is a big change. | The new policy marks a turning point for urban environmental protection. The city council has allocated 50m to green initiatives. |
 | Many students are now using AI to help with their homework. This is a new trend. | The rise of AI tools marks a fundamental shift in how students approach learning. A recent survey found 67% of high schoolers now use AI for homework. |
 
 **模板：**

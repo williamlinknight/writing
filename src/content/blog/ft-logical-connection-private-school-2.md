@@ -10,14 +10,14 @@ author: "William"
 我们继续看关于英国私校的讨论下半部分，学习作者如何构建论证逻辑。
 
 > I have clients who... opted to save money, creating an \"education budget\"... Though it's not the be all and end all, both the couple's children won places at Oxbridge, showing that the state school option is not to be ignored. Indeed, the share of students arriving at Oxbridge from private UK schools has fallen...
-> 
+>
 > Certainly, one should not assume that any private school will suit your child. They vary enormously...
 
 ### 💡 逻辑衔接维度解析：从“个案”到“趋势”再到“普适规律”
 
-这里的逻辑链条是：**[个案成功] $\rightarrow$ [数据支撑] $\rightarrow$ [普适结论]**。
+这里的逻辑链条是：**[个案成功] → [数据支撑] → [普适结论]**。
 
-#### 1. 个案 $\rightarrow$ 数据：使用 "Indeed" 递进强化
+#### 1. 个案 → 数据：使用 "Indeed" 递进强化
 作者先举了一个孩子进入牛剑的例子，然后使用 `Indeed` 引导出整体趋势的数据。
 
 **❌ 学生初版**
@@ -27,7 +27,7 @@ One couple's children went to Oxbridge. Also, more state school students go ther
 **💡 效果**
 `Indeed` (的确) 起到了“事实增强”的作用。它告诉读者：前面的例子不是孤例，而是整体趋势的一部分。这比 `Also` 或 `In addition` 更有力量。
 
-#### 2. 数据 $\rightarrow$ 普适规律：使用 "Certainly" 开启新维度
+#### 2. 数据 → 普适规律：使用 "Certainly" 开启新维度
 在讨论完公立校的潜力后，作者用 `Certainly` 快速切换维度，讨论私校内部的差异性。
 
 **❌ 学生初版**
@@ -37,7 +37,7 @@ But not all private schools are good.
 **💡 效果**
 `Certainly` (当然/诚然) 是一种典型的“先承认部分事实，再进行深入分析”的衔接方式。它能让作者显得客观，避免过于绝对，从而增加论证的可信度。
 
-#### 3. 现象 $\rightarrow$ 警示：使用 "Worse" 构建递进层级
+#### 3. 现象 → 警示：使用 "Worse" 构建递进层级
 在讨论私校的潜在负面影响时，作者使用了 `Worse` 引导出更深层的危机。
 
 **❌ 学生初版**

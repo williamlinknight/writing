@@ -102,7 +102,7 @@ author: 'William'
 
 ### 5. cautiously endorse / express [strong] regret / voice objections 不同立场的表态方式
 
-**原文出处：** 
+**原文出处：**
 - "South Korea expressed its 'strong regret'…"
 - "the US cautiously endorsed Japan's approach"
 - "We hereby register our strong objections"

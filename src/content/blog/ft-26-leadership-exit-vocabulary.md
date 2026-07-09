@@ -38,7 +38,7 @@ author: "William"
 | The manager was still at work but everyone ignored him. | The manager became a **lame duck** long before his contract ended. |
 | He had no real power in the final months. | He was reduced to a **lame duck** in his final months. |
 
-**模板：** ___________(人/组织) was reduced to a lame duck after ___________ .  
+**模板：** ___________(人/组织) was reduced to a lame duck after ___________ .
 **例句：** The CEO was reduced to a lame duck after the board's no-confidence vote.
 
 ---
@@ -56,7 +56,7 @@ author: "William"
 | My energy was slowly disappearing. | My energy was **ebbing away** by the minute. |
 | Public support for the policy faded. | Public support for the policy **ebbed away** after the scandal. |
 
-**模板：** As ___________, ___________ (抽象事物) ebbed away.  
+**模板：** As ___________, ___________ (抽象事物) ebbed away.
 **例句：** As the exam approached, my confidence ebbed away.
 
 ---
@@ -74,7 +74,7 @@ author: "William"
 | She behaved badly when she lost. | Her behaviour after the defeat was shockingly **graceless**. |
 | He didn't handle his resignation well. | His resignation was a **graceless** affair. |
 
-**模板：** The ___________ was a graceless ___________ that left everyone uncomfortable.  
+**模板：** The ___________ was a graceless ___________ that left everyone uncomfortable.
 **例句：** The team captain's departure was a graceless exit that disappointed his teammates.
 
 ---
@@ -92,7 +92,7 @@ Swansong（又作 swan song）是英语中最美的隐喻之一。传说天鹅�
 | She wrote a great final book. | The novel was the author's **swansong**, completed just before her death. |
 | This was his final achievement. | This project served as his **swansong** at the company. |
 
-**模板：** ___________ (活动/作品) was a fitting swansong to ___________ (生涯/阶段).  
+**模板：** ___________ (活动/作品) was a fitting swansong to ___________ (生涯/阶段).
 **例句：** Winning the championship was a fitting swansong to his high school sports career.
 
 ---

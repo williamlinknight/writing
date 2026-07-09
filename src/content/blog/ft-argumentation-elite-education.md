@@ -28,12 +28,12 @@ author: "William"
 **维度 1：人员构成 (Personnel)**
 - **旧系统**：`dominated by students from privileged backgrounds` (由特权背景学生主导)
 - **新系统**：`draw from a more diverse pool of candidates` (从更多元化的候选人池中选拔)
-- **论证效果**：通过 `privileged` $\leftrightarrow$ `diverse` 的对比，将改革的正义性（公平性）直接摆在读者面前。
+- **论证效果**：通过 `privileged` ↔ `diverse` 的对比，将改革的正义性（公平性）直接摆在读者面前。
 
 **维度 2：知识体系 (Knowledge)**
-- **旧系统**：`trained the politicians and chief executives who dominate...` (培养主导公共生活的精英 $\rightarrow$ 暗示封闭、单一)
-- **新系统**：`teach a broader curriculum including the environment and poverty` (教授包括环境和贫困在内的更广泛课程 $\rightarrow$ 暗示开放、关注现实)
-- **论证效果**：通过 `dominate` $\leftrightarrow$ `broader/environment/poverty` 的对比，证明改革不仅是形式上的，更是实质性的内容升级。
+- **旧系统**：`trained the politicians and chief executives who dominate...` (培养主导公共生活的精英 → 暗示封闭、单一)
+- **新系统**：`teach a broader curriculum including the environment and poverty` (教授包括环境和贫困在内的更广泛课程 → 暗示开放、关注现实)
+- **论证效果**：通过 `dominate` ↔ `broader/environment/poverty` 的对比，证明改革不仅是形式上的，更是实质性的内容升级。
 
 ### ✍️ 写作建议：如何应用“二元对比论证”？
 

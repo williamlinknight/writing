@@ -15,9 +15,9 @@ author: 'William'
 
 > BP reported its first annual loss in a decade after a 96 per cent drop in fourth-quarter profit as the UK oil major continues to reel from the hit to energy demand from the pandemic.
 >
-> For the full year, BP slumped to a loss of $5.7bn, from a $10bn profit in 2019, **because of the collapse in energy prices, a writedown in the value of oil and gas assets by billions of dollars and depressed demand**.
+> For the full year, BP slumped to a loss of 5.7bn, from a 10bn profit in 2019, **because of the collapse in energy prices, a writedown in the value of oil and gas assets by billions of dollars and depressed demand**.
 >
-> **Although Brent crude is again above $55 a barrel, it is far from the $70 level of a year ago.**
+> **Although Brent crude is again above 55 a barrel, it is far from the 70 level of a year ago.**
 >
 > "I think there are issues about mutations and issues about vaccine rollout . . . **but, at the same time**, we have vaccines so there will be a recovery," said Mr Looney.
 >
@@ -47,7 +47,7 @@ FT的写法是：**先承认一个事实（让步），再给出一个更强的�
 
 | 学生写法 | 升级写法 |
 |---------|---------|
-| The oil price went up. But it is still low. | **Although** Brent crude is again above $55 a barrel, **it is far from** the $70 level of a year ago. |
+| The oil price went up. But it is still low. | **Although** Brent crude is again above 55 a barrel, **it is far from** the 70 level of a year ago. |
 | Technology is useful. But we should not use it too much. | **Although** technology has brought great convenience to our daily lives, **it also poses** risks to our privacy and mental health. |
 
 ### 结构公式
@@ -74,7 +74,7 @@ FT的写法是：**先承认一个事实（让步），再给出一个更强的�
 
 > 学生版：BP lost money **because** energy prices collapsed **and because** the company wrote down assets **and because** demand was low.
 
-> FT版：BP slumped to a loss of $5.7bn **because of the collapse in energy prices, a writedown in the value of oil and gas assets by billions of dollars and depressed demand.**
+> FT版：BP slumped to a loss of 5.7bn **because of the collapse in energy prices, a writedown in the value of oil and gas assets by billions of dollars and depressed demand.**
 
 FT版用了3个名词短语并列，**简洁、有力、信息密度高**。
 

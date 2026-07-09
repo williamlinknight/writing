@@ -15,7 +15,7 @@ author: 'William'
 
 > Joe Biden is prepared to **drop his demands** for an increase in the US corporation tax rate if enough Republicans agree to support a surge in infrastructure spending, according to people familiar with the negotiations.
 >
-> The concession by the US president is aimed at **catalysing** a bipartisan agreement on his bid to fund more than $1tn in additional spending.
+> The concession by the US president is aimed at **catalysing** a bipartisan agreement on his bid to fund more than 1tn in additional spending.
 >
 > Republicans are **adamantly opposed** to it on the grounds that it would hurt the economy and partly **unwind** Donald Trump's signature tax cuts.
 >

@@ -14,7 +14,7 @@ author: "威廉"
 ## 📝 原文对照
 
 **English:**
-Joe Biden’s $1.9tn coronavirus relief package received final backing from the US House of Representatives on Wednesday, **sealing** congressional approval for a massive fiscal stimulus with **far-reaching** political and economic consequences that will last for years.
+Joe Biden’s 1.9tn coronavirus relief package received final backing from the US House of Representatives on Wednesday, **sealing** congressional approval for a massive fiscal stimulus with **far-reaching** political and economic consequences that will last for years.
 
 The final greenlight from Congress marks a big victory for the US president, who took office in January with a mission to **mitigate** fallout from the coronavirus pandemic and **reboot** the US economy. The bill reflects a belief among Biden and his top aides that they can rapidly accelerate the recovery without **triggering** an unwanted jump in inflation.
 
@@ -42,17 +42,17 @@ The final greenlight from Congress marks a big victory for the US president, who
 ### 1. 避免 "Cause" 的泛用化
 **学生常写：** The new law **caused** a big change in the economy. (太简单)
 **FT 升级：** The legislation **triggered** far-reaching economic consequences. (更精准)
-*   **技巧：** 当你描述一个“开关”效应（一个事件导致另一个结果立即发生）时，用 **trigger**；当描述一个长期、深远的影响时，用 **far-reaching consequences**。
+* **技巧：** 当你描述一个“开关”效应（一个事件导致另一个结果立即发生）时，用 **trigger**；当描述一个长期、深远的影响时，用 **far-reaching consequences**。
 
 ### 2. “减轻”不只是 "Reduce"
 **学生常写：** We need to **reduce** the bad effects of pollution. (平淡)
 **FT 升级：** We must take action to **mitigate** the fallout from environmental degradation. (专业)
-*   **技巧：** **Mitigate** 专门用于处理“负面结果”。在雅思写作 Task 2 讨论政府对策时，`mitigate the negative impact of...` 是高分固定搭配。
+* **技巧：** **Mitigate** 专门用于处理“负面结果”。在雅思写作 Task 2 讨论政府对策时，`mitigate the negative impact of...` 是高分固定搭配。
 
 ### 3. 用 "Seal" 增加动作的确定感
 **学生常写：** They **finally agreed** on the plan. (口语化)
 **FT 升级：** The vote **sealed** the approval for the plan. (书面化)
-*   **技巧：** **Seal** 给读者一种“尘埃落定”的画面感，非常适合描述法律、合同或政治协议的最后阶段。
+* **技巧：** **Seal** 给读者一种“尘埃落定”的画面感，非常适合描述法律、合同或政治协议的最后阶段。
 
 ## 🚀 实践练习
 尝试将以下句子改写得更专业：

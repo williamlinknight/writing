@@ -67,7 +67,7 @@ author: 'William'
 
 💡 更多用法：
 - `divert attention from` = 转移注意力（常用！）
-  > Critics say the announcement was an attempt to divert attention from the real problems.
+> Critics say the announcement was an attempt to divert attention from the real problems.
 
 ---
 

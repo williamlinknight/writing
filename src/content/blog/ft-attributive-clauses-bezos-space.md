@@ -15,7 +15,7 @@ author: "William"
 
 再看FT怎么写同一个人：
 
-> **The Amazon founder ... stepped down as chief executive of Amazon.com, the $1.6tn ecommerce group he founded.**
+> **The Amazon founder ... stepped down as chief executive of Amazon.com, the 1.6tn ecommerce group he founded.**
 
 一个句子，三个信息点——身份、公司、价值——通过定语结构一气呵成。
 
@@ -96,16 +96,16 @@ author: "William"
 ### 用法四：同位语结构——定语从句的"轻量版"
 
 **FT原文：**
-> stepped down as chief executive of Amazon.com, **the $1.6tn ecommerce group he founded**
+> stepped down as chief executive of Amazon.com, **the 1.6tn ecommerce group he founded**
 
 **为什么好：**
-"the $1.6tn ecommerce group he founded" 本质是一个**同位语**——它等价于 "which is the $1.6tn ecommerce group that he founded"，但省略了 which is，更紧凑。这种结构在FT商业报道中极其常见。
+"the 1.6tn ecommerce group he founded" 本质是一个**同位语**——它等价于 "which is the 1.6tn ecommerce group that he founded"，但省略了 which is，更紧凑。这种结构在FT商业报道中极其常见。
 
 **学生写法：**
-> Amazon.com is a $1.6 trillion ecommerce company. Bezos founded it.
+> Amazon.com is a 1.6 trillion ecommerce company. Bezos founded it.
 
 **升级写法：**
-> Bezos stepped down as CEO of Amazon.com, the $1.6tn ecommerce group he founded.
+> Bezos stepped down as CEO of Amazon.com, the 1.6tn ecommerce group he founded.
 
 **模板：**
 > [名词], + [名词短语（对前者的解释）] + [动词/剩余信息]

@@ -13,16 +13,16 @@ author: "William"
 
 ### 一、FT原文精选
 
-> **原文1**  
+> **原文1**
 > "The blue-chip S&P 500 closed flat and the technology-focused Nasdaq Composite inched 0.2 per cent higher after both indices hit new all-time highs."
 
-> **原文2**  
+> **原文2**
 > "The dollar index, which measures the greenback against major currencies, rose 0.2 per cent on Tuesday as jitters increased about the Fed's next move."
 
-> **原文3**  
-> "Brent crude, the international oil benchmark, gained 0.6 per cent to $75.13 a barrel."
+> **原文3**
+> "Brent crude, the international oil benchmark, gained 0.6 per cent to 75.13 a barrel."
 
-> **原文4**  
+> **原文4**
 > "The yield on the benchmark 10-year US Treasury note, which moves inversely to its price, was flat at 1.48 per cent."
 
 ### 二、为什么好？
@@ -43,7 +43,7 @@ author: "William"
 
 | 学生常见写法 | FT式升级写法 | 升级点 |
 |---|---|---|
-| Brent crude is the international oil benchmark. It gained 0.6% to $75.13. | Brent crude, the international oil benchmark, gained 0.6% to $75.13. | 同位语合并两个短句，更紧凑 |
+| Brent crude is the international oil benchmark. It gained 0.6% to 75.13. | Brent crude, the international oil benchmark, gained 0.6% to 75.13. | 同位语合并两个短句，更紧凑 |
 | The dollar index rose 0.2%. It measures the greenback against major currencies. | The dollar index, which measures the greenback against major currencies, rose 0.2%. | 非限制性定语从句插入，信息密度更高 |
 | The 10-year US Treasury note is a benchmark. Its yield was flat at 1.48%. | The yield on the benchmark 10-year US Treasury note, which moves inversely to its price, was flat at 1.48%. | 同位语+定语从句双重升级 |
 | The S&P 500 closed flat. The Nasdaq also rose 0.2%. They both hit new highs. | The blue-chip S&P 500 closed flat and the technology-focused Nasdaq Composite inched 0.2 per cent higher after both indices hit new all-time highs. | 用同位语（blue-chip / technology-focused）精简描述+信息合并 |

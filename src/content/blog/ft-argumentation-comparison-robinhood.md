@@ -32,13 +32,13 @@ But... / However... / On the other hand...
 
 看原文：
 
-> Revenue **more than tripled** to $958m last year...
-> That explosive growth has continued in 2021. Revenue already **topped $522m** in the first quarter.
+> Revenue **more than tripled** to 958m last year...
+> That explosive growth has continued in 2021. Revenue already **topped 522m** in the first quarter.
 > A viral meme-stock and cryptocurrency trading boom **helped the platform to more than double** the number of funded accounts over the past 12 months to 18m.
 
 这里用了三个层层递进的数据：
-1. 营收增长 **3倍多** → 去年$958m
-2. 今年Q1已超 **$522m** → 增长在延续
+1. 营收增长 **3倍多** → 去年958m
+2. 今年Q1已超 **522m** → 增长在延续
 3. 付费账户数 **翻倍** → 1800万
 
 **写作应用：**
@@ -47,11 +47,11 @@ But... / However... / On the other hand...
 
 | ❌ 模糊对比 | ✅ 数据对比 |
 |---|---|
-| Robinhood grew very fast in 2020. | Revenue **more than tripled** to $958m in 2020. |
+| Robinhood grew very fast in 2020. | Revenue **more than tripled** to 958m in 2020. |
 | More people use the app now. | The number of funded accounts **more than doubled** to 18m. |
-| The company is profitable but not very. | Charles Schwab made **$3.3bn** in profit last year, against Robinhood's **$7m**. |
+| The company is profitable but not very. | Charles Schwab made **3.3bn** in profit last year, against Robinhood's **7m**. |
 
-**公式：** `倍数词(more than doubled / tripled / quadrupled) + 具体数字(to $Xm / to Y million)`
+**公式：** `倍数词(more than doubled / tripled / quadrupled) + 具体数字(to Xm / to Y million)`
 
 > 这个公式学生可以直接背进作文。写"科技对生活的影响"时，别写"Technology changed our lives a lot"，写"Smartphone usage **more than tripled** to 3.8 billion users over the past decade."
 
@@ -67,17 +67,17 @@ FT在描述完Robinhood的增长后，笔锋一转，写风险。这个转折不
 
 > Revenue **more than tripled** last year → **But** the model is **vulnerable**
 >
-> $40bn **valuation** → **vs.** Charles Schwab trades on just **12 times** earnings
+> 40bn **valuation** → **vs.** Charles Schwab trades on just **12 times** earnings
 
 这才是高级论证：**先说正面，然后指出反面，两边都有数据支撑。**
 
 FT甚至在第8段写了一个教科书级的对比段落：
 
-> **Add to this** Robinhood's meagre profitability **and** the $40bn valuation the company is seeking **looks steep**.
+> **Add to this** Robinhood's meagre profitability **and** the 40bn valuation the company is seeking **looks steep**.
 >
 > **Assuming** the app can double its revenue this year, **that still implies** a valuation of 20 times that.
 >
-> **Charles Schwab**, which made $3.3bn in profit last year **against** Robinhood's $7m, trades on a ratio of just 12 times.
+> **Charles Schwab**, which made 3.3bn in profit last year **against** Robinhood's 7m, trades on a ratio of just 12 times.
 
 看这个结构：
 - Add to this [A] and [B] looks steep → 点出问题

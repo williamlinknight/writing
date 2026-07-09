@@ -12,24 +12,24 @@ author: "William"
 今天我们来看一篇关于乔治·弗洛伊德案庭审的 FT 报道，学习它如何处理“复杂证据”与“逻辑推导”的关系。
 
 > **FT 原文**
-> 
+>
 > One of the central questions in the trial, which has received global attention, is whether Chauvin caused Floyd's death when he knelt on his neck for approximately nine minutes, or whether it was caused by a heart arrhythmia after Floyd ingested drugs, as the defence has asserted.
-> 
+>
 > ...But Tobin said the main factors that caused Floyd's shallow breathing include that he was lying face down, wearing handcuffs, and that Chauvin had one knee on his neck and another knee on his back.
-> 
+>
 > Prosecutors showed an image from the video where the toe of Chauvin's boot is not touching the ground. "That means all of his body weight is being directed down at Mr Floyd's neck," Tobin said.
 
 > **中文对照**
-> 
+>
 > 此次庭审受到全球关注，其核心问题之一是，弗洛伊德是死于肖万跪压在其颈部上约9分钟，还是如辩护方声称的那样，死于其吸食毒品后的心律失常。
-> 
+>
 > ……但托宾表示，导致弗洛伊德呼吸微弱的主要因素包括他趴卧在地上，戴着手铐，以及肖万的一个膝盖压在他的颈部，另一个膝盖压在他的背部。
-> 
+>
 > 检方出示了视频的一张截图，显示肖万警靴的脚趾部分没有触碰地面。托宾说：“这意味着他的体重完全压在弗洛伊德的脖子上。”
 
 ### 💡 维度分析：段落结构（Dimension 5）
 
-这篇文章提供了一个完美的**“对比 $\rightarrow$ 证据 $\rightarrow$ 结论”**的论证模型。
+这篇文章提供了一个完美的**“对比 → 证据 → 结论”**的论证模型。
 
 #### 1. 建立对立面 (Establishing the Conflict)
 作者没有直接说“肖万杀了人”，而是先定义了这场审判的**核心矛盾（Central Question）**：
@@ -40,8 +40,8 @@ author: "William"
 
 #### 2. 细节铺陈 (The Power of Detail)
 在给出最终结论前，作者通过一系列**递进的细节**来构建逻辑链条：
-- **状态描述** $\rightarrow$ 趴卧、戴手铐 $\rightarrow$ 压力点（颈部+背部）
-- **视觉证据** $\rightarrow$ 警靴脚趾未触地 $\rightarrow$ 物理推论（体重全部压在颈部）
+- **状态描述** → 趴卧、戴手铐 → 压力点（颈部+背部）
+- **视觉证据** → 警靴脚趾未触地 → 物理推论（体重全部压在颈部）
 
 这种从“宏观状态”到“微观细节”的推演，比直接说 "He pressed hard" 要有力得多。
 
@@ -58,7 +58,7 @@ When students rely on AI for instant solutions, they bypass the essential proces
 (当学生依赖 AI 获取即时方案时，他们绕过了至关重要的试错过程。他们不再与复杂的矛盾作斗争，也不再质疑信息的来源，而是简单地接受第一个看似合理的输出。这种认知努力的削弱最终导致了批判性分析能力的下降。)
 
 **💡 效果**
-升级版通过描述 **“绕过试错 $\rightarrow$ 停止质疑 $\rightarrow$ 接受输出”** 这一系列具体行为，自然而然地推导出“能力下降”的结论。这就是 FT 式的**叙事铺陈**。
+升级版通过描述 **“绕过试错 → 停止质疑 → 接受输出”** 这一系列具体行为，自然而然地推导出“能力下降”的结论。这就是 FT 式的**叙事铺陈**。
 
 ### ✍️ 写作建议
 

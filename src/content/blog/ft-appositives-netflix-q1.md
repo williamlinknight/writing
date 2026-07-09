@@ -111,7 +111,7 @@ author: "William"
 
 ### 例句
 
-- **Apple announced record quarterly revenue of $90 billion. The tech giant attributed the growth to strong iPhone and services sales.**
+- **Apple announced record quarterly revenue of 90 billion. The tech giant attributed the growth to strong iPhone and services sales.**
 - **ByteDance launched a new AI-powered education tool. The social media company said the tool has already attracted 10 million users.**
 - **KFC opened 1,000 new stores in China last year. The fast-food chain now operates in more than 1,500 Chinese cities.**
 
@@ -192,22 +192,22 @@ FT直接用 `such as` 把例子插进名词后面，不另起一句。读者的�
 
 把以下学生版句子改写成用同位语/插入语升级的版本：
 
-1. **学生版：** The company reported a loss of $2 billion. This was the largest quarterly loss in its history.
-   **升级版：** ________________________________
+1. **学生版：** The company reported a loss of 2 billion. This was the largest quarterly loss in its history.
+**升级版：** ________________________________
 
 2. **学生版：** Many big cities have introduced bike-sharing programs. For example, Beijing, Shanghai, and Guangzhou all have them.
-   **升级版：** ________________________________
+**升级版：** ________________________________
 
-3. **学生版：** Alibaba is a giant in e-commerce and cloud computing. It announced plans to invest $5 billion in AI research.
-   **升级版：** ________________________________
+3. **学生版：** Alibaba is a giant in e-commerce and cloud computing. It announced plans to invest 5 billion in AI research.
+**升级版：** ________________________________
 
 ### 参考答案
 
-1. **The company reported a loss of $2 billion, the largest quarterly loss in its history.**
+1. **The company reported a loss of 2 billion, the largest quarterly loss in its history.**
 2. **Many big cities, such as Beijing, Shanghai and Guangzhou, have introduced bike-sharing programs.**
-3. **Alibaba, a giant in e-commerce and cloud computing, announced plans to invest $5 billion in AI research.**
-  
-  （或：A giant in e-commerce and cloud computing, Alibaba announced plans to invest $5 billion in AI research.）
+3. **Alibaba, a giant in e-commerce and cloud computing, announced plans to invest 5 billion in AI research.**
+
+（或：A giant in e-commerce and cloud computing, Alibaba announced plans to invest 5 billion in AI research.）
 
 ---
 

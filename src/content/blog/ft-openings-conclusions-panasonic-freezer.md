@@ -11,7 +11,7 @@ author: 'William'
 
 好的开头和结尾是写作的"门面"——开头决定考官是否想往下读，结尾决定他留下的最后印象。今天我们用《金融时报》一篇企业创新报道来学两种不同的开头和两种收尾方式。
 
-> *原文：FT №68 — Panasonic enters $22bn vaccine storage race with freezer boxes*
+> *原文：FT №68 — Panasonic enters 22bn vaccine storage race with freezer boxes*
 
 ---
 
@@ -117,7 +117,7 @@ author: 'William'
 
 文章倒数第二段还提供了一个可单独使用的结尾模式：
 
-> "The global market for vaccine storage and packaging business is expected to grow from $22.3bn last year to $43.3bn by 2027 with storage accounting for the largest revenue, according to US-based market research firm Grand View Research."
+> "The global market for vaccine storage and packaging business is expected to grow from 22.3bn last year to 43.3bn by 2027 with storage accounting for the largest revenue, according to US-based market research firm Grand View Research."
 
 **结构公式：** `[市场/领域] is expected to [增长/变化] from [起点] to [终点] by [时间], according to [来源].`
 
@@ -127,7 +127,7 @@ author: 'William'
 > In the future, this industry will develop fast. Many people will use it. It is very important.
 
 **✅ 升级版**
-> The global market for online education is expected to grow from $200bn in 2025 to $350bn by 2030, according to a recent industry report.
+> The global market for online education is expected to grow from 200bn in 2025 to 350bn by 2030, according to a recent industry report.
 
 **💡 效果**
 具体数据 + 明确时间范围 + 可查证来源，三项组合让你的结尾瞬间有了专业感。即使作文题目不需要你给数据，用一个有据可查的预测结尾也远比"In the future..."有力。

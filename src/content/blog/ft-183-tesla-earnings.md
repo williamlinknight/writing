@@ -18,7 +18,7 @@ author: "William"
 #### 1. overcome (severe) problems
 **原文出处**："Tesla **overcame severe supply chain problems**..."
 **中文解释**：克服（严重的）问题
-**为什么好**：虽然 *overcome* 也是常见词，但它比 *solve* 更有“奋斗感”。*Solve* 像是在解数学题，而 *overcome* 像是在翻越障碍。搭配 *severe*（严重的）能迅速建立起一个“困难重重 $\rightarrow$ 最终成功”的叙事弧线。
+**为什么好**：虽然 *overcome* 也是常见词，但它比 *solve* 更有“奋斗感”。*Solve* 像是在解数学题，而 *overcome* 像是在翻越障碍。搭配 *severe*（严重的）能迅速建立起一个“困难重重 → 最终成功”的叙事弧线。
 
 **❌ 学生初版**
 Tesla solved the problems of the supply chain.
@@ -79,7 +79,7 @@ The company managed to **rein in** its operating costs despite the inflationary 
 
 ### ✍️ 写作建议
 
-观察这组词汇：*overcome* (克服) $\rightarrow$ *make headway* (进展) $\rightarrow$ *rein in* (控制)。它们共同构建了一个完整的商业逻辑闭环。在写议论文（尤其是讨论企业、政府或个人面对危机）时，尝试用这种**具有物理动作感**的词汇，会让你的文章从“陈述事实”变为“讲述故事”。
+观察这组词汇：*overcome* (克服) → *make headway* (进展) → *rein in* (控制)。它们共同构建了一个完整的商业逻辑闭环。在写议论文（尤其是讨论企业、政府或个人面对危机）时，尝试用这种**具有物理动作感**的词汇，会让你的文章从“陈述事实”变为“讲述故事”。
 
 > *厦门灯塔 · 专业英语作文逐句批改 | 微信 linstudio799*
 > *专注中高考/雅思写作 · 逐句精批 + 逻辑重构 + 母语级升级*

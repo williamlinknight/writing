@@ -9,11 +9,11 @@ author: "William"
 
 在议论文写作（特别是雅思写作 Task 2 或高中英语大作文）中，我们经常需要论证“政府应该采取某项措施”或“某项政策具有必要性”。很多同学容易陷入 *I think the government should... because it is good* 这种简单的表述。
 
-今天我们分析 FT 的这篇文章 $\textit{Call to make remote working UK default to help levelling-up}$，学习如何用专业、有说服力的语言来论证政策的必要性。
+今天我们分析 FT 的这篇文章 Call to make remote working UK default to help levelling-up，学习如何用专业、有说服力的语言来论证政策的必要性。
 
 ## 💡 核心素材分析
 
-本文的核心观点是：远程办公应成为默认选项，以实现“地区均衡发展”（levelling up）。其论证路径非常清晰：**提出诉求 $\rightarrow$ 法律/制度支撑 $\rightarrow$ 宏观公共利益 $\rightarrow$ 解决具体矛盾**。
+本文的核心观点是：远程办公应成为默认选项，以实现“地区均衡发展”（levelling up）。其论证路径非常清晰：**提出诉求 → 法律/制度支撑 → 宏观公共利益 → 解决具体矛盾**。
 
 ---
 
@@ -82,6 +82,6 @@ There is a **broader public interest in promoting** remote working as a strategi
 
 **💡 William's Tips:**
 论证政策类文章的秘诀在于：**不要只谈“好处”，要谈“机制”**。
-- 不要只说 *it is good* $\rightarrow$ 说 *it serves the broader public interest*。
-- 不要只说 *it helps poor people* $\rightarrow$ 说 *it is a means of levelling up underdeveloped areas*。
+- 不要只说 *it is good* → 说 *it serves the broader public interest*。
+- 不要只说 *it helps poor people* → 说 *it is a means of levelling up underdeveloped areas*。
 这种措辞的改变，会让考官觉得你具备分析社会问题的专业能力。

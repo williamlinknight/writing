@@ -100,7 +100,7 @@ author: "William"
 
 | 学生写法 | 升级写法 |
 |---------|---------|
-| The UK does better in services than in goods. | In 2023, **the company ran a $5m profit in its domestic market, against a loss of $12m in its overseas operations.** |
+| The UK does better in services than in goods. | In 2023, **the company ran a 5m profit in its domestic market, against a loss of 12m in its overseas operations.** |
 | Boys like sports more than girls. | **The survey recorded a 75 per cent participation rate among boys in outdoor activities, against a rate of only 38 per cent among girls.** |
 | One city has more tourists. | **Beijing attracted 95 million domestic tourists in 2023, against 32 million inbound visitors.** |
 

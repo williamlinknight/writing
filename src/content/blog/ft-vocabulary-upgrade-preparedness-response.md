@@ -8,7 +8,7 @@ author: "William"
 词汇升级系列继续推进。 今天我们从一篇"计划与准备"类报道中学5个**动词语义群**——拿到任何一个需要描述"应对挑战""建立能力""做好准备"的题目，你都有现成的高级表达可以套用。
 
 > 为什么选这个主题？
-> 
+>
 > 中国学生写"准备"类内容时，翻来覆去就是 **prepare for / make preparations**，频率高到考官审美疲劳。而FT记者在描写欧盟为未来大流行病做准备时，用了至少10种不同的动词语义，每一个都比 **prepare for** 更具体、更有画面感。
 
 ---
@@ -16,15 +16,15 @@ author: "William"
 ## 📖 FT原文选段
 
 > Europe must prepare its medical sector **to cope with** an "era of pandemics", the European Commission president said, as she warned the bloc was still in its most difficult period for Covid-19 vaccine deliveries.
-> 
+>
 > Ursula von der Leyen told the Financial Times that the EU **could not afford to sit still** even once Covid-19 has been overcome, as she described her plans for a Europewide fast-reaction system designed **to respond more quickly to** emerging medical threats.
-> 
+>
 > "Europe **is determined to enlarge** its strength in vaccine production," she said.
-> 
+>
 > Von der Leyen last month **unveiled plans** for a biodefence preparedness plan called the HERA Incubator, which will combine researchers, biotech companies, manufacturers and public authorities.
-> 
+>
 > The concept is an attempt **to mirror** some of the benefits **conferred by** America's Biomedical Advanced Research and Development Authority, which **is charged with** the job of responding rapidly to new health threats.
-> 
+>
 > "But Europe has **to build up to be prepared for** whatever comes," she said.
 
 ---

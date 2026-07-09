@@ -11,13 +11,13 @@ author: 'William'
 
 今天这篇 FT 文章讲的是美国众议院以220-212票通过拜登3.5万亿美元支出方案框架。题材虽是美国政治，但其中的表达——**放到任何一篇关于"推进改革/面临阻力/最终突破"的中文语境作文里都通用**。
 
-> The US House of Representatives has approved the framework for Joe Biden's $3.5tn domestic spending package after Democrats reached a deal to advance the legislation following days of tense talks within the party.
+> The US House of Representatives has approved the framework for Joe Biden's 3.5tn domestic spending package after Democrats reached a deal to advance the legislation following days of tense talks within the party.
 >
 > The 220-212 vote on the so-called budget resolution marked a **milestone on the slow but steady march** of Biden's ambitious first-term economic agenda, which calls for huge investments in the US social safety net including education, child care and green energy.
 >
 > Biden has also **vowed to revamp** the economy more broadly with investments worth trillions of dollars to **redress longstanding structural deficiencies** and make the recovery from the pandemic more even.
 >
-> While some Republicans have backed Biden's $1tn plan for investments in physical infrastructure, they remained opposed to the rest of his economic agenda, leaving Democrats to pass the $3.5tn package alone with their **exceedingly slim majorities** in Congress.
+> While some Republicans have backed Biden's 1tn plan for investments in physical infrastructure, they remained opposed to the rest of his economic agenda, leaving Democrats to pass the 3.5tn package alone with their **exceedingly slim majorities** in Congress.
 >
 > This has **in effect given veto rights on the plan to each faction** of the Democratic party, leading to growing intraparty spats over the legislation that party leaders have been trying to **patch up**.
 

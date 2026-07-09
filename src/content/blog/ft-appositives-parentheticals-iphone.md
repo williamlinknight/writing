@@ -19,7 +19,7 @@ author: 'William'
 
 > A consumer advocacy group is suing Apple for about €180m in four European countries for allegedly duping users into downloading updates that deliberately slowed down their iPhones.
 >
-> The legal actions mirror a class action in the US that led to a proposed settlement there worth up to $500m, following allegations that Apple engineered the software updates to induce users to buy newer models. Apple agreed to the US settlement in March, **admitting no wrongdoing but saying it wanted to avoid protracted litigation**.
+> The legal actions mirror a class action in the US that led to a proposed settlement there worth up to 500m, following allegations that Apple engineered the software updates to induce users to buy newer models. Apple agreed to the US settlement in March, **admitting no wrongdoing but saying it wanted to avoid protracted litigation**.
 >
 > "Apple pushed updates to mask problems with the battery, knowing it would slow down phones," said **Els Bruggeman, head of policy and enforcement at Euroconsumers, the consumer advocacy group behind the new lawsuits**.
 >
@@ -89,7 +89,7 @@ author: 'William'
 
 | 学生写法 | FT升级写法 |
 |---------|-----------|
-| *The government fined the company $5 million. This was the maximum penalty allowed by law.* | **The government fined the company $5 million — the maximum penalty allowed by law — for violating environmental regulations.** |
+| *The government fined the company 5 million. This was the maximum penalty allowed by law.* | **The government fined the company 5 million — the maximum penalty allowed by law — for violating environmental regulations.** |
 | *The school introduced a new policy. This was a controversial move that divided parents.* | **The school introduced a new policy — a controversial move that divided parents — requiring all students to wear uniforms.** |
 
 ### 模板

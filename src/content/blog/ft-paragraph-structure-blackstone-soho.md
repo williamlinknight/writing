@@ -15,9 +15,9 @@ author: 'William'
 
 ## 原文示范
 
-> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its $3bn takeover of the Chinese property company last week.
+> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its 3bn takeover of the Chinese property company last week.
 >
-> About $830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
+> About 830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
 >
 > The failure of the acquisition came against a backdrop of expansive policy overhauls and regulatory clampdowns in China, where authorities have increased scrutiny of foreign investment and cracked down on what they perceive to be monopolistic business practices.
 >
@@ -31,7 +31,7 @@ author: 'William'
 
 ## 功能一：开篇定调（Summary Lead）
 
-> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its $3bn takeover of the Chinese property company last week.
+> Shares in Soho China fell as much as 40 per cent on Monday after US private equity group Blackstone pulled its 3bn takeover of the Chinese property company last week.
 
 **这段在干什么？** 只有一件事：告诉读者"发生了什么"，以及"这事多大"。
 
@@ -44,7 +44,7 @@ author: 'William'
 
 | 学生常见写法 | FT写法 |
 |------------|--------|
-| Soho China's share price fell. Blackstone stopped buying the company. This was because... | Shares in Soho China fell as much as 40 per cent after Blackstone pulled its $3bn takeover. |
+| Soho China's share price fell. Blackstone stopped buying the company. This was because... | Shares in Soho China fell as much as 40 per cent after Blackstone pulled its 3bn takeover. |
 
 **模板：**
 > [Subject] [verb] + [具体数据/幅度] after [关键事件].
@@ -56,21 +56,21 @@ author: 'William'
 
 ## 功能二：数据支撑（Data Support）
 
-> About $830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
+> About 830m was wiped from Soho China's market value as its Hong Kong-listed shares tumbled when the exchange opened for trading.
 
-**这段在干什么？** 用具体数字证明第一段说的"下跌40%"不是空话。**$830m**这个数字让抽象的比例变得可感知。
+**这段在干什么？** 用具体数字证明第一段说的"下跌40%"不是空话。**830m**这个数字让抽象的比例变得可感知。
 
 学生常犯的错误：写完开篇段就跳到观点分析，忘了先用数据把事实坐实。
 
 | 学生常见写法 | FT写法 |
 |------------|--------|
-| Many investors lost a lot of money. The stock market was very bad. | About $830m was wiped from Soho China's market value as shares tumbled. |
+| Many investors lost a lot of money. The stock market was very bad. | About 830m was wiped from Soho China's market value as shares tumbled. |
 
 **模板：**
 > About [具体金额/数量] was [动作结果], as [具体指标] [动词] [幅度].
 
 **跨话题例句：**
-> *About $2 million was cut from the school's annual budget as enrolment numbers fell by 15 per cent.*
+> *About 2 million was cut from the school's annual budget as enrolment numbers fell by 15 per cent.*
 
 ---
 

@@ -19,7 +19,7 @@ author: 'William'
 >
 > The listing **catapulted** Didi into the top ranks of Chinese companies trading in US markets, raising more money from the IPO of any Chinese issuer in the US since Alibaba's blockbuster debut in 2014.
 >
-> Shares closed trading at $14.14, having **slipped below** $15 following the initial pop.
+> Shares closed trading at 14.14, having **slipped below** 15 following the initial pop.
 >
 > Investors appeared to **brush aside** concerns about rising US-China tensions and a **clampdown** on big tech companies, which has **taken aim at** pricing and data practices in ride-hailing.
 >
@@ -79,7 +79,7 @@ author: 'William'
 
 ### 3. slip below → 替代 "fall below"
 
-**原文：** *Shares **slipped below** $15 following the initial pop.*
+**原文：** *Shares **slipped below** 15 following the initial pop.*
 
 | 学生写法 | 升级写法 |
 |---------|---------|

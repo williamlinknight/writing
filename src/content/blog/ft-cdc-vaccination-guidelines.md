@@ -42,22 +42,22 @@ The US Centers for Disease Control and Prevention issued new guidelines on Monda
 
 ## 💡 写作技巧拆解：叙事逻辑的“三步走”
 
-这篇文章在极短的篇幅内完成了一个完美的逻辑闭环：**【现状】 $\rightarrow$ 【对比/转变】 $\rightarrow$ 【限制/补充】**。
+这篇文章在极短的篇幅内完成了一个完美的逻辑闭环：**【现状】 → 【对比/转变】 → 【限制/补充】**。
 
 ### 第一步：建立时间基准线 (Until now)
 **原文：** *"Until now, CDC guidance has not distinguished..."*
-*   **技巧：** 不要直接说 "Before"，使用 **Until now** 可以瞬间建立一个“过去 $\rightarrow$ 现在”的时间轴，为后面的“改变”做铺垫。
-*   **适用：** 描述某种习惯的改变、技术的演进。
+* **技巧：** 不要直接说 "Before"，使用 **Until now** 可以瞬间建立一个“过去 → 现在”的时间轴，为后面的“改变”做铺垫。
+* **适用：** 描述某种习惯的改变、技术的演进。
 
 ### 第二步：明确定义“转变” (Mark a departure from)
 **原文：** *"...marks a departure from that stance."*
-*   **技巧：** 很多学生会写 *This is different from before*。但 **mark a departure from** 是极高阶的表达，它不仅说明了“不同”，还赋予了这种不同一种“里程碑”式的意义。
-*   **适用：** 描述政府换届、公司战略调整、个人认知的升级。
+* **技巧：** 很多学生会写 *This is different from before*。但 **mark a departure from** 是极高阶的表达，它不仅说明了“不同”，还赋予了这种不同一种“里程碑”式的意义。
+* **适用：** 描述政府换届、公司战略调整、个人认知的升级。
 
 ### 第三步：用 However 建立边界 (The Boundary)
 **原文：** *"However, the organisation continues to advise against..."*
-*   **技巧：** 在宣布一个积极的改变后，紧跟一个 **However** 来设定边界（Boundary），可以避免表达过于绝对，增加论证的严密性（Critical Thinking）。
-*   **适用：** 在雅思写作中，在支持某个观点后，用 `However, it is important to note that...` 来讨论局限性，是拿到 7 分+ 的关键。
+* **技巧：** 在宣布一个积极的改变后，紧跟一个 **However** 来设定边界（Boundary），可以避免表达过于绝对，增加论证的严密性（Critical Thinking）。
+* **适用：** 在雅思写作中，在支持某个观点后，用 `However, it is important to note that...` 来讨论局限性，是拿到 7 分+ 的关键。
 
 ## 🚀 实践练习
 试着描述“人们对待远程办公的态度转变”：

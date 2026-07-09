@@ -10,11 +10,11 @@ author: 'William'
 今天的素材来自《金融时报》(Financial Times) 关于拜登政府酝酿3万亿美元经济计划的报道。这篇文章涵盖了从「投入」到「反对」再到「推进」的完整论证链条，提供了大量可用于议论文的高阶表达。
 
 > **FT原文**
-> Joe Biden is set to consider a plan from his top advisers to **plough roughly $3tn in additional government spending into** the US economy for investments in infrastructure, clean energy and education, two people familiar with the matter said on Monday.
+> Joe Biden is set to consider a plan from his top advisers to **plough roughly 3tn in additional government spending into** the US economy for investments in infrastructure, clean energy and education, two people familiar with the matter said on Monday.
 >
 > The additional fiscal support for the US recovery would closely track Biden's 2020 presidential election pledges to tackle some of the major structural deficiencies **afflicting** the US economy. It is expected to be partially **offset by** increases in taxes on wealthy households and US corporations.
 >
-> Biden had previously said he wanted to present his multitrillion-dollar investment package as early as February, but that goal was quickly **sidelined** as White House officials and lawmakers focused on passing the $1.9tn coronavirus stimulus package.
+> Biden had previously said he wanted to present his multitrillion-dollar investment package as early as February, but that goal was quickly **sidelined** as White House officials and lawmakers focused on passing the 1.9tn coronavirus stimulus package.
 >
 > **Clinching congressional approval** for a massive new round of spending with **razor-thin majorities** for Democrats in both the House of Representatives and the Senate may be even more difficult than it was for the stimulus package.
 >
@@ -34,69 +34,69 @@ author: 'William'
 ### 💡 高分表达解析
 
 **1. Plough ... into**
-- **原文出处**：*...to plough roughly $3tn in additional government spending into the US economy...*
+- **原文出处**：*...to plough roughly 3tn in additional government spending into the US economy...*
 - **中文解释**：将（大量资金/资源）投入……。
 - **为什么好**：学生习惯写 *invest a lot of money in* 或 *spend a lot on*。**Plough ... into** 是一个极具画面感的动词短语——原意为「犁地」，引申为「大规模、用力地将资源投入某处」，比 *invest* 更有动感和力度。
 - **考场用法对比**：
-  **❌ 学生初版**
-  The government spent a lot of money on education.
-  
-  **✅ 升级版**
-  The government **ploughed** billions of dollars **into** the healthcare system over the past decade.
-  
-  **💡 效果**：从「花了很多钱」升级为「大规模倾注资源」，体现出决心和力度。
+**❌ 学生初版**
+The government spent a lot of money on education.
+
+**✅ 升级版**
+The government **ploughed** billions of dollars **into** the healthcare system over the past decade.
+
+**💡 效果**：从「花了很多钱」升级为「大规模倾注资源」，体现出决心和力度。
 
 **2. Afflict**
 - **原文出处**：*...tackle some of the major structural deficiencies afflicting the US economy.*
 - **中文解释**：使……受苦 / 折磨 / 困扰（某个系统或群体）。
 - **为什么好**：学生常写 *problems that affect the economy* 或 *issues that hurt the economy*。**Afflict** 是一个更强烈、更正式的词，暗含「长期且严重地折磨」的意味，常用于描述系统性问题。
 - **考场用法对比**：
-  **❌ 学生初版**
-  There are many problems that affect developing countries.
-  
-  **✅ 升级版**
-  Developing countries are **afflicted by** a combination of poverty, political instability, and inadequate infrastructure.
-  
-  **💡 效果**：从「有问题影响」升级为「被多重问题折磨」，语气更强、表达更学术。
+**❌ 学生初版**
+There are many problems that affect developing countries.
+
+**✅ 升级版**
+Developing countries are **afflicted by** a combination of poverty, political instability, and inadequate infrastructure.
+
+**💡 效果**：从「有问题影响」升级为「被多重问题折磨」，语气更强、表达更学术。
 
 **3. Razor-thin majorities**
 - **原文出处**：*...with razor-thin majorities for Democrats in both the House of Representatives and the Senate...*
 - **中文解释**：极其微弱的多数优势。
 - **为什么好**：学生写 *very small majority* 或 *only a few more votes* 都过于平淡。**Razor-thin** (像刀片一样薄) 是一个极其生动的比喻，将「微弱多数」形象化，让读者立刻感受到「稍有不慎就会失去」的紧张感。
 - **考场用法对比**：
-  **❌ 学生初版**
-  The party won the election with only a few more votes.
-  
-  **✅ 升级版**
-  The ruling party secured a **razor-thin majority**, making it difficult to push through controversial reforms.
-  
-  **💡 效果**：从「仅多几票」升级为「刀锋般的微弱优势」，画面感强，凸显政治的不确定性。
+**❌ 学生初版**
+The party won the election with only a few more votes.
+
+**✅ 升级版**
+The ruling party secured a **razor-thin majority**, making it difficult to push through controversial reforms.
+
+**💡 效果**：从「仅多几票」升级为「刀锋般的微弱优势」，画面感强，凸显政治的不确定性。
 
 **4. Be sidelined**
 - **原文出处**：*...that goal was quickly sidelined as White House officials focused on passing the stimulus package.*
 - **中文解释**：被搁置 / 被边缘化 / 被排挤到一旁。
 - **为什么好**：学生常写 *be put aside* 或 *was delayed*。**Side-lined** 源自体育术语（将球员换下场），引申为「原本重要的事情被更重要的事情推到一旁」，比 *put aside* 更生动。
 - **考场用法对比**：
-  **❌ 学生初版**
-  The plan was put aside because of other more important issues.
-  
-  **✅ 升级版**
-  Environmental protection was repeatedly **sidelined** in favour of short-term economic growth.
-  
-  **💡 效果**：从「被放在一边」升级为「被边缘化/靠边站」，暗示优先级的竞争和牺牲。
+**❌ 学生初版**
+The plan was put aside because of other more important issues.
+
+**✅ 升级版**
+Environmental protection was repeatedly **sidelined** in favour of short-term economic growth.
+
+**💡 效果**：从「被放在一边」升级为「被边缘化/靠边站」，暗示优先级的竞争和牺牲。
 
 **5. Balk at**
 - **原文出处**：*...they have balked at tax increases and other domestic spending initiatives.*
 - **中文解释**：对……犹豫 / 拒绝接受 / 反对。
 - **为什么好**：学生习惯写 *oppose* 或 *refuse to accept*。**Balk at** 描述的是「因为某事太困难或令人不悦而犹豫不决甚至拒绝」，比 *oppose* 多了一层「心理抵触」的意味。
 - **考场用法对比**：
-  **❌ 学生初版**
-  Many people opposed the new tax policy.
-  
-  **✅ 升级版**
-  The public **balked at** the idea of paying higher taxes for services they would never use.
-  
-  **💡 效果**：从简单的「反对」升级为「因反感而拒绝」，更精准地传达了「心理抗拒」的层次。
+**❌ 学生初版**
+Many people opposed the new tax policy.
+
+**✅ 升级版**
+The public **balked at** the idea of paying higher taxes for services they would never use.
+
+**💡 效果**：从简单的「反对」升级为「因反感而拒绝」，更精准地传达了「心理抗拒」的层次。
 
 ### ✍️ 写作建议
 

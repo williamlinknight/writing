@@ -15,7 +15,7 @@ author: "William"
 
 > Joe Biden will **take a swipe at** Wall Street in his first speech to a joint session of Congress on Wednesday night, as he tries to build support among Americans for his multitrillion-dollar economic agenda.
 >
-> Biden will **make a strong pitch for** his $2.3tn infrastructure spending bill, which he wants to be funded with higher corporate taxes that have **elicited a backlash** from business.
+> Biden will **make a strong pitch for** his 2.3tn infrastructure spending bill, which he wants to be funded with higher corporate taxes that have **elicited a backlash** from business.
 
 > 美国总统乔·拜登周三晚间在国会参众两院联席会议首度发表演讲时将抨击华尔街。眼下，他正设法为数万亿美元的经济议程争取民众支持。
 >
@@ -46,7 +46,7 @@ The candidate **took a swipe at** his opponent's economic plan during the debate
 
 ### 2. make a (strong) pitch for — 大力争取／推销
 
-**原文出处：** "Biden will **make a strong pitch for** his $2.3tn infrastructure spending bill"
+**原文出处：** "Biden will **make a strong pitch for** his 2.3tn infrastructure spending bill"
 
 **为什么好：** `pitch` 是棒球中的"投球"，引申为"向某人推销某想法"。`make a pitch for` 比 `try to get support for` 简洁得多，而且带有一种主动出击的语感。加 `strong` 强调力度。
 
@@ -84,7 +84,7 @@ The policy **elicited a backlash** from small business owners.
 
 ### 4. tout — 吹捧／大力宣扬
 
-**原文出处：** "Biden's speech is also expected to **tout** the passage of his $1.9tn fiscal stimulus package"
+**原文出处：** "Biden's speech is also expected to **tout** the passage of his 1.9tn fiscal stimulus package"
 
 **为什么好：** `tout` 只有一个音节，但意思非常饱满——"自豪地宣扬、吹嘘"。这个词介于"宣传"和"吹捧"之间，在议论文中写作"某人宣扬某成就"时比 `praise` 或 `talk about` 都更精准。
 

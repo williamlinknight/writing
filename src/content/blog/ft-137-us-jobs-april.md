@@ -19,7 +19,7 @@ author: 'William'
 >
 > The jobs numbers for April represented a big disappointment compared with economists' expectations that the US economy would have created almost 1m positions last month.
 >
-> The **lacklustre** jump in job creation will make it harder for the White House to claim that its initial $1.9tn stimulus bill is working as planned...
+> The **lacklustre** jump in job creation will make it harder for the White House to claim that its initial 1.9tn stimulus bill is working as planned...
 >
 > The slowdown in job creation could **damp** those concerns about overheating. However, the data could raise fresh worries that labour shortages are holding back the recovery.
 >

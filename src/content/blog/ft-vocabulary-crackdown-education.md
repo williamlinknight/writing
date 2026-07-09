@@ -20,11 +20,11 @@ author: "William"
 
 ## 📖 FT原文选段
 
-> Global investors sold almost $2bn of Chinese stocks on Monday as Beijing's **crackdown** on education companies raised fears of more regulatory tightening across the world's second-biggest economy.
+> Global investors sold almost 2bn of Chinese stocks on Monday as Beijing's **crackdown** on education companies raised fears of more regulatory tightening across the world's second-biggest economy.
 >
 > Investors **offloaded** Rmb12.8bn worth of Shanghai- and Shenzhen-listed shares through market link-ups in Hong Kong.
 >
-> The market tumult was sparked by a move by Beijing over the weekend to ban academic tuition groups from making profits, raising capital or going public. News of the measures **wiped** about $16bn **from** the value of three of the sector's biggest companies.
+> The market tumult was sparked by a move by Beijing over the weekend to ban academic tuition groups from making profits, raising capital or going public. News of the measures **wiped** about 16bn **from** the value of three of the sector's biggest companies.
 >
 > Losses continued on Monday, with a sub-index of education companies **tumbled** 9.6 per cent. In Hong Kong, the China Enterprises index of mainland companies **fell** 4.9 per cent while the broader Hang Seng **shed** 4.1 per cent.
 >
@@ -32,7 +32,7 @@ author: "William"
 >
 > "The growing speed and intensity of these crackdowns is **unprecedented**," said Frank Benzimra.
 >
-> Regulators in November **pulled the plug on** the record $37bn initial public offering of Ant Group.
+> Regulators in November **pulled the plug on** the record 37bn initial public offering of Ant Group.
 >
 > The Hong Kong-listed shares of New Oriental Education **plunged** almost 40 per cent on Monday.
 
@@ -136,7 +136,7 @@ author: "William"
 
 | 学生写法 | 升级写法 |
 |---------|---------|
-| The news **reduced** $16bn in value. | The news **wiped** $16bn **from** the value. |
+| The news **reduced** 16bn in value. | The news **wiped** 16bn **from** the value. |
 | The loss **took away** all our savings. | The loss **wiped** all our savings. |
 
 > **模板**：`[Event] wiped [amount] from [the value of / the market cap of] [entity]`

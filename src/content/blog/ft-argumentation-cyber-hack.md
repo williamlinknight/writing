@@ -18,7 +18,7 @@ author: 'William'
 ## FT原文精选
 
 > **English:**
-> Three North Korean computer programmers have been charged in the US with conspiring to steal and extort more than $1.3bn in money and cryptocurrency from banks and other companies through state-sponsored cyber hacks.
+> Three North Korean computer programmers have been charged in the US with conspiring to steal and extort more than 1.3bn in money and cryptocurrency from banks and other companies through state-sponsored cyber hacks.
 >
 > North Korean operatives "have become the world's leading bank robbers", John Demers, assistant attorney-general for national security at the US Department of Justice, told reporters on Wednesday.
 >
@@ -45,7 +45,7 @@ author: 'William'
 
 | 数据 | 说什么 |
 |------|--------|
-| $1.3bn | 被盗金额——规模感即刻建立 |
+| 1.3bn | 被盗金额——规模感即刻建立 |
 | 11-year span | 时间跨度——不是偶发事件，是持续犯罪 |
 | 300,000 computers in 150 countries | 攻击范围——全球性威胁 |
 | 2014, 2017 | 时间锚点——形成清晰的叙事时间线 |
@@ -56,7 +56,7 @@ author: 'William'
 
 | 学生写法 | 升级写法 |
 |----------|----------|
-| Cyber attacks are becoming more serious. | Three North Korean programmers **were charged with stealing more than $1.3bn** through cyber hacks over an 11-year span. |
+| Cyber attacks are becoming more serious. | Three North Korean programmers **were charged with stealing more than 1.3bn** through cyber hacks over an 11-year span. |
 | Plastic pollution is a big problem. | **An estimated 11 million tonnes** of plastic waste enter the ocean every year, **affecting more than 800 marine species**. |
 | Many students drop out of school because their families are poor. | **A 2023 study found that 2.7 million children** in rural China dropped out of school, **nearly 60%** citing financial difficulty as the primary reason. |
 
@@ -67,7 +67,7 @@ author: 'William'
 
 ## 论证方法二：引语构建可信度
 
-论据只有数据会显得冰冷。FT这篇文章在抛出$1.3bn这个数字之后，紧接着用了一个巧妙的结构：
+论据只有数据会显得冰冷。FT这篇文章在抛出1.3bn这个数字之后，紧接着用了一个巧妙的结构：
 
 > **John Demers, assistant attorney-general for national security at the US Department of Justice**, told reporters on Wednesday: "North Korean operatives have become **the world's leading bank robbers**."
 

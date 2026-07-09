@@ -11,11 +11,11 @@ author: "William"
 
 > Apple posted double-digit growth in the first quarter of 2021 in all of its businesses, led by **iPhone sales that surged by two-thirds** from a year ago.
 >
-> The world's most valuable publicly listed company said revenue **was up 54 per cent** in its fiscal quarter to $89.6bn, **far exceeding** already elevated forecasts. **Net profits jumped 110 per cent** to $23.6bn.
+> The world's most valuable publicly listed company said revenue **was up 54 per cent** in its fiscal quarter to 89.6bn, **far exceeding** already elevated forecasts. **Net profits jumped 110 per cent** to 23.6bn.
 >
-> **Mac sales grew 70 per cent** to $9.1bn and **iPad sales surged 79 per cent** to $7.8bn.
+> **Mac sales grew 70 per cent** to 9.1bn and **iPad sales surged 79 per cent** to 7.8bn.
 >
-> **With cash continuing to pile up on its balance sheet**, Apple announced a $90bn share buyback programme.
+> **With cash continuing to pile up on its balance sheet**, Apple announced a 90bn share buyback programme.
 
 > 苹果在2021年第一季度所有业务均实现两位数增长，其中iPhone销售额同比增长三分之二。
 >
@@ -41,7 +41,7 @@ author: "William"
 
 ## 2. Jump — 跳跃式增长，比 rise 更生动
 
-**原文出处：** *Net profits jumped 110 per cent to $23.6bn*
+**原文出处：** *Net profits jumped 110 per cent to 23.6bn*
 **中文解释：** jump 字面意思是"跳"，用来描述数据时暗示"突然大幅增长"。它比 rise / grow 更口语化也更生动，适合用在议论文的论据段。
 
 | 学生写法 | 升级写法 |
@@ -57,7 +57,7 @@ author: "William"
 
 ## 3. Far exceeding — 远超，分词结构的高级用法
 
-**原文出处：** *far exceeding already elevated forecasts of $77bn*
+**原文出处：** *far exceeding already elevated forecasts of 77bn*
 **中文解释：** far exceeding 是现在分词短语作状语，相当于"which far exceeded"，但更简洁、更有"信息附加值"。学生作文里很少用分词结构，这是一个容易提分的点。
 
 | 学生写法 | 升级写法 |
@@ -89,7 +89,7 @@ author: "William"
 
 ## 5. With + 名词 + 动词-ing — 独立主格结构，地道且高级
 
-**原文出处：** *With cash continuing to pile up on its balance sheet, Apple announced a $90bn share buyback programme.*
+**原文出处：** *With cash continuing to pile up on its balance sheet, Apple announced a 90bn share buyback programme.*
 **中文解释：** "With + 名词/代词 + 动词-ing" 是英语里非常常用的独立主格结构，表示"在……的情况下"。它在语法上独立于主句，但为动作提供背景。学生如果能用上，语法层次会立刻上一个台阶。
 
 | 学生写法 | 升级写法 |

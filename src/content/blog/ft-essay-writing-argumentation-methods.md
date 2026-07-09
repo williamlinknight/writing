@@ -15,7 +15,7 @@ author: "William"
 
 > The Fed said that it would start selling the corporate bonds and fixed income funds that it bought to stabilise the financial system last year, unwinding unprecedented emergency measures that electrified markets and brought down borrowing costs for companies reeling from the pandemic.
 >
-> Usage of the SMCCF and another facility aimed at supporting the primary corporate debt market totalled less than $14bn, under 2 per cent of the $750bn available, according to Fed data.
+> Usage of the SMCCF and another facility aimed at supporting the primary corporate debt market totalled less than 14bn, under 2 per cent of the 750bn available, according to Fed data.
 >
 > "The SMCCF proved vital in restoring market functioning last year, supporting the availability of credit for large employers, and bolstering employment through the Covid-19 pandemic," the Fed said in a statement.
 >
@@ -29,17 +29,17 @@ author: "William"
 
 FT原文中这句堪称"数据论证"的教科书写法：
 
-> **totalled less than $14bn, under 2 per cent of the $750bn available**
+> **totalled less than 14bn, under 2 per cent of the 750bn available**
 
 仅仅列出实际使用金额还不够，作者加了一个**基准参照**（available vs used）——只有2%的使用率。这个对比一下子让读者明白：美联储的存在感其实非常有限。
 
-**为什么好？** 单独看$14bn，大多数读者没有概念。但当作者告诉你"这个数字不到可用资金的2%"，论证就有了力量。数据本身不产生说服力，**数据+参照物**才有。
+**为什么好？** 单独看14bn，大多数读者没有概念。但当作者告诉你"这个数字不到可用资金的2%"，论证就有了力量。数据本身不产生说服力，**数据+参照物**才有。
 
 ### 学生写法 vs 升级写法
 
 | 学生常见写法 | FT升级写法 |
 |------------|-----------|
-| The cost was very low. | The cost totalled less than $14bn, under 2 per cent of the available amount. |
+| The cost was very low. | The cost totalled less than 14bn, under 2 per cent of the available amount. |
 | Many students chose this school. | The school enrolled over 3,000 students last year — three times its capacity just five years ago. |
 | Air pollution is getting better. | PM2.5 levels dropped to 35µg/m³, the lowest since records began in 2013. |
 

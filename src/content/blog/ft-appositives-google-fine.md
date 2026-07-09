@@ -33,7 +33,7 @@ FT的记者怎么写的？
 >
 > Investigators found that Google, **which owns the leading tools for buying and selling online ads as well as the biggest marketplace for online ads**, had tied its products together in a way that disadvantaged rivals.
 >
-> In particular, they looked at the close relationship between Google's AdX exchange, **the marketplace where adverts are auctioned**, and Google's Ad Manager, **an ad sales platform that grew out of the $3.1bn acquisition of DoubleClick in 2008.**
+> In particular, they looked at the close relationship between Google's AdX exchange, **the marketplace where adverts are auctioned**, and Google's Ad Manager, **an ad sales platform that grew out of the 3.1bn acquisition of DoubleClick in 2008.**
 
 以上五个句子，每一个都用到了同位语或插入语技巧。我们来逐个拆解。
 
@@ -90,7 +90,7 @@ FT直接用一个逗号把身份信息插在名字后面：
 
 ### FT原文
 
-> Google's AdX exchange, **the marketplace where adverts are auctioned**, and Google's Ad Manager, **an ad sales platform that grew out of the $3.1bn acquisition of DoubleClick in 2008.**
+> Google's AdX exchange, **the marketplace where adverts are auctioned**, and Google's Ad Manager, **an ad sales platform that grew out of the 3.1bn acquisition of DoubleClick in 2008.**
 >
 > The case began with a complaint from News Corp, **the French newspaper Le Figaro**, and the Groupe Rossel of Belgium.
 
@@ -176,13 +176,13 @@ FT直接用一个逗号把身份信息插在名字后面：
 把以下学生版句子改写成用同位语/插入语升级的版本：
 
 1. **学生版：** Mr Li is my math teacher. He has taught at our school for 20 years. He inspired me to pursue a career in engineering.
-   **升级版：** ________________________________
+**升级版：** ________________________________
 
 2. **学生版：** China's "Belt and Road" Initiative is a global infrastructure project. It involves over 140 countries. It has created thousands of jobs in participating nations.
-   **升级版：** ________________________________
+**升级版：** ________________________________
 
 3. **学生版：** The new stadium was built for the Asian Games. It cost 3 billion yuan. It can seat 80,000 people.
-   **升级版：** ________________________________
+**升级版：** ________________________________
 
 ### 参考答案
 

@@ -19,12 +19,12 @@ author: "William"
 
 ### 💡 维度解析：论证中的【二元对立】构造
 
-这段话之所以有力，是因为它没有简单地说“雇主现在更接纳自闭症患者了”，而是构建了一组极其强烈的**价值对立**：`human asset (人力资本)` $\leftrightarrow$ `liability (负担)`。
+这段话之所以有力，是因为它没有简单地说“雇主现在更接纳自闭症患者了”，而是构建了一组极其强烈的**价值对立**：`human asset (人力资本)` ↔ `liability (负担)`。
 
 这种“A 而非 B”的结构（A, not B），能迅速在读者心中建立一个坐标系，将“陈旧的偏见”与“先进的认知”进行对撞。
 
 #### 1. 核心结构：【价值重定义】
-**公式：** $\text{X is a [Positive Asset], not a [Negative Liability]}$
+**公式：** X is a [Positive Asset], not a [Negative Liability]
 
 **❌ 学生初版**
 Some people think autistic people are not good for work, but now some companies think they are useful.
@@ -40,7 +40,7 @@ Employers are increasingly recognizing neurodiverse individuals as **a strategic
 ---
 
 #### 2. 核心结构：【定位于前沿】
-**公式：** $\text{X is emerging as the "final frontier" in [Field/Debate]}$
+**公式：** X is emerging as the "final frontier" in [Field/Debate]
 
 当你想强调某个话题的重要性或紧迫性时，不要只说 "It is very important"，试着用 `final frontier`（最后阵地/最后疆域）这样的隐喻。
 
@@ -59,8 +59,8 @@ In the broader discourse on inclusivity, the integration of neurodiversity is em
 
 在面对“社会现象”或“教育争议”类作文时，尝试寻找一组**反义词对**。
 
-不要只写 $\text{Positive}$，要写 $\text{Positive, not Negative}$。
-不要只写 $\text{Change}$，要写 $\text{A revolution in [Concept], not a mere adjustment}$。
+不要只写 Positive，要写 Positive, not Negative。
+不要只写 Change，要写 A revolution in [Concept], not a mere adjustment。
 
 当你能把一个简单的观点，通过“反差”构造出逻辑张力时，你的文章就从“学生习作”变成了“专业评论”。
 

@@ -5,7 +5,7 @@ description: "从FT关于英法捕鱼权争端的报道中，提炼5个同位语
 author: "William"
 ---
 
-> 大多数中国学生写英语作文，用的都是"主语+谓语+宾语"的直线条结构。偶尔想加一句说明，就用and连接——结果句子越写越长、越写越乱。  
+> 大多数中国学生写英语作文，用的都是"主语+谓语+宾语"的直线条结构。偶尔想加一句说明，就用and连接——结果句子越写越长、越写越乱。
 > **同位语和插入语**是解决这个问题的利器：把你需要补充的信息"嵌入"句子中间，既保留了主干的清晰，又增加了信息密度。
 
 今天我们从FT关于英法捕鱼权争端的报道中，学习5种地道用法。
@@ -18,8 +18,8 @@ author: "William"
 
 > The craft — HMS Tamar and HMS Severn — are in crowded waters as more than 50 French fishing boats converged on the port of St Helier.
 
-**为什么好**  
-主句已经完整（The craft are in crowded waters），但作者想告诉读者"这两艘军舰叫什么名字"。他没有写"The craft ... are in crowded waters. The ships are named HMS Tamar and HMS Severn."，而是用一对破折号把名字**直接插在主语和谓语之间**。  
+**为什么好**
+主句已经完整（The craft are in crowded waters），但作者想告诉读者"这两艘军舰叫什么名字"。他没有写"The craft ... are in crowded waters. The ships are named HMS Tamar and HMS Severn."，而是用一对破折号把名字**直接插在主语和谓语之间**。
 这样读起来像在说话——你先交代一个笼统的对象，然后顿一下，补充更具体的信息。
 
 **📊 学生写法 vs 升级写法**
@@ -48,9 +48,9 @@ author: "William"
 
 > Annick Girardin, **the French maritime minister**, told France's National Assembly...
 
-**为什么好**  
-"Jersey's capital"和"the French maritime minister"都是同位语——用逗号分隔，紧跟在名词后面，解释这个名词的身份。  
-学生通常写成："St Helier, which is the capital of Jersey"或"Annick Girardin, who is the French maritime minister"。  
+**为什么好**
+"Jersey's capital"和"the French maritime minister"都是同位语——用逗号分隔，紧跟在名词后面，解释这个名词的身份。
+学生通常写成："St Helier, which is the capital of Jersey"或"Annick Girardin, who is the French maritime minister"。
 同位语比定语从句更简洁，而且更符合母语者的表达习惯。
 
 **📊 学生写法 vs 升级写法**
@@ -78,8 +78,8 @@ author: "William"
 
 > **Carteret fisherman Camille Lécureuil** told AFP, the French news agency...
 
-**为什么好**  
-这里有点特别：作者没有写"Camille Lécureuil, a fisherman from Carteret, ..."（用逗号），而是直接把身份放在名字前面，像贴标签一样。  
+**为什么好**
+这里有点特别：作者没有写"Camille Lécureuil, a fisherman from Carteret, ..."（用逗号），而是直接把身份放在名字前面，像贴标签一样。
 这种**前位同位语**在新闻报道中很常见——先给出"身份+名字"作为整体主语，然后继续叙述。它比后置同位语更简洁，适合在段落中快速引入一个新人物。
 
 **📊 学生写法 vs 升级写法**
@@ -108,9 +108,9 @@ author: "William"
 
 > Jersey, **the largest member of the archipelago and a British crown dependency**, receives 95 per cent of its electricity from France through underwater cables.
 
-**为什么好**  
-"the largest member of the archipelago"和"a British crown dependency"是两个同位语，用and连接并列，共同修饰Jersey。  
-这种**复合同位语**在学生作文中几乎看不到——学生往往只会用一个简单的同位语，或者写成两个分开的定语从句。  
+**为什么好**
+"the largest member of the archipelago"和"a British crown dependency"是两个同位语，用and连接并列，共同修饰Jersey。
+这种**复合同位语**在学生作文中几乎看不到——学生往往只会用一个简单的同位语，或者写成两个分开的定语从句。
 用复合同位语一次交代两个关键信息，信息密度高，读起来还比两个定语从句清爽得多。
 
 **📊 学生写法 vs 升级写法**
@@ -137,8 +137,8 @@ author: "William"
 
 > Dimitri Rogoff, **who heads the Normandy regional fishing committee**, said the idea was not to blockade St Helier but to make a point.
 
-**为什么好**  
-这里是用who引导的非限制性定语从句做同位式补充。虽然严格来说是定语从句，但在功能上，它和逗号同位语完全一样——补充"这个人是谁"，不影响主句的意思。  
+**为什么好**
+这里是用who引导的非限制性定语从句做同位式补充。虽然严格来说是定语从句，但在功能上，它和逗号同位语完全一样——补充"这个人是谁"，不影响主句的意思。
 选这个例子是因为它特别适合学生**模仿**：在引用某人的观点时，顺势用同位结构交代这个人的身份，信息一次性给完，行文更紧凑。
 
 **📊 学生写法 vs 升级写法**

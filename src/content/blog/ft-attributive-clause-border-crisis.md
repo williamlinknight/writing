@@ -10,7 +10,7 @@ author: "William"
 今天我们通过一篇关于美墨边境危机的报道，来看看 FT 是如何通过定语从句实现这种「高效压缩」的。
 
 > The Biden administration is struggling to address an influx of unaccompanied minors attempting to cross the US southern border as figures confirmed a sharp jump in attempted crossings by people in the weeks since Joe Biden took office.
-> 
+>
 > 试图从美国南部边境进入美国的无人陪同的未成年人激增，令拜登(Biden)政府难以招架。数据显示，乔•拜登(Joe Biden)上任这些周，美国边境闯关者急剧增加。
 
 在这篇文章中，我们可以看到几种非常典型的定语从句（及简化形式）应用，能够直接迁移到各类议论文中。
@@ -43,7 +43,7 @@ The government started a new plan. This plan helps children. The children can me
 The government launched a programme to support displaced children, which allows those eligible to reunite with parents who are legally residing in the US.
 
 **💡 效果**
-将四个碎片化句子压缩为一个长句。通过 `which` 和 `who` 的嵌套，构建出严密的逻辑链条：计划 $\rightarrow$ 目的 $\rightarrow$ 受益人 $\rightarrow$ 前提条件。
+将四个碎片化句子压缩为一个长句。通过 `which` 和 `who` 的嵌套，构建出严密的逻辑链条：计划 → 目的 → 受益人 → 前提条件。
 
 #### 3. 状态与结果的同步描述 (Concurrent State)
 原文：`...people in the weeks since Joe Biden took office.`

@@ -40,12 +40,12 @@ author: "William"
 **❌ 初级写法 (Basic)：**
 AI might be bad because it can trick people, so we should stop using it for a while.
 *(AI 可能会很糟糕因为它会欺骗人们，所以我们应该暂时停止使用它。)*
-$\rightarrow$ **问题**：用词过于简单 (*bad*, *trick*, *stop using*), 缺乏论证力度。
+→ **问题**：用词过于简单 (*bad*, *trick*, *stop using*), 缺乏论证力度。
 
 **✅ 高级写法 (Advanced)：**
 While the prospects of emotional AI are undeniably promising, there are compelling reasons for particular caution. A temporary moratorium would be a prudent step, allowing regulators to evaluate whether the underlying science is sound before such technology is deployed on a large scale.
 *(尽管情感人工智能的前景不可否认地令人期待，但我们有充分的理由保持特别谨慎。实施一项临时禁令将是一个审慎的步骤，使监管机构能够在该技术大规模部署前评估其底层科学是否可靠。)*
-$\rightarrow$ **升级点**：使用 *undeniably promising* (不可否认地令人期待) 做让步，使用 *compelling reasons* (充分的理由) 增强说服力，引入 *prudent step* (审慎的步骤) 和 *underlying science* (底层科学) 等精准词汇。
+→ **升级点**：使用 *undeniably promising* (不可否认地令人期待) 做让步，使用 *compelling reasons* (充分的理由) 增强说服力，引入 *prudent step* (审慎的步骤) 和 *underlying science* (底层科学) 等精准词汇。
 
 ---
 *本文由 [厦门灯塔] 整理，旨在通过高质量输入驱动写作产出。*
