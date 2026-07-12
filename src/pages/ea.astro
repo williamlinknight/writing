@@ -8,7 +8,37 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FusionGold M5 — XAUUSD ゴールド専用EA | 厦门灯塔</title>
-<meta name="description" content="FusionGold M5: ゴールド（XAUUSD）専用のMT5自動売買EA。ADX+H4ゾーン+矛盾検出エンジン搭載。月額・年額・物々交換でご利用いただけます。">
+<meta name="description" content="FusionGold M5: XAUUSD（ゴールド）専用MT5自動売買EA。ADX+H4ゾーン+矛盾検出エンジン搭載。回測勝率74.48%。物々交換でご利用いただけます。">
+<meta name="keywords" content="XAUUSD EA, ゴールド自動売買, MT5 EA, 金EA, FusionGold M5, 物々交換">
+<link rel="canonical" href="https://www.williamwriting.com/ea/">
+<!-- Open Graph -->
+<meta property="og:title" content="FusionGold M5 — XAUUSD ゴールド専用EA">
+<meta property="og:description" content="ADX+H4ゾーン+矛盾検出。回測勝率74.48%。物々交換でご利用可能。">
+<meta property="og:url" content="https://www.williamwriting.com/ea/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="厦门灯塔">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FusionGold M5 — XAUUSD ゴールド専用EA">
+<meta name="twitter:description" content="ADX+H4ゾーン+矛盾検出。回測勝率74.48%。物々交換でご利用可能。">
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "FusionGold M5",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Windows/Mac (MT5)",
+  "description": "ゴールド（XAUUSD）専用のMT5自動売買EA。ADX+H4ゾーン+矛盾検出エンジン搭載。",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY",
+    "description": "物々交換のみ。現金不要。"
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -358,7 +388,6 @@ footer a:hover { text-decoration:underline; }
       <div class="form-group">
         <label for="type" data-i18n="contact-type">お問い合わせ種別</label>
         <select id="type" name="type">
-          <option data-i18n="ct-type1" value="purchase">購入について</option>
           <option data-i18n="ct-type2" value="barter" selected>物々交換について</option>
           <option data-i18n="ct-type3" value="demo">デモ口座について</option>
           <option data-i18n="ct-type4" value="other">その他</option>
@@ -460,14 +489,13 @@ const LANG = {
     'p3-f4':      { JP: 'ユニークな交換体験', EN: 'Unique exchange' },
     'p3-cta':     { JP: '交換の詳細', EN: 'Barter Details' },
     'barter-title':{JP: '物々交換について', EN: 'About Barter' },
-    'barter-text':{ JP: '未開封ゲーム機、限定フィギュア、日本酒、カメラレンズなどと交換可能。まずはお問い合わせください。', EN: 'Exchange for game consoles, figures, sake, lenses. Contact us.' },
-    'barter-cta': { JP: '問い合わせる', EN: 'Inquire' },
+    'barter-text':{ JP: '以下のような日本製品と交換可能です。まずはお問い合わせください。', EN: 'Exchange for Japanese products below. Contact us.' },
+    'barter-cta': { JP: '物々交換について問い合わせる', EN: 'Inquire about Barter' },
     'cta-title':  { JP: '始めてみませんか？', EN: 'Get Started?' },
     'cta-sub':    { JP: 'お問い合わせ、デモ口座、物々交換の提案など、お気軽に。', EN: 'Inquiries, demos, barter proposals welcome.' },
     'contact-name':{JP: 'お名前', EN: 'Name' },
     'contact-email':{JP: 'メールアドレス', EN: 'Email' },
     'contact-type':{JP: '種別', EN: 'Type' },
-    'ct-type1':   { JP: '購入について', EN: 'Purchase' },
     'ct-type2':   { JP: '物々交換について', EN: 'Barter' },
     'ct-type3':   { JP: 'デモ口座について', EN: 'Demo Account' },
     'ct-type4':   { JP: 'その他', EN: 'Other' },
