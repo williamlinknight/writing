@@ -370,7 +370,7 @@ footer a:hover { text-decoration:underline; }
       </div>
       <button type="submit" class="btn btn-gold form-submit" data-i18n="contact-submit">送信する</button>
       <p style="margin-top:12px;font-size:0.8rem;color:var(--text-muted);" data-i18n="contact-note">※お返事までに1-2営業日いただく場合がございます。</p>
-      <p style="margin-top:4px;font-size:0.75rem;color:var(--text-muted);">📧 <a href="mailto:william@williamwriting.com" style="color:var(--gold);">william@williamwriting.com</a></p>
+      <p style="margin-top:4px;font-size:0.75rem;color:var(--text-muted);">📧 <a href="mailto:william1412@agent.qq.com" style="color:var(--gold);">william1412@agent.qq.com</a></p>
     </form>
   </div>
 </section>
@@ -532,7 +532,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const bd = LANG.current === 'JP'
         ? `お名前: ${n}\nメール: ${em}\n種別: ${tp}\n\n${msg}\n\n-- ${em}`
         : `Name: ${n}\nEmail: ${em}\nType: ${tp}\n\n${msg}\n\n-- ${em}`;
-      window.location.href = `mailto:william@williamwriting.com?subject=${encodeURIComponent(sj)}&body=${encodeURIComponent(bd)}`;
+      window.location.href = `mailto:william1412@agent.qq.com?subject=${encodeURIComponent(sj)}&body=${encodeURIComponent(bd)}`;
       const btn = form.querySelector('.form-submit');
       btn.textContent = LANG.current === 'JP' ? '✓ メール作成中...' : '✓ Opening email...';
       btn.disabled = true;
