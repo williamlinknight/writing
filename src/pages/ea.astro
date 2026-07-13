@@ -306,7 +306,7 @@ footer a:hover { text-decoration:underline; }
     <p class="section-sub fade-in" data-i18n="brief-sub">最新テクニカル分析 + HMMレジーム — 毎営業日更新</p>
     <div class="perf-table-wrap fade-in" style="margin-bottom:16px;">
       <div class="brief-cards">
-        <div class="brief-card"><div class="label" data-i18n="brief-price">現在値</div><div class="value gold big">$4,108</div><div class="sub red">▼ -27.90</div></div>
+        <div class="brief-card"><div class="label" data-i18n="brief-price">現在値</div><div class="value gold big">$4,074</div><div class="sub red">▼ $-5.90 (-5.90%)</div></div>
         <div class="brief-card"><div class="label" data-i18n="brief-hmm">HMM</div><div class="value gold">📊 レンジ</div><div class="sub" data-i18n="brief-conf">確信度100%</div></div>
         <div class="brief-card"><div class="label" data-i18n="brief-signal">シグナル</div><div class="value green">NEUTRAL</div><div class="sub">Score 0/3</div></div>
         <div class="brief-card"><div class="label" data-i18n="brief-bb">BB</div><div class="value gold">0.94%</div><div class="sub">収縮中</div></div>
@@ -317,8 +317,8 @@ footer a:hover { text-decoration:underline; }
       <table class="perf-table">
         <thead><tr><th data-i18n="brief-resist">レジスタンス</th><th></th><th data-i18n="brief-support">サポート</th></tr></thead>
         <tbody>
-          <tr><td class="highlight-red">$4,150</td><td>BB上限 / 直近高値</td><td class="highlight">$4,100</td></tr>
-          <tr><td class="highlight-red">$4,148</td><td>BB上轨</td><td class="highlight">$4,032</td></tr>
+          <tr><td class="highlight-red">$4,133</td><td>BB上限 / 直近高値</td><td class="highlight">$4,078</td></tr>
+          <tr><td class="highlight-red">$4,133</td><td>BB上限 / 直近高値</td><td class="highlight">$4,078</td></tr>
           <tr><td style="color:var(--text-muted);">$4,129</td><td>BB中央線</td><td style="color:var(--text-muted);">$4,109</td></tr>
         </tbody>
       </table>
@@ -332,7 +332,7 @@ footer a:hover { text-decoration:underline; }
           <td style="color:var(--accent-red);">$4,030</td>
         </tr></tbody>
       </table>
-      <p style="margin-top:12px;font-size:0.8rem;color:var(--text-muted);" data-i18n="brief-update">最終更新: 2026-07-10 19:03 BJT</p>
+      <p style="margin-top:12px;font-size:0.8rem;color:var(--text-muted);" data-i18n="brief-update">最終更新: 2026-07-13 10:20 BJT</p>
     </div>
   </div>
 </section>
@@ -458,116 +458,6 @@ const LANG = {
     'brief-sl':   { JP: '損切', EN: 'SL' },
     'brief-resist':{JP: 'レジスタンス', EN: 'Resistance' },
     'brief-support':{JP: 'サポート', EN: 'Support' },
-    'brief-update':{JP: '最終更新: 2026-07-10', EN: 'Updated: 2026-07-10' },
-    'price-title':{ JP: 'ご利用方法', EN: 'How It Works' },
-    'price-sub':  { JP: '現金不要。物々交換のみ。', EN: 'No cash needed. Barter only.' },
-    'p1-name':    { JP: '月額', EN: 'Monthly' },
-    'p1-price':   { JP: '¥5,000', EN: '¥5,000' },
-    'p1-period':  { JP: '/月', EN: '/mo' },
-    'p1-desc':    { JP: 'お試し。いつでも解約可能。', EN: 'Try it. Cancel anytime.' },
-    'p1-f1':      { JP: 'EAファイル（.ex5）', EN: 'EA file (.ex5)' },
-    'p1-f2':      { JP: '設定ガイド', EN: 'Setup guide' },
-    'p1-f3':      { JP: 'メールサポート', EN: 'Email support' },
-    'p1-f4':      { JP: 'アップデート', EN: 'Updates' },
-    'p1-cta':     { JP: '始める', EN: 'Start' },
-    'p2-name':    { JP: '年間', EN: 'Annual' },
-    'p2-price':   { JP: '¥50,000', EN: '¥50,000' },
-    'p2-period':  { JP: '/年（2ヶ月分お得）', EN: '/yr (2mo free)' },
-    'p2-desc':    { JP: '最もお得。長期運用に。', EN: 'Best value for long-term.' },
-    'p2-f1':      { JP: 'EAファイル（.ex5）', EN: 'EA file (.ex5)' },
-    'p2-f2':      { JP: '設定ガイド', EN: 'Setup guide' },
-    'p2-f3':      { JP: '優先サポート', EN: 'Priority support' },
-    'p2-f4':      { JP: '全アップデート + 新機能', EN: 'All updates + new features' },
-    'p2-cta':     { JP: '年間プラン', EN: 'Annual Plan' },
-    'p3-name':    { JP: '物々交換', EN: 'Barter' },
-    'p3-price':   { JP: '相談', EN: 'Negotiable' },
-    'p3-period':  { JP: '現金不要', EN: 'No cash' },
-    'p3-desc':    { JP: '日本製品と交換。価値ある取引を。', EN: 'Trade Japanese goods for EA.' },
-    'p3-f1':      { JP: 'EAファイル（.ex5）', EN: 'EA file (.ex5)' },
-    'p3-f2':      { JP: '設定ガイド', EN: 'Setup guide' },
-    'p3-f3':      { JP: 'メールサポート', EN: 'Email support' },
-    'p3-f4':      { JP: 'ユニークな交換体験', EN: 'Unique exchange' },
-    'p3-cta':     { JP: '交換の詳細', EN: 'Barter Details' },
-    'barter-title':{JP: '物々交換について', EN: 'About Barter' },
-    'barter-text':{ JP: '以下のような日本製品と交換可能です。まずはお問い合わせください。', EN: 'Exchange for Japanese products below. Contact us.' },
-    'barter-cta': { JP: '物々交換について問い合わせる', EN: 'Inquire about Barter' },
-    'cta-title':  { JP: '始めてみませんか？', EN: 'Get Started?' },
-    'cta-sub':    { JP: 'お問い合わせ、デモ口座、物々交換の提案など、お気軽に。', EN: 'Inquiries, demos, barter proposals welcome.' },
-    'contact-name':{JP: 'お名前', EN: 'Name' },
-    'contact-email':{JP: 'メールアドレス', EN: 'Email' },
-    'contact-type':{JP: '種別', EN: 'Type' },
-    'ct-type2':   { JP: '物々交換について', EN: 'Barter' },
-    'ct-type3':   { JP: 'デモ口座について', EN: 'Demo Account' },
-    'ct-type4':   { JP: 'その他', EN: 'Other' },
-    'contact-msg':{ JP: 'メッセージ', EN: 'Message' },
-    'contact-submit':{JP: '送信する', EN: 'Send' },
-    'contact-note':{JP: '※1-2営業日以内にお返事いたします。', EN: '* Response within 1-2 business days.' },
-  },
-  set(lang) {
-    this.current = lang;
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.dataset.i18n;
-      if (this.data[key] && this.data[key][lang]) el.textContent = this.data[key][lang];
-    });
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-      const key = el.dataset.i18nPlaceholder;
-      if (this.data[key] && this.data[key][lang]) el.placeholder = this.data[key][lang];
-    });
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
-    document.documentElement.lang = lang === 'JP' ? 'ja' : 'en';
-    document.querySelectorAll('option[data-i18n]').forEach(el => {
-      const key = el.dataset.i18n;
-      if (this.data[key] && this.data[key][lang]) el.textContent = this.data[key][lang];
-    });
-  }
-};
-
-document.addEventListener('DOMContentLoaded', () => {
-  const prefer = (navigator.language || '').startsWith('ja');
-  LANG.set(prefer ? 'JP' : 'EN');
-  document.querySelectorAll('.lang-btn').forEach(b => {
-    b.addEventListener('click', () => LANG.set(b.dataset.lang));
-  });
-  // Scroll animation
-  new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.1 }).observe(document.querySelector('.hero'));
-  document.querySelectorAll('.fade-in').forEach(el => {
-    new IntersectionObserver(entries => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-    }, { threshold: 0.1 }).observe(el);
-  });
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', e => {
-      e.preventDefault();
-      const t = document.querySelector(a.getAttribute('href'));
-      if (t) t.scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-  // Form -> mailto
-  const form = document.getElementById('contact-form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const n = document.getElementById('name').value;
-      const em = document.getElementById('email').value;
-      const tp = document.getElementById('type').value;
-      const msg = document.getElementById('message').value;
-      const sj = LANG.current === 'JP'
-        ? `【FusionGold M5】${tp === 'barter' ? '物々交換' : 'お問い合わせ'}（${n}様）`
-        : `[FusionGold M5] Inquiry from ${n}`;
-      const bd = LANG.current === 'JP'
-        ? `お名前: ${n}\nメール: ${em}\n種別: ${tp}\n\n${msg}\n\n-- ${em}`
-        : `Name: ${n}\nEmail: ${em}\nType: ${tp}\n\n${msg}\n\n-- ${em}`;
-      window.location.href = `mailto:william1412@agent.qq.com?subject=${encodeURIComponent(sj)}&body=${encodeURIComponent(bd)}`;
-      const btn = form.querySelector('.form-submit');
-      btn.textContent = LANG.current === 'JP' ? '✓ メール作成中...' : '✓ Opening email...';
-      btn.disabled = true;
-      setTimeout(() => { btn.textContent = LANG.current === 'JP' ? '送信する' : 'Send'; btn.disabled = false; }, 5000);
-    });
-  }
-});
-</script>
+    'brief-update':{JP: '最終更新: 2026-07-13 10:20 BJT</script>
 </body>
 </html>
