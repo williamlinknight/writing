@@ -29,12 +29,6 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Configure Pages CNAME
-        run: |
-          curl -s -X PUT "https://api.github.com/repos/${{ github.repository }}/pages" \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            -d '{"cname":"williamwriting.com","https_enforced":true}'
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
