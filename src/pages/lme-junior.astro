@@ -219,6 +219,23 @@ const siteBase = '';
     gap: 8px;
     margin-bottom: 24px;
   }
+  .pricing-box .original-price {
+    font-size: 1.1rem;
+    color: #aaa;
+    text-decoration: line-through;
+    margin-right: 12px;
+  }
+  .pricing-box .coupon-tag {
+    display: inline-block;
+    background: #FF6B35;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
   .pricing-box .includes span {
     background: #FFF8EF;
     border: 1px solid #E8D3B5;
@@ -355,7 +372,11 @@ const siteBase = '';
 <div class="lme-section" style="padding-top:0;">
   <div class="pricing-box">
     <h3 style="font-family:var(--font-heading);font-size:1.2rem;color:#333;margin:0 0 8px;">少儿英语通 · Junior Edition</h3>
-    <div class="price">¥198</div>
+    <div>
+      <span class="original-price">¥399</span>
+      <span class="price">¥198</span>
+      <span class="coupon-tag">微信专享券 ¥100</span>
+    </div>
     <div class="price-desc">一次性购买，永久使用 · 持续更新</div>
     <div class="includes">
       <span>✅ 全套视频跟读课程</span>
@@ -365,7 +386,40 @@ const siteBase = '';
       <span>✅ Obsidian 预制仓库</span>
       <span>✅ 永久免费更新</span>
     </div>
-    <a href="https://work.weixin.qq.com/kfid/kfc88414587b5b96a2c" class="cta-btn" style="font-size:1rem;padding:14px 40px;">立即咨询购买</a>
+    <a href="https://work.weixin.qq.com/kfid/kfc88414587b5b96a2c" class="cta-btn" style="font-size:1rem;padding:14px 40px;">微信联系购买 · 领券立减</a>
+  </div>
+</div>
+
+<!-- ═══════════ NOTICE ═══════════ -->
+<div class="lme-section" style="padding-top:0;">
+  <div style="background:#FFF5F0;border:1px solid #F0D0C0;border-radius:16px;padding:28px 32px;">
+    <h3 style="font-family:var(--font-heading);font-size:1.15rem;color:#D87C52;margin:0 0 16px;">⚠️ 购买须知</h3>
+    <div style="display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <span style="color:#D87C52;font-weight:700;flex-shrink:0;">①</span>
+        <div>
+          <strong style="color:#333;">虚拟商品，售出后不退不换</strong>
+          <p style="color:#888;font-size:0.85rem;margin:4px 0 0;">本产品为数字虚拟商品，一经售出概不退换。购买前请仔细阅读产品说明，确认需求。</p>
+        </div>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <span style="color:#D87C52;font-weight:700;flex-shrink:0;">②</span>
+        <div>
+          <strong style="color:#333;">发货方式：网盘链接</strong>
+          <p style="color:#888;font-size:0.85rem;margin:4px 0 0;">
+            付款后您将收到一个<strong>网盘链接</strong>，内含未激活的学习仓库（Obsidian 预制仓库）和威廉老师的微信联系方式。<br />
+            用户需<strong>联系威廉老师微信</strong>，凭购买凭证获取<strong>激活码</strong>，解锁全部学习内容。
+          </p>
+        </div>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <span style="color:#D87C52;font-weight:700;flex-shrink:0;">③</span>
+        <div>
+          <strong style="color:#333;">专属微信优惠券</strong>
+          <p style="color:#888;font-size:0.85rem;margin:4px 0 0;">添加威廉老师微信即可领取<strong>¥100 优惠券</strong>，券后仅需 <strong>¥198</strong>（原价 ¥399）。</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -387,8 +441,20 @@ const siteBase = '';
       <p style="color:#888;font-size:0.9rem;margin:0;">Obsidian 是一款免费知识管理软件。我们预制了完整的课程笔记仓库，包含单词库、句子库、语法卡、复习进度表。下载后直接用 Obsidian 打开即可。</p>
     </div>
     <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">如何购买和领取优惠券？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">点击上方按钮联系威廉老师微信，领取微信专属 ¥100 优惠券后购买。券后仅需 ¥198（原价 ¥399）。</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">购买后怎么收到产品？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">付款后您将收到一个网盘链接，内含未激活的 Obsidian 学习仓库和威廉老师的微信联系方式。凭购买凭证联系微信获取激活码，解锁全部内容。</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">可以退款吗？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">本产品为虚拟数字商品，一经售出概不退换。购买前请仔细阅读产品说明，确认需求后再下单。</p>
+    </div>
+    <div style="margin-bottom:20px;">
       <h4 style="color:#D87C52;margin:0 0 6px;">有售后服务吗？</h4>
-      <p style="color:#888;font-size:0.9rem;margin:0;">购买后提供微信客服支持，包括安装指导、使用答疑、内容更新通知。</p>
+      <p style="color:#888;font-size:0.9rem;margin:0;">购买后提供微信客服支持，包括安装指导、仓库导入、激活码发放、使用答疑、内容更新通知等。</p>
     </div>
   </div>
 </div>
