@@ -1,0 +1,396 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Navbar from '../components/Navbar.astro';
+const siteBase = '';
+---
+
+<MainLayout 
+  title="少儿英语通 Language Made Easy Junior — 视频跟读·听写·闪卡复习 | 厦门灯塔"
+  description="专为少儿设计的英语学习系统：视频跟读+AI语音评测+听写训练+闪卡复习。赠送 Obsidian 预制仓库，开箱即用。"
+  slug="lme-junior"
+>
+
+<Navbar />
+
+<style>
+  .lme-hero {
+    background: linear-gradient(135deg, #FFF8EF 0%, #FFE8D6 50%, #FFD4B8 100%);
+    padding: 80px 24px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .lme-hero::before {
+    content: '📚';
+    position: absolute;
+    font-size: 200px;
+    opacity: 0.06;
+    top: -40px;
+    right: -40px;
+    transform: rotate(15deg);
+  }
+  .lme-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    color: #D87C52;
+    margin: 0 0 8px;
+    letter-spacing: 2px;
+  }
+  .lme-hero .subtitle {
+    font-size: 1.3rem;
+    color: #8B6F5E;
+    margin-bottom: 16px;
+  }
+  .lme-hero .tagline {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+  }
+  .lme-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .lme-badge {
+    background: white;
+    border: 1px solid #E8D3B5;
+    border-radius: 24px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(230,126,96,0.08);
+  }
+  .lme-badge strong {
+    color: #D87C52;
+  }
+  .lme-hero .cta-btn {
+    display: inline-block;
+    background: #D87C52;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 50px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: 0 4px 16px rgba(216,124,82,0.3);
+  }
+  .lme-hero .cta-btn:hover {
+    background: #c46a40;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(216,124,82,0.4);
+  }
+
+  /* Section common */
+  .lme-section {
+    padding: 70px 24px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .lme-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: #D87C52;
+    text-align: center;
+    margin: 0 0 12px;
+  }
+  .lme-section .sec-desc {
+    text-align: center;
+    color: #888;
+    font-size: 1.05rem;
+    margin-bottom: 40px;
+  }
+
+  /* Feature cards */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .feature-card {
+    background: white;
+    border: 1px solid #F0E8E0;
+    border-radius: 16px;
+    padding: 28px;
+    transition: all 0.2s;
+    box-shadow: 0 2px 8px rgba(230,126,96,0.06);
+  }
+  .feature-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(230,126,96,0.12);
+    border-color: #E8D3B5;
+  }
+  .feature-card .icon {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+  }
+  .feature-card h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0 0 8px;
+  }
+  .feature-card p {
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Image showcase */
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 30px 0;
+  }
+  .showcase-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+  }
+  .showcase-grid img:hover {
+    transform: scale(1.03);
+  }
+
+  /* Bonus box */
+  .bonus-box {
+    background: linear-gradient(135deg, #FFF8EF 0%, #FFE8D6 100%);
+    border: 2px dashed #E8D3B5;
+    border-radius: 16px;
+    padding: 36px;
+    margin: 40px 0;
+    text-align: center;
+  }
+  .bonus-box h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: #D87C52;
+    margin: 0 0 12px;
+  }
+  .bonus-box p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .bonus-box .bonus-tag {
+    display: inline-block;
+    background: #D87C52;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  /* Pricing */
+  .pricing-box {
+    background: white;
+    border: 1px solid #F0E8E0;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(230,126,96,0.06);
+    margin: 40px 0;
+  }
+  .pricing-box .price {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #D87C52;
+  }
+  .pricing-box .price-desc {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 8px 0 20px;
+  }
+  .pricing-box .includes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .pricing-box .includes span {
+    background: #FFF8EF;
+    border: 1px solid #E8D3B5;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+    color: #666;
+  }
+
+  /* Main poster */
+  .poster-wrap {
+    text-align: center;
+    margin: -30px 0 20px;
+  }
+  .poster-wrap img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  }
+
+  .full-detail-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin: 30px auto;
+    display: block;
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .lme-hero h1 { font-size: 2rem; }
+    .feature-grid { grid-template-columns: 1fr; }
+    .showcase-grid { grid-template-columns: 1fr 1fr; }
+    .lme-hero .cta-btn { padding: 14px 32px; font-size: 1rem; }
+  }
+</style>
+
+<!-- ═══════════ HERO ═══════════ -->
+<div class="lme-hero">
+  <div class="poster-wrap">
+    <img src="/lme-junior-main-poster.png" alt="Language Made Easy Junior 少儿英语通" loading="eager" />
+  </div>
+
+  <h1>少儿英语通</h1>
+  <div class="subtitle">Language Made Easy · Junior Edition</div>
+  <div class="tagline">
+    专为 6–12 岁少儿设计的英语自主学习系统<br />
+    视频跟读 + AI 语音评测 + 听写训练 + 闪卡复习<br />
+    让孩子在轻松愉快的节奏中建立英语语感
+  </div>
+
+  <div class="lme-badge-row">
+    <span class="lme-badge">🎯 <strong>视频跟读</strong> 原声+AI 实时评测</span>
+    <span class="lme-badge">📝 <strong>听写训练</strong> 自动批改 弱项追踪</span>
+    <span class="lme-badge">🃏 <strong>闪卡复习</strong> 间隔重复 科学记忆</span>
+    <span class="lme-badge">📦 <strong>Obsidian 预制仓库</strong> 开箱即用</span>
+  </div>
+
+  <a href="#detail" class="cta-btn">了解详情 ↓</a>
+</div>
+
+<!-- ═══════════ FEATURES ═══════════ -->
+<div class="lme-section" id="features">
+  <h2>四大核心模块</h2>
+  <p class="sec-desc">覆盖英语学习的完整闭环：输入 → 跟读 → 听写 → 复习</p>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="icon">🎬</div>
+      <h3>视频跟读 · AI 实时评测</h3>
+      <p>精选原版英语短片，每句可暂停跟读。内置语音识别引擎实时对比发音，标记错误音节，逐句纠正。家长无需参与，孩子自主跟读，系统自动给反馈。</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🎙️</div>
+      <h3>录音回放 · 自我纠音</h3>
+      <p>每句跟读自动录音，支持回放对比。孩子可以听原声→听自己→找差距。培养"耳朵"敏感度，发音提升看得见。</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">✍️</div>
+      <h3>听写训练 · 逐词批改</h3>
+      <p>从跟读内容自动生成听写练习。AI 逐词比对，标注拼写错误、漏听单词。系统自动汇总高频错误词，形成个人弱词本。</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🃏</div>
+      <h3>闪卡复习 · 间隔重复</h3>
+      <p>基于 Spaced Repetition 算法，弱词自动高频出现，熟词逐渐降低频率。支持拼写、发音、例句三面切换，全方位巩固记忆。</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ POSTER SHOWCASE ═══════════ -->
+<div class="lme-section" style="padding-top:0;">
+  <h2>学习场景一览</h2>
+  <p class="sec-desc">沉浸式学习体验，让孩子爱上英语</p>
+
+  <div class="showcase-grid">
+    <img src="/lme-junior-poster-02-video-classroom.png" alt="视频课堂" loading="lazy" />
+    <img src="/lme-junior-poster-03-recording-feedback.png" alt="录音反馈" loading="lazy" />
+    <img src="/lme-junior-poster-04-dictation.png" alt="听写训练" loading="lazy" />
+    <img src="/lme-junior-poster-05-vocab-levels.png" alt="词汇分级" loading="lazy" />
+    <img src="/lme-junior-poster-06-review-pet.png" alt="宠物复习" loading="lazy" />
+    <div style="background:var(--brand-light);border-radius:12px;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;font-size:0.9rem;color:#888;">
+      📦 + Obsidian 预制仓库<br/>
+      开箱即用
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ OBSIDIAN VAULT ═══════════ -->
+<div class="lme-section" style="padding-top:0;">
+  <div class="bonus-box">
+    <span class="bonus-tag">🎁 独家赠送</span>
+    <h3>Obsidian 预制仓库 · 开箱即用</h3>
+    <p>
+      购买即赠送完整的 Obsidian 知识仓库，内置所有课程内容的结构化笔记模板。<br />
+      单词库自动关联闪卡，学习进度可视化追踪，复习提醒自动推送。<br />
+      <strong>无需配置，下载即用。</strong>
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════ DETAIL PAGE ═══════════ -->
+<div class="lme-section" id="detail" style="padding-top:0;">
+  <h2>完整详情</h2>
+  <p class="sec-desc">产品详细说明 · 包含全部功能展示</p>
+  <img src="/lme-junior-detail-page-draft.png" alt="产品详情页" class="full-detail-img" loading="lazy" />
+</div>
+
+<!-- ═══════════ PRICING ═══════════ -->
+<div class="lme-section" style="padding-top:0;">
+  <div class="pricing-box">
+    <h3 style="font-family:var(--font-heading);font-size:1.2rem;color:#333;margin:0 0 8px;">少儿英语通 · Junior Edition</h3>
+    <div class="price">¥198</div>
+    <div class="price-desc">一次性购买，永久使用 · 持续更新</div>
+    <div class="includes">
+      <span>✅ 全套视频跟读课程</span>
+      <span>✅ AI 语音评测引擎</span>
+      <span>✅ 听写自动批改</span>
+      <span>✅ Spaced Repetition 闪卡</span>
+      <span>✅ Obsidian 预制仓库</span>
+      <span>✅ 永久免费更新</span>
+    </div>
+    <a href="https://work.weixin.qq.com/kfid/kfc88414587b5b96a2c" class="cta-btn" style="font-size:1rem;padding:14px 40px;">立即咨询购买</a>
+  </div>
+</div>
+
+<!-- ═══════════ FAQ ═══════════ -->
+<div class="lme-section" style="padding-top:0;">
+  <h2>常见问题</h2>
+
+  <div style="max-width:640px;margin:30px auto 0;">
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">适合多大的孩子？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">推荐 6–12 岁。英语零基础或有基础均可，系统根据水平自动适配。</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">需要家长陪同学习吗？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">无需全程陪同。系统有语音引导、自动批改、进度反馈，孩子可以独立完成。家长可定期查看学习报告。</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">Obsidian 仓库是什么？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">Obsidian 是一款免费知识管理软件。我们预制了完整的课程笔记仓库，包含单词库、句子库、语法卡、复习进度表。下载后直接用 Obsidian 打开即可。</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <h4 style="color:#D87C52;margin:0 0 6px;">有售后服务吗？</h4>
+      <p style="color:#888;font-size:0.9rem;margin:0;">购买后提供微信客服支持，包括安装指导、使用答疑、内容更新通知。</p>
+    </div>
+  </div>
+</div>
+
+</MainLayout>
