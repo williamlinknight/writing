@@ -2,15 +2,45 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import Navbar from '../components/Navbar.astro';
 const siteBase = '';
+const canonicalUrl = 'https://www.williamwriting.com/lme-junior';
+const ogImage = 'https://www.williamwriting.com/lme-junior-main-poster.png';
 ---
 
 <MainLayout 
   title="少儿英语通 Language Made Easy Junior — 视频跟读·听写·闪卡复习 | 厦门灯塔"
-  description="专为少儿设计的英语学习系统：视频跟读+AI语音评测+听写训练+闪卡复习。赠送 Obsidian 预制仓库，开箱即用。"
+  description="专为6–12岁少儿设计的英语自主学习系统：视频跟读+AI语音评测+听写训练+闪卡复习+Obsidian预制仓库。市场价¥399，微信领券。"
+  image={ogImage}
   slug="lme-junior"
+  canonicalUrl={canonicalUrl}
 >
 
 <Navbar />
+
+<!-- JSON-LD: Product structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "少儿英语通 Language Made Easy Junior Edition",
+  "description": "专为6–12岁少儿设计的英语自主学习系统：视频跟读、AI语音评测、听写训练、闪卡复习。赠送Obsidian预制仓库。",
+  "url": {canonicalUrl},
+  "image": {ogImage},
+  "brand": { "@type": "Brand", "name": "厦门灯塔" },
+  "offers": {
+    "@type": "Offer",
+    "price": "399",
+    "priceCurrency": "CNY",
+    "availability": "https://schema.org/InStock",
+    "priceValidUntil": "2027-07-23",
+    "seller": { "@type": "Organization", "name": "厦门灯塔" }
+  },
+  "category": "Educational Product",
+  "audience": { "@type": "Audience", "suggestedMinAge": 6, "suggestedMaxAge": 12 }
+}
+</script>
+
+<!-- Meta keywords -->
+<meta name="keywords" content="少儿英语,英语跟读,英语听写,闪卡复习,Obsidian英语学习,少儿英语自主学习,AI语音评测,厦门灯塔" />
 
 <style>
   .lme-hero {
@@ -365,7 +395,7 @@ const siteBase = '';
 <div class="lme-section" id="detail" style="padding-top:0;">
   <h2>完整详情</h2>
   <p class="sec-desc">产品详细说明 · 包含全部功能展示</p>
-  <img src="/lme-junior-detail-page-draft.png" alt="产品详情页" class="full-detail-img" loading="lazy" />
+  <img src="/lme-junior-detail-page-draft.png" alt="少儿英语通 Language Made Easy Junior 产品详情页 - 视频跟读·听写·闪卡复习·Obsidian仓库完整说明" class="full-detail-img" loading="lazy" />
 </div>
 
 <!-- ═══════════ PRICING ═══════════ -->
