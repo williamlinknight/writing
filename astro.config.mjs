@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://williamwriting.com",
+  site: "https://www.williamwriting.com",
   integrations: [sitemap()],
   server: {
     host: "127.0.0.1",
