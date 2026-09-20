@@ -132,7 +132,7 @@ opt for + rely on 的组合，一句话交代了「选了什么」和「依靠�
 - **目的**回答「为了什么」→ 用不定式：`to do / in order to do`
 - **手段**回答「通过什么」→ 用介词 + 名词或动名词：`by + V-ing / through + N / via + N`
 
-两者可以同句出现，各就各位：
+两者可以同句出现，各就各位。下面这句是**仿写示例**（素材来自同篇 FT 报道）：
 
 > Bulgari launched an invitation-only app **to enable** clients **to try out** virtual necklaces — a service designed **via** 3D rendering and **by adapting** its in-store stylists to a chat window.
 

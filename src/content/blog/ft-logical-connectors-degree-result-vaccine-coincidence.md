@@ -134,7 +134,7 @@ potential 前面可以加程度词：`considerable / great / real / limited pote
 
 ## 程度衔接 vs 因果衔接：别写重了
 
-因果衔接（`because of`、`as a result`、`which means`）回答的是「为什么」；程度与结果回答的是「**到什么程度，才会/才不会**」。外刊的常见做法是两者配合：先用因果句交代背景，再用程度句压住结论。
+因果衔接（`because of`、`as a result`、`which means`）回答的是「为什么」；程度与结果回答的是「**到什么程度，才会/才不会**」。外刊的常见做法是两者配合：先用因果句交代背景，再用程度句压住结论。下面这句是**仿写示例**：
 
 > Public confidence may rest on convincing people that many of the unfortunate things that happen by chance would have occurred anyway — **unless the gap between the signal and the noise is small enough to be explained** in one sentence.
 
