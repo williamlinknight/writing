@@ -99,7 +99,7 @@ criticized 是「有意见」，slammed 是「公开开火」。议论文里批�
 
 ### 4. throw down the gauntlet —— 「下战书、正面挑战」
 
-**原文出处：** "Microsoft’s decision to **throw down the gauntlet** will complicate Google’s aggressive lobbying campaign"
+**原文出处：** "Microsoft's decision to **throw down the gauntlet** will complicate Google's aggressive lobbying campaign"
 
 **为什么好：** 这是全篇最有画面感的一个表达。gauntlet 是中世纪骑士的手套，扔在地上就是「不服就出来打」。它专用于**公开挑战**：不是偷偷竞争，而是当着所有人把话说明白。学生写「挑战」只会 *challenge*，而 challenge 可以是「我试试这道题」；throw down the gauntlet 只能是「我向你叫板」。
 

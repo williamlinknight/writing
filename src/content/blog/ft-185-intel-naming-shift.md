@@ -81,7 +81,7 @@ the best 是一个评价，the gold standard 是一个地位。写「某校的�
 
 ### 3. stumble（名词）—— 「（强者）的一次踉跄」
 
-**原文出处：** "the delayed “7 nanometre” chips that have caused its **stumble**"
+**原文出处：** "the delayed "7 nanometre" chips that have caused its **stumble**"
 
 **为什么好：** 注意这里用的是名词，不是动词。学生写失败只有 *fail*、*make mistakes*，但 fail 是全盘皆输，而 stumble 是**本来走得很稳的人，脚下一绊**——它默认了「之前很强」，所以特别适合写强者的失误。名词形式更好用：cause its stumble / a rare stumble / recover from a stumble，一句话就把「谁、在哪一档上绊了一下」交代清楚。
 
@@ -99,7 +99,7 @@ failed 是结局，stumble 是过程里的一个坎。写「优等生一次考�
 
 ### 4. deny that … was an attempt to obscure —— 「否认这是为了掩盖」
 
-**原文出处：** "denied that the change was an attempt to **obscure** Intel’s manufacturing issues"
+**原文出处：** "denied that the change was an attempt to **obscure** Intel's manufacturing issues"
 
 **为什么好：** 学生写「他否认」只会 *he said it was not true*，然后句子就断了——否认了什么？为什么要否认？FT 这句的结构值得抄：**deny that X was an attempt to obscure Y**。它的价值在于把「动机」写进了句子：不是否认事实（改名是真的），而是否认**动机**（改名不是为了掩盖）。而 obscure 这个词比 hide 更书面、更「不知不觉」——hide 是有意藏，obscure 是让它看不清。
 
